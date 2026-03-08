@@ -1120,6 +1120,16 @@
     "wiki_url": "https://warframe.fandom.com/wiki/Akarius_Prime"
   },
   {
+    "id": "akzani",
+    "name": "Akzani",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Akzani"
+  },
+  {
     "id": "akbolto",
     "name": "Akbolto",
     "category": "weapon",
@@ -1138,6 +1148,16 @@
     "mastery_rank": 6,
     "release_date": "2018-06-19",
     "wiki_url": "https://warframe.fandom.com/wiki/Akbolto_Prime"
+  },
+  {
+    "id": "telos-akbolto",
+    "name": "Telos Akbolto",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": "Telos",
+    "mastery_rank": 6,
+    "release_date": "2015-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Telos_Akbolto"
   },
   {
     "id": "akbronco",
@@ -1400,14 +1420,14 @@
     "wiki_url": "https://warframe.fandom.com/wiki/Astilla_Prime"
   },
   {
-    "id": "aterax",
-    "name": "Aterax",
+    "id": "atterax",
+    "name": "Atterax",
     "category": "weapon",
     "subcategory": "Whip",
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2013-02-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Aterax"
+    "wiki_url": "https://warframe.fandom.com/wiki/Atterax"
   },
   {
     "id": "atomos",
@@ -1590,6 +1610,16 @@
     "wiki_url": "https://warframe.fandom.com/wiki/Boar_Prime"
   },
   {
+    "id": "brakk",
+    "name": "Brakk",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2013-10-09",
+    "wiki_url": "https://warframe.fandom.com/wiki/Brakk"
+  },
+  {
     "id": "braton",
     "name": "Braton",
     "category": "weapon",
@@ -1628,6 +1658,16 @@
     "mastery_rank": 0,
     "release_date": "2012-10-25",
     "wiki_url": "https://warframe.fandom.com/wiki/MK1-Braton"
+  },
+  {
+    "id": "broken-scepter",
+    "name": "Broken Scepter",
+    "category": "weapon",
+    "subcategory": "Staff",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2016-11-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Broken_Scepter"
   },
   {
     "id": "broken-war",
@@ -1748,6 +1788,16 @@
     "mastery_rank": 12,
     "release_date": "2017-01-04",
     "wiki_url": "https://warframe.fandom.com/wiki/Cernos_Prime"
+  },
+  {
+    "id": "rakta-cernos",
+    "name": "Rakta Cernos",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": "Rakta",
+    "mastery_rank": 12,
+    "release_date": "2015-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Rakta_Cernos"
   },
   {
     "id": "mutalist-cernos",
@@ -2230,6 +2280,16 @@
     "wiki_url": "https://warframe.fandom.com/wiki/Dual_Zoren"
   },
   {
+    "id": "dual-zoren-prime",
+    "name": "Dual Zoren Prime",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": "Prime",
+    "mastery_rank": 2,
+    "release_date": "2025-01-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Zoren/Prime"
+  },
+  {
     "id": "edun",
     "name": "Edun",
     "category": "weapon",
@@ -2258,6 +2318,26 @@
     "mastery_rank": 7,
     "release_date": "2016-11-22",
     "wiki_url": "https://warframe.fandom.com/wiki/Endura"
+  },
+  {
+    "id": "epitaph",
+    "name": "Epitaph",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2021-04-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Epitaph"
+  },
+  {
+    "id": "epitaph-prime",
+    "name": "Epitaph Prime",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Prime",
+    "mastery_rank": 8,
+    "release_date": "2025-01-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Epitaph/Prime"
   },
   {
     "id": "ether-daggers",
@@ -2560,6 +2640,16 @@
     "wiki_url": "https://warframe.fandom.com/wiki/Gorgon_Wraith"
   },
   {
+    "id": "gotva-prime",
+    "name": "Gotva Prime",
+    "category": "weapon",
+    "subcategory": "Glaive",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2024-06-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gotva_Prime"
+  },
+  {
     "id": "gram",
     "name": "Gram",
     "category": "weapon",
@@ -2608,6 +2698,16 @@
     "mastery_rank": 9,
     "release_date": "2014-07-18",
     "wiki_url": "https://warframe.fandom.com/wiki/Twin_Grakata"
+  },
+  {
+    "id": "grimoire",
+    "name": "Grimoire",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2024-10-02",
+    "wiki_url": "https://warframe.fandom.com/wiki/Grimoire"
   },
   {
     "id": "guandao",
@@ -3000,6 +3100,16 @@
     "wiki_url": "https://warframe.fandom.com/wiki/Kohmak"
   },
   {
+    "id": "twin-gremlins",
+    "name": "Twin Gremlins",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-10-09",
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Gremlins"
+  },
+  {
     "id": "twin-kohmak",
     "name": "Twin Kohmak",
     "category": "weapon",
@@ -3268,6 +3378,16 @@
     "mastery_rank": 0,
     "release_date": "2014-08-13",
     "wiki_url": "https://warframe.fandom.com/wiki/MK1-Kunai"
+  },
+  {
+    "id": "lacera",
+    "name": "Lacera",
+    "category": "weapon",
+    "subcategory": "Blade and Whip",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2015-12-03",
+    "wiki_url": "https://warframe.fandom.com/wiki/Lacera"
   },
   {
     "id": "lanka",
@@ -3598,6 +3718,16 @@
     "mastery_rank": 2,
     "release_date": "2013-09-18",
     "wiki_url": "https://warframe.fandom.com/wiki/Nami_Solo"
+  },
+  {
+    "id": "nataruk",
+    "name": "Nataruk",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2021-12-15",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nataruk"
   },
   {
     "id": "nikana",
@@ -4090,6 +4220,16 @@
     "wiki_url": "https://warframe.fandom.com/wiki/Rubico_Prime"
   },
   {
+    "id": "rumblejack",
+    "name": "Rumblejack",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2019-12-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Rumblejack"
+  },
+  {
     "id": "sarpa",
     "name": "Sarpa",
     "category": "weapon",
@@ -4258,6 +4398,16 @@
     "mastery_rank": 0,
     "release_date": "2012-10-25",
     "wiki_url": "https://warframe.fandom.com/wiki/Skana_Prime"
+  },
+  {
+    "id": "prisma-skana",
+    "name": "Prisma Skana",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": "Prisma",
+    "mastery_rank": 3,
+    "release_date": "2015-11-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Skana"
   },
   {
     "id": "skiajati",
@@ -4510,6 +4660,16 @@
     "wiki_url": "https://warframe.fandom.com/wiki/Synapse"
   },
   {
+    "id": "tak-lug",
+    "name": "Tak & Lug",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2023-12-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tak_%26_Lug"
+  },
+  {
     "id": "talons",
     "name": "Talons",
     "category": "weapon",
@@ -4640,6 +4800,26 @@
     "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Tetra"
   },
   {
+    "id": "tekko",
+    "name": "Tekko",
+    "category": "weapon",
+    "subcategory": "Fist",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2015-11-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tekko"
+  },
+  {
+    "id": "tekko-prime",
+    "name": "Tekko Prime",
+    "category": "weapon",
+    "subcategory": "Fist",
+    "variant": "Prime",
+    "mastery_rank": 12,
+    "release_date": "2020-07-14",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tekko/Prime"
+  },
+  {
     "id": "tenora",
     "name": "Tenora",
     "category": "weapon",
@@ -4678,6 +4858,16 @@
     "mastery_rank": 4,
     "release_date": "2016-01-22",
     "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Tetra"
+  },
+  {
+    "id": "thornback",
+    "name": "Thornback",
+    "category": "weapon",
+    "subcategory": "Polearm",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2024-03-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Thornback"
   },
   {
     "id": "tiberon",
@@ -4768,6 +4958,16 @@
     "mastery_rank": 5,
     "release_date": "2015-03-19",
     "wiki_url": "https://warframe.fandom.com/wiki/Tonkor"
+  },
+  {
+    "id": "tonkkatt",
+    "name": "Tonkkatt",
+    "category": "weapon",
+    "subcategory": "Launcher",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2025-03-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tonkkatt"
   },
   {
     "id": "torid",
@@ -4880,6 +5080,36 @@
     "wiki_url": "https://warframe.fandom.com/wiki/Veldt"
   },
   {
+    "id": "venato-prime",
+    "name": "Venato Prime",
+    "category": "weapon",
+    "subcategory": "Glaive",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2024-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Venato_Prime"
+  },
+  {
+    "id": "velox",
+    "name": "Velox",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2020-06-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Velox"
+  },
+  {
+    "id": "velox-prime",
+    "name": "Velox Prime",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Prime",
+    "mastery_rank": 8,
+    "release_date": "2024-06-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Velox/Prime"
+  },
+  {
     "id": "venka",
     "name": "Venka",
     "category": "weapon",
@@ -4948,6 +5178,26 @@
     "mastery_rank": 8,
     "release_date": "2021-05-25",
     "wiki_url": "https://warframe.fandom.com/wiki/Volnus_Prime"
+  },
+  {
+    "id": "vulkar",
+    "name": "Vulkar",
+    "category": "weapon",
+    "subcategory": "Sniper Rifle",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2013-03-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Vulkar"
+  },
+  {
+    "id": "vulkar-wraith",
+    "name": "Vulkar Wraith",
+    "category": "weapon",
+    "subcategory": "Sniper Rifle",
+    "variant": "Wraith",
+    "mastery_rank": 7,
+    "release_date": "2016-03-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Vulkar_Wraith"
   },
   {
     "id": "war",
