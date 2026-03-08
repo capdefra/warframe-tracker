@@ -1,0 +1,5562 @@
+[
+  {
+    "id": "ash",
+    "name": "Ash",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-11-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ash"
+  },
+  {
+    "id": "ash-prime",
+    "name": "Ash Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2015-07-07",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ash_Prime"
+  },
+  {
+    "id": "atlas",
+    "name": "Atlas",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2015-10-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Atlas"
+  },
+  {
+    "id": "atlas-prime",
+    "name": "Atlas Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2019-10-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Atlas_Prime"
+  },
+  {
+    "id": "banshee",
+    "name": "Banshee",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-02-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Banshee"
+  },
+  {
+    "id": "banshee-prime",
+    "name": "Banshee Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2017-02-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Banshee_Prime"
+  },
+  {
+    "id": "baruuk",
+    "name": "Baruuk",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2018-12-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Baruuk"
+  },
+  {
+    "id": "baruuk-prime",
+    "name": "Baruuk Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2022-10-05",
+    "wiki_url": "https://warframe.fandom.com/wiki/Baruuk_Prime"
+  },
+  {
+    "id": "caliban",
+    "name": "Caliban",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2021-12-15",
+    "wiki_url": "https://warframe.fandom.com/wiki/Caliban"
+  },
+  {
+    "id": "chroma",
+    "name": "Chroma",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2015-03-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Chroma"
+  },
+  {
+    "id": "chroma-prime",
+    "name": "Chroma Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2018-09-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Chroma_Prime"
+  },
+  {
+    "id": "citrine",
+    "name": "Citrine",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2023-02-15",
+    "wiki_url": "https://warframe.fandom.com/wiki/Citrine"
+  },
+  {
+    "id": "cyte-09",
+    "name": "Cyte-09",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2025-03-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Cyte-09"
+  },
+  {
+    "id": "dagath",
+    "name": "Dagath",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2023-10-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dagath"
+  },
+  {
+    "id": "dante",
+    "name": "Dante",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2024-03-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dante"
+  },
+  {
+    "id": "ember",
+    "name": "Ember",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ember"
+  },
+  {
+    "id": "ember-prime",
+    "name": "Ember Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2013-11-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ember_Prime"
+  },
+  {
+    "id": "equinox",
+    "name": "Equinox",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2015-07-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Equinox"
+  },
+  {
+    "id": "equinox-prime",
+    "name": "Equinox Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2019-04-02",
+    "wiki_url": "https://warframe.fandom.com/wiki/Equinox_Prime"
+  },
+  {
+    "id": "excalibur",
+    "name": "Excalibur",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Excalibur"
+  },
+  {
+    "id": "excalibur-prime",
+    "name": "Excalibur Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Excalibur_Prime"
+  },
+  {
+    "id": "excalibur-umbra",
+    "name": "Excalibur Umbra",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Umbra",
+    "mastery_rank": 0,
+    "release_date": "2018-06-15",
+    "wiki_url": "https://warframe.fandom.com/wiki/Excalibur_Umbra"
+  },
+  {
+    "id": "frost",
+    "name": "Frost",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Frost"
+  },
+  {
+    "id": "frost-prime",
+    "name": "Frost Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2013-05-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Frost_Prime"
+  },
+  {
+    "id": "gara",
+    "name": "Gara",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2017-10-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gara"
+  },
+  {
+    "id": "gara-prime",
+    "name": "Gara Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2021-05-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gara_Prime"
+  },
+  {
+    "id": "garuda",
+    "name": "Garuda",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2018-11-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Garuda"
+  },
+  {
+    "id": "garuda-prime",
+    "name": "Garuda Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2022-04-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Garuda_Prime"
+  },
+  {
+    "id": "gauss",
+    "name": "Gauss",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2019-08-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gauss"
+  },
+  {
+    "id": "gauss-prime",
+    "name": "Gauss Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2024-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gauss_Prime"
+  },
+  {
+    "id": "grendel",
+    "name": "Grendel",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2019-10-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Grendel"
+  },
+  {
+    "id": "grendel-prime",
+    "name": "Grendel Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2024-10-02",
+    "wiki_url": "https://warframe.fandom.com/wiki/Grendel_Prime"
+  },
+  {
+    "id": "gyre",
+    "name": "Gyre",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2022-04-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gyre"
+  },
+  {
+    "id": "harrow",
+    "name": "Harrow",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2017-06-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Harrow"
+  },
+  {
+    "id": "harrow-prime",
+    "name": "Harrow Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2021-12-15",
+    "wiki_url": "https://warframe.fandom.com/wiki/Harrow_Prime"
+  },
+  {
+    "id": "hildryn",
+    "name": "Hildryn",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2019-03-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Hildryn"
+  },
+  {
+    "id": "hildryn-prime",
+    "name": "Hildryn Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2023-08-09",
+    "wiki_url": "https://warframe.fandom.com/wiki/Hildryn_Prime"
+  },
+  {
+    "id": "hydroid",
+    "name": "Hydroid",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-09-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Hydroid"
+  },
+  {
+    "id": "hydroid-prime",
+    "name": "Hydroid Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2017-08-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Hydroid_Prime"
+  },
+  {
+    "id": "inaros",
+    "name": "Inaros",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2016-05-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Inaros"
+  },
+  {
+    "id": "inaros-prime",
+    "name": "Inaros Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2020-07-14",
+    "wiki_url": "https://warframe.fandom.com/wiki/Inaros_Prime"
+  },
+  {
+    "id": "ivara",
+    "name": "Ivara",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2015-12-03",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ivara"
+  },
+  {
+    "id": "ivara-prime",
+    "name": "Ivara Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2019-12-17",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ivara_Prime"
+  },
+  {
+    "id": "jade",
+    "name": "Jade",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2024-06-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Jade"
+  },
+  {
+    "id": "khora",
+    "name": "Khora",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2018-04-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Khora"
+  },
+  {
+    "id": "khora-prime",
+    "name": "Khora Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2022-07-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Khora_Prime"
+  },
+  {
+    "id": "koumei",
+    "name": "Koumei",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2024-10-02",
+    "wiki_url": "https://warframe.fandom.com/wiki/Koumei"
+  },
+  {
+    "id": "kullervo",
+    "name": "Kullervo",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2023-06-21",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kullervo"
+  },
+  {
+    "id": "lavos",
+    "name": "Lavos",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-12-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Lavos"
+  },
+  {
+    "id": "limbo",
+    "name": "Limbo",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-04-09",
+    "wiki_url": "https://warframe.fandom.com/wiki/Limbo"
+  },
+  {
+    "id": "limbo-prime",
+    "name": "Limbo Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2018-06-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Limbo_Prime"
+  },
+  {
+    "id": "loki",
+    "name": "Loki",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Loki"
+  },
+  {
+    "id": "loki-prime",
+    "name": "Loki Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2013-09-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Loki_Prime"
+  },
+  {
+    "id": "mag",
+    "name": "Mag",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Mag"
+  },
+  {
+    "id": "mag-prime",
+    "name": "Mag Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2013-09-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Mag_Prime"
+  },
+  {
+    "id": "mesa",
+    "name": "Mesa",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-11-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Mesa"
+  },
+  {
+    "id": "mesa-prime",
+    "name": "Mesa Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2018-12-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Mesa_Prime"
+  },
+  {
+    "id": "mirage",
+    "name": "Mirage",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Mirage"
+  },
+  {
+    "id": "mirage-prime",
+    "name": "Mirage Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2017-12-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Mirage_Prime"
+  },
+  {
+    "id": "nekros",
+    "name": "Nekros",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-09-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nekros"
+  },
+  {
+    "id": "nekros-prime",
+    "name": "Nekros Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2016-08-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nekros_Prime"
+  },
+  {
+    "id": "nezha",
+    "name": "Nezha",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2015-12-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nezha"
+  },
+  {
+    "id": "nezha-prime",
+    "name": "Nezha Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2020-10-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nezha_Prime"
+  },
+  {
+    "id": "nidus",
+    "name": "Nidus",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2016-12-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nidus"
+  },
+  {
+    "id": "nidus-prime",
+    "name": "Nidus Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2021-09-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nidus_Prime"
+  },
+  {
+    "id": "nova",
+    "name": "Nova",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-01-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nova"
+  },
+  {
+    "id": "nova-prime",
+    "name": "Nova Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2014-12-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nova_Prime"
+  },
+  {
+    "id": "nyx",
+    "name": "Nyx",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nyx"
+  },
+  {
+    "id": "nyx-prime",
+    "name": "Nyx Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2014-09-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nyx_Prime"
+  },
+  {
+    "id": "oberon",
+    "name": "Oberon",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-05-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Oberon"
+  },
+  {
+    "id": "oberon-prime",
+    "name": "Oberon Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2017-05-30",
+    "wiki_url": "https://warframe.fandom.com/wiki/Oberon_Prime"
+  },
+  {
+    "id": "octavia",
+    "name": "Octavia",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2017-03-24",
+    "wiki_url": "https://warframe.fandom.com/wiki/Octavia"
+  },
+  {
+    "id": "octavia-prime",
+    "name": "Octavia Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2021-02-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Octavia_Prime"
+  },
+  {
+    "id": "protea",
+    "name": "Protea",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-06-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Protea"
+  },
+  {
+    "id": "protea-prime",
+    "name": "Protea Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2024-06-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Protea_Prime"
+  },
+  {
+    "id": "qorvex",
+    "name": "Qorvex",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2023-12-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Qorvex"
+  },
+  {
+    "id": "revenant",
+    "name": "Revenant",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2018-08-24",
+    "wiki_url": "https://warframe.fandom.com/wiki/Revenant"
+  },
+  {
+    "id": "revenant-prime",
+    "name": "Revenant Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2023-10-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Revenant_Prime"
+  },
+  {
+    "id": "rhino",
+    "name": "Rhino",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Rhino"
+  },
+  {
+    "id": "rhino-prime",
+    "name": "Rhino Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2014-03-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Rhino_Prime"
+  },
+  {
+    "id": "saryn",
+    "name": "Saryn",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-02-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Saryn"
+  },
+  {
+    "id": "saryn-prime",
+    "name": "Saryn Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2016-02-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Saryn_Prime"
+  },
+  {
+    "id": "sevagoth",
+    "name": "Sevagoth",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2021-04-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sevagoth"
+  },
+  {
+    "id": "sevagoth-prime",
+    "name": "Sevagoth Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2025-01-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sevagoth_Prime"
+  },
+  {
+    "id": "styanax",
+    "name": "Styanax",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2022-09-07",
+    "wiki_url": "https://warframe.fandom.com/wiki/Styanax"
+  },
+  {
+    "id": "titania",
+    "name": "Titania",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2016-08-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Titania"
+  },
+  {
+    "id": "titania-prime",
+    "name": "Titania Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2020-03-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Titania_Prime"
+  },
+  {
+    "id": "trinity",
+    "name": "Trinity",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Trinity"
+  },
+  {
+    "id": "trinity-prime",
+    "name": "Trinity Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2015-10-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Trinity_Prime"
+  },
+  {
+    "id": "valkyr",
+    "name": "Valkyr",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-11-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Valkyr"
+  },
+  {
+    "id": "valkyr-prime",
+    "name": "Valkyr Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2017-01-04",
+    "wiki_url": "https://warframe.fandom.com/wiki/Valkyr_Prime"
+  },
+  {
+    "id": "vauban",
+    "name": "Vauban",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-05-17",
+    "wiki_url": "https://warframe.fandom.com/wiki/Vauban"
+  },
+  {
+    "id": "vauban-prime",
+    "name": "Vauban Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2016-11-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Vauban_Prime"
+  },
+  {
+    "id": "volt",
+    "name": "Volt",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Volt"
+  },
+  {
+    "id": "volt-prime",
+    "name": "Volt Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2015-03-24",
+    "wiki_url": "https://warframe.fandom.com/wiki/Volt_Prime"
+  },
+  {
+    "id": "voruna",
+    "name": "Voruna",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2022-11-30",
+    "wiki_url": "https://warframe.fandom.com/wiki/Voruna"
+  },
+  {
+    "id": "wisp",
+    "name": "Wisp",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2019-05-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Wisp"
+  },
+  {
+    "id": "wisp-prime",
+    "name": "Wisp Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2024-03-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Wisp_Prime"
+  },
+  {
+    "id": "wukong",
+    "name": "Wukong",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2015-11-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Wukong"
+  },
+  {
+    "id": "wukong-prime",
+    "name": "Wukong Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2019-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Wukong_Prime"
+  },
+  {
+    "id": "xaku",
+    "name": "Xaku",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-08-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Xaku"
+  },
+  {
+    "id": "yareli",
+    "name": "Yareli",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2021-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Yareli"
+  },
+  {
+    "id": "zephyr",
+    "name": "Zephyr",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-09-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Zephyr"
+  },
+  {
+    "id": "zephyr-prime",
+    "name": "Zephyr Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2018-03-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Zephyr_Prime"
+  },
+  {
+    "id": "acceltra",
+    "name": "Acceltra",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2019-08-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Acceltra"
+  },
+  {
+    "id": "acceltra-prime",
+    "name": "Acceltra Prime",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prime",
+    "mastery_rank": 8,
+    "release_date": "2024-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Acceltra_Prime"
+  },
+  {
+    "id": "ack-brunt",
+    "name": "Ack & Brunt",
+    "category": "weapon",
+    "subcategory": "Sword and Shield",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2015-04-02",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ack_&_Brunt"
+  },
+  {
+    "id": "afuris",
+    "name": "Afuris",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Afuris"
+  },
+  {
+    "id": "akarius",
+    "name": "Akarius",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2019-08-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Akarius"
+  },
+  {
+    "id": "akarius-prime",
+    "name": "Akarius Prime",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": "Prime",
+    "mastery_rank": 8,
+    "release_date": "2024-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Akarius_Prime"
+  },
+  {
+    "id": "akbolto",
+    "name": "Akbolto",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2012-12-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Akbolto"
+  },
+  {
+    "id": "akbolto-prime",
+    "name": "Akbolto Prime",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": "Prime",
+    "mastery_rank": 6,
+    "release_date": "2018-06-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Akbolto_Prime"
+  },
+  {
+    "id": "akbronco",
+    "name": "Akbronco",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2013-03-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Akbronco"
+  },
+  {
+    "id": "akbronco-prime",
+    "name": "Akbronco Prime",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": "Prime",
+    "mastery_rank": 2,
+    "release_date": "2014-09-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Akbronco_Prime"
+  },
+  {
+    "id": "akjagara",
+    "name": "Akjagara",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2015-02-05",
+    "wiki_url": "https://warframe.fandom.com/wiki/Akjagara"
+  },
+  {
+    "id": "akjagara-prime",
+    "name": "Akjagara Prime",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": "Prime",
+    "mastery_rank": 8,
+    "release_date": "2018-12-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Akjagara_Prime"
+  },
+  {
+    "id": "aklato",
+    "name": "Aklato",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Aklato"
+  },
+  {
+    "id": "aklex",
+    "name": "Aklex",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2013-08-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Aklex"
+  },
+  {
+    "id": "aklex-prime",
+    "name": "Aklex Prime",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": "Prime",
+    "mastery_rank": 15,
+    "release_date": "2016-11-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Aklex_Prime"
+  },
+  {
+    "id": "akmagnus",
+    "name": "Akmagnus",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2014-01-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Akmagnus"
+  },
+  {
+    "id": "aksomati",
+    "name": "Aksomati",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 9,
+    "release_date": "2014-11-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Aksomati"
+  },
+  {
+    "id": "aksomati-prime",
+    "name": "Aksomati Prime",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": "Prime",
+    "mastery_rank": 12,
+    "release_date": "2021-02-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Aksomati_Prime"
+  },
+  {
+    "id": "akstiletto",
+    "name": "Akstiletto",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2014-08-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Akstiletto"
+  },
+  {
+    "id": "akstiletto-prime",
+    "name": "Akstiletto Prime",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": "Prime",
+    "mastery_rank": 10,
+    "release_date": "2016-08-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Akstiletto_Prime"
+  },
+  {
+    "id": "akvasto",
+    "name": "Akvasto",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2013-06-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Akvasto"
+  },
+  {
+    "id": "akvasto-prime",
+    "name": "Akvasto Prime",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": "Prime",
+    "mastery_rank": 12,
+    "release_date": "2021-12-15",
+    "wiki_url": "https://warframe.fandom.com/wiki/Akvasto_Prime"
+  },
+  {
+    "id": "amphis",
+    "name": "Amphis",
+    "category": "weapon",
+    "subcategory": "Staff",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Amphis"
+  },
+  {
+    "id": "amprex",
+    "name": "Amprex",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2014-01-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Amprex"
+  },
+  {
+    "id": "angstrum",
+    "name": "Angstrum",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2014-04-09",
+    "wiki_url": "https://warframe.fandom.com/wiki/Angstrum"
+  },
+  {
+    "id": "prisma-angstrum",
+    "name": "Prisma Angstrum",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Prisma",
+    "mastery_rank": 8,
+    "release_date": "2015-06-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Angstrum"
+  },
+  {
+    "id": "anku",
+    "name": "Anku",
+    "category": "weapon",
+    "subcategory": "Scythe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2015-08-05",
+    "wiki_url": "https://warframe.fandom.com/wiki/Anku"
+  },
+  {
+    "id": "ankyros",
+    "name": "Ankyros",
+    "category": "weapon",
+    "subcategory": "Fist",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ankyros"
+  },
+  {
+    "id": "ankyros-prime",
+    "name": "Ankyros Prime",
+    "category": "weapon",
+    "subcategory": "Fist",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2014-03-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ankyros_Prime"
+  },
+  {
+    "id": "arca-plasmor",
+    "name": "Arca Plasmor",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2017-08-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Arca_Plasmor"
+  },
+  {
+    "id": "arca-titron",
+    "name": "Arca Titron",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2017-08-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Arca_Titron"
+  },
+  {
+    "id": "argonak",
+    "name": "Argonak",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2017-10-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Argonak"
+  },
+  {
+    "id": "astilla",
+    "name": "Astilla",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2017-10-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Astilla"
+  },
+  {
+    "id": "astilla-prime",
+    "name": "Astilla Prime",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2022-07-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Astilla_Prime"
+  },
+  {
+    "id": "aterax",
+    "name": "Aterax",
+    "category": "weapon",
+    "subcategory": "Whip",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2013-02-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Aterax"
+  },
+  {
+    "id": "atomos",
+    "name": "Atomos",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2015-03-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Atomos"
+  },
+  {
+    "id": "attica",
+    "name": "Attica",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2013-11-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Attica"
+  },
+  {
+    "id": "prisma-attica",
+    "name": "Prisma Attica",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": "Prisma",
+    "mastery_rank": 7,
+    "release_date": "2016-12-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Attica"
+  },
+  {
+    "id": "azima",
+    "name": "Azima",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2016-03-04",
+    "wiki_url": "https://warframe.fandom.com/wiki/Azima"
+  },
+  {
+    "id": "balla",
+    "name": "Balla",
+    "category": "weapon",
+    "subcategory": "Dagger",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2017-10-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Balla"
+  },
+  {
+    "id": "battacor",
+    "name": "Battacor",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2018-11-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Battacor"
+  },
+  {
+    "id": "baza",
+    "name": "Baza",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2017-10-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Baza"
+  },
+  {
+    "id": "baza-prime",
+    "name": "Baza Prime",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prime",
+    "mastery_rank": 10,
+    "release_date": "2019-10-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Baza_Prime"
+  },
+  {
+    "id": "bo",
+    "name": "Bo",
+    "category": "weapon",
+    "subcategory": "Staff",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Bo"
+  },
+  {
+    "id": "bo-prime",
+    "name": "Bo Prime",
+    "category": "weapon",
+    "subcategory": "Staff",
+    "variant": "Prime",
+    "mastery_rank": 4,
+    "release_date": "2013-09-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Bo_Prime"
+  },
+  {
+    "id": "boltace",
+    "name": "Boltace",
+    "category": "weapon",
+    "subcategory": "Tonfa",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2015-10-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Boltace"
+  },
+  {
+    "id": "telos-boltace",
+    "name": "Telos Boltace",
+    "category": "weapon",
+    "subcategory": "Tonfa",
+    "variant": "Telos",
+    "mastery_rank": 7,
+    "release_date": "2016-01-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Telos_Boltace"
+  },
+  {
+    "id": "bolto",
+    "name": "Bolto",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2012-12-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Bolto"
+  },
+  {
+    "id": "boltor",
+    "name": "Boltor",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Boltor"
+  },
+  {
+    "id": "boltor-prime",
+    "name": "Boltor Prime",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prime",
+    "mastery_rank": 2,
+    "release_date": "2013-11-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Boltor_Prime"
+  },
+  {
+    "id": "telos-boltor",
+    "name": "Telos Boltor",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Telos",
+    "mastery_rank": 2,
+    "release_date": "2015-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Telos_Boltor"
+  },
+  {
+    "id": "boar",
+    "name": "Boar",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Boar"
+  },
+  {
+    "id": "boar-prime",
+    "name": "Boar Prime",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Prime",
+    "mastery_rank": 2,
+    "release_date": "2013-09-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Boar_Prime"
+  },
+  {
+    "id": "braton",
+    "name": "Braton",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Braton"
+  },
+  {
+    "id": "braton-prime",
+    "name": "Braton Prime",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2012-12-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Braton_Prime"
+  },
+  {
+    "id": "braton-vandal",
+    "name": "Braton Vandal",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Vandal",
+    "mastery_rank": 4,
+    "release_date": "2013-03-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Braton_Vandal"
+  },
+  {
+    "id": "mk1-braton",
+    "name": "MK1-Braton",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Braton"
+  },
+  {
+    "id": "broken-war",
+    "name": "Broken War",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2015-12-03",
+    "wiki_url": "https://warframe.fandom.com/wiki/Broken_War"
+  },
+  {
+    "id": "bronco",
+    "name": "Bronco",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Bronco"
+  },
+  {
+    "id": "bronco-prime",
+    "name": "Bronco Prime",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2013-05-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Bronco_Prime"
+  },
+  {
+    "id": "burston",
+    "name": "Burston",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Burston"
+  },
+  {
+    "id": "burston-prime",
+    "name": "Burston Prime",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2013-11-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Burston_Prime"
+  },
+  {
+    "id": "buzlok",
+    "name": "Buzlok",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 12,
+    "release_date": "2014-11-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Buzlok"
+  },
+  {
+    "id": "cadus",
+    "name": "Cadus",
+    "category": "weapon",
+    "subcategory": "Staff",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2016-07-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Cadus"
+  },
+  {
+    "id": "cassowar",
+    "name": "Cassowar",
+    "category": "weapon",
+    "subcategory": "Polearm",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2017-10-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Cassowar"
+  },
+  {
+    "id": "caustacyst",
+    "name": "Caustacyst",
+    "category": "weapon",
+    "subcategory": "Whip",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2016-08-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Caustacyst"
+  },
+  {
+    "id": "cedo",
+    "name": "Cedo",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2020-12-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Cedo"
+  },
+  {
+    "id": "cernos",
+    "name": "Cernos",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2013-05-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Cernos"
+  },
+  {
+    "id": "cernos-prime",
+    "name": "Cernos Prime",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": "Prime",
+    "mastery_rank": 12,
+    "release_date": "2017-01-04",
+    "wiki_url": "https://warframe.fandom.com/wiki/Cernos_Prime"
+  },
+  {
+    "id": "mutalist-cernos",
+    "name": "Mutalist Cernos",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": "Mutalist",
+    "mastery_rank": 6,
+    "release_date": "2014-11-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Mutalist_Cernos"
+  },
+  {
+    "id": "proboscis-cernos",
+    "name": "Proboscis Cernos",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": null,
+    "mastery_rank": 15,
+    "release_date": "2020-11-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Proboscis_Cernos"
+  },
+  {
+    "id": "ceramic-dagger",
+    "name": "Ceramic Dagger",
+    "category": "weapon",
+    "subcategory": "Dagger",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ceramic_Dagger"
+  },
+  {
+    "id": "cerata",
+    "name": "Cerata",
+    "category": "weapon",
+    "subcategory": "Glaive",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2015-07-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Cerata"
+  },
+  {
+    "id": "cestras",
+    "name": "Cestras",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-05-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Cestras"
+  },
+  {
+    "id": "cestra",
+    "name": "Cestra",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2013-05-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Cestra"
+  },
+  {
+    "id": "secura-dual-cestra",
+    "name": "Secura Dual Cestra",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": "Secura",
+    "mastery_rank": 6,
+    "release_date": "2015-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Secura_Dual_Cestra"
+  },
+  {
+    "id": "cobra-crane",
+    "name": "Cobra & Crane",
+    "category": "weapon",
+    "subcategory": "Sword and Shield",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2019-03-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Cobra_&_Crane"
+  },
+  {
+    "id": "convectrix",
+    "name": "Convectrix",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2015-07-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Convectrix"
+  },
+  {
+    "id": "corinth",
+    "name": "Corinth",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2017-12-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Corinth"
+  },
+  {
+    "id": "corinth-prime",
+    "name": "Corinth Prime",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Prime",
+    "mastery_rank": 8,
+    "release_date": "2020-06-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Corinth_Prime"
+  },
+  {
+    "id": "cronus",
+    "name": "Cronus",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Cronus"
+  },
+  {
+    "id": "cyath",
+    "name": "Cyath",
+    "category": "weapon",
+    "subcategory": "Polearm",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2017-10-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Cyath"
+  },
+  {
+    "id": "dakra-prime",
+    "name": "Dakra Prime",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": "Prime",
+    "mastery_rank": 6,
+    "release_date": "2013-09-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dakra_Prime"
+  },
+  {
+    "id": "dark-dagger",
+    "name": "Dark Dagger",
+    "category": "weapon",
+    "subcategory": "Dagger",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dark_Dagger"
+  },
+  {
+    "id": "rakta-dark-dagger",
+    "name": "Rakta Dark Dagger",
+    "category": "weapon",
+    "subcategory": "Dagger",
+    "variant": "Rakta",
+    "mastery_rank": 8,
+    "release_date": "2015-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Rakta_Dark_Dagger"
+  },
+  {
+    "id": "dark-split-sword",
+    "name": "Dark Split-Sword",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dark_Split-Sword"
+  },
+  {
+    "id": "dark-sword",
+    "name": "Dark Sword",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dark_Sword"
+  },
+  {
+    "id": "daikyu",
+    "name": "Daikyu",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2015-03-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Daikyu"
+  },
+  {
+    "id": "destreza",
+    "name": "Destreza",
+    "category": "weapon",
+    "subcategory": "Rapier",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2015-12-03",
+    "wiki_url": "https://warframe.fandom.com/wiki/Destreza"
+  },
+  {
+    "id": "destreza-prime",
+    "name": "Destreza Prime",
+    "category": "weapon",
+    "subcategory": "Rapier",
+    "variant": "Prime",
+    "mastery_rank": 10,
+    "release_date": "2019-10-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Destreza_Prime"
+  },
+  {
+    "id": "dera",
+    "name": "Dera",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2013-02-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dera"
+  },
+  {
+    "id": "dera-vandal",
+    "name": "Dera Vandal",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Vandal",
+    "mastery_rank": 7,
+    "release_date": "2014-01-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dera_Vandal"
+  },
+  {
+    "id": "despair",
+    "name": "Despair",
+    "category": "weapon",
+    "subcategory": "Thrown",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Despair"
+  },
+  {
+    "id": "detron",
+    "name": "Detron",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2013-10-09",
+    "wiki_url": "https://warframe.fandom.com/wiki/Detron"
+  },
+  {
+    "id": "mara-detron",
+    "name": "Mara Detron",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Mara",
+    "mastery_rank": 9,
+    "release_date": "2014-12-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Mara_Detron"
+  },
+  {
+    "id": "dex-dakra",
+    "name": "Dex Dakra",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": "Dex",
+    "mastery_rank": 4,
+    "release_date": "2015-03-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Dakra"
+  },
+  {
+    "id": "dex-furis",
+    "name": "Dex Furis",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": "Dex",
+    "mastery_rank": 4,
+    "release_date": "2014-03-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Furis"
+  },
+  {
+    "id": "dex-pixia",
+    "name": "Dex Pixia",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2016-08-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Pixia"
+  },
+  {
+    "id": "dex-sybaris",
+    "name": "Dex Sybaris",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Dex",
+    "mastery_rank": 5,
+    "release_date": "2016-03-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Sybaris"
+  },
+  {
+    "id": "dread",
+    "name": "Dread",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dread"
+  },
+  {
+    "id": "drakgoon",
+    "name": "Drakgoon",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2014-02-05",
+    "wiki_url": "https://warframe.fandom.com/wiki/Drakgoon"
+  },
+  {
+    "id": "prisma-drakgoon",
+    "name": "Prisma Drakgoon",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Prisma",
+    "mastery_rank": 8,
+    "release_date": "2016-12-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Drakgoon"
+  },
+  {
+    "id": "drvael",
+    "name": "Drvael",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2025-03-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Drvael"
+  },
+  {
+    "id": "dual-cestra",
+    "name": "Dual Cestra",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2013-05-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Cestra"
+  },
+  {
+    "id": "dual-cleavers",
+    "name": "Dual Cleavers",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Cleavers"
+  },
+  {
+    "id": "prisma-dual-cleavers",
+    "name": "Prisma Dual Cleavers",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": "Prisma",
+    "mastery_rank": 10,
+    "release_date": "2015-04-10",
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Dual_Cleavers"
+  },
+  {
+    "id": "dual-ether",
+    "name": "Dual Ether",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Ether"
+  },
+  {
+    "id": "dual-heat-swords",
+    "name": "Dual Heat Swords",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Heat_Swords"
+  },
+  {
+    "id": "dual-ichor",
+    "name": "Dual Ichor",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2013-09-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Ichor"
+  },
+  {
+    "id": "dual-kamas",
+    "name": "Dual Kamas",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-06-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Kamas"
+  },
+  {
+    "id": "dual-kamas-prime",
+    "name": "Dual Kamas Prime",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": "Prime",
+    "mastery_rank": 6,
+    "release_date": "2015-10-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Kamas_Prime"
+  },
+  {
+    "id": "dual-keres",
+    "name": "Dual Keres",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2018-03-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Keres"
+  },
+  {
+    "id": "dual-keres-prime",
+    "name": "Dual Keres Prime",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": "Prime",
+    "mastery_rank": 9,
+    "release_date": "2023-10-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Keres_Prime"
+  },
+  {
+    "id": "dual-raza",
+    "name": "Dual Raza",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2015-03-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Raza"
+  },
+  {
+    "id": "dual-skana",
+    "name": "Dual Skana",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Skana"
+  },
+  {
+    "id": "dual-toxocyst",
+    "name": "Dual Toxocyst",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 9,
+    "release_date": "2016-02-04",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Toxocyst"
+  },
+  {
+    "id": "dual-zoren",
+    "name": "Dual Zoren",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Zoren"
+  },
+  {
+    "id": "edun",
+    "name": "Edun",
+    "category": "weapon",
+    "subcategory": "Heavy Blade",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2024-10-02",
+    "wiki_url": "https://warframe.fandom.com/wiki/Edun"
+  },
+  {
+    "id": "embolist",
+    "name": "Embolist",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2014-01-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Embolist"
+  },
+  {
+    "id": "endura",
+    "name": "Endura",
+    "category": "weapon",
+    "subcategory": "Rapier",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2016-11-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Endura"
+  },
+  {
+    "id": "ether-daggers",
+    "name": "Ether Daggers",
+    "category": "weapon",
+    "subcategory": "Dual Daggers",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ether_Daggers"
+  },
+  {
+    "id": "ether-reaper",
+    "name": "Ether Reaper",
+    "category": "weapon",
+    "subcategory": "Scythe",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ether_Reaper"
+  },
+  {
+    "id": "ether-sword",
+    "name": "Ether Sword",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ether_Sword"
+  },
+  {
+    "id": "euphona-prime",
+    "name": "Euphona Prime",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2017-02-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Euphona_Prime"
+  },
+  {
+    "id": "falcor",
+    "name": "Falcor",
+    "category": "weapon",
+    "subcategory": "Glaive",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2019-03-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Falcor"
+  },
+  {
+    "id": "fang",
+    "name": "Fang",
+    "category": "weapon",
+    "subcategory": "Dual Daggers",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Fang"
+  },
+  {
+    "id": "fang-prime",
+    "name": "Fang Prime",
+    "category": "weapon",
+    "subcategory": "Dual Daggers",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2012-12-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Fang_Prime"
+  },
+  {
+    "id": "ferrox",
+    "name": "Ferrox",
+    "category": "weapon",
+    "subcategory": "Speargun",
+    "variant": null,
+    "mastery_rank": 14,
+    "release_date": "2017-01-04",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ferrox"
+  },
+  {
+    "id": "flux-rifle",
+    "name": "Flux Rifle",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2013-01-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Flux_Rifle"
+  },
+  {
+    "id": "fragor",
+    "name": "Fragor",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Fragor"
+  },
+  {
+    "id": "fragor-prime",
+    "name": "Fragor Prime",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": "Prime",
+    "mastery_rank": 2,
+    "release_date": "2016-02-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Fragor_Prime"
+  },
+  {
+    "id": "fulmin",
+    "name": "Fulmin",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2019-05-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Fulmin"
+  },
+  {
+    "id": "fulmin-prime",
+    "name": "Fulmin Prime",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prime",
+    "mastery_rank": 8,
+    "release_date": "2024-03-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Fulmin_Prime"
+  },
+  {
+    "id": "furis",
+    "name": "Furis",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Furis"
+  },
+  {
+    "id": "mk1-furis",
+    "name": "MK1-Furis",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-08-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Furis"
+  },
+  {
+    "id": "fusilai",
+    "name": "Fusilai",
+    "category": "weapon",
+    "subcategory": "Thrown",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2017-10-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Fusilai"
+  },
+  {
+    "id": "galatine",
+    "name": "Galatine",
+    "category": "weapon",
+    "subcategory": "Heavy Blade",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2013-03-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Galatine"
+  },
+  {
+    "id": "galatine-prime",
+    "name": "Galatine Prime",
+    "category": "weapon",
+    "subcategory": "Heavy Blade",
+    "variant": "Prime",
+    "mastery_rank": 13,
+    "release_date": "2016-08-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Galatine_Prime"
+  },
+  {
+    "id": "galvacord",
+    "name": "Galvacord",
+    "category": "weapon",
+    "subcategory": "Whip",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2019-03-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Galvacord"
+  },
+  {
+    "id": "gammacor",
+    "name": "Gammacor",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2014-09-03",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gammacor"
+  },
+  {
+    "id": "synoid-gammacor",
+    "name": "Synoid Gammacor",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Synoid",
+    "mastery_rank": 7,
+    "release_date": "2015-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Synoid_Gammacor"
+  },
+  {
+    "id": "gaze",
+    "name": "Gaze",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2018-11-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gaze"
+  },
+  {
+    "id": "glaxion",
+    "name": "Glaxion",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2013-12-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Glaxion"
+  },
+  {
+    "id": "glaxion-vandal",
+    "name": "Glaxion Vandal",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Vandal",
+    "mastery_rank": 6,
+    "release_date": "2019-03-15",
+    "wiki_url": "https://warframe.fandom.com/wiki/Glaxion_Vandal"
+  },
+  {
+    "id": "glaive",
+    "name": "Glaive",
+    "category": "weapon",
+    "subcategory": "Glaive",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Glaive"
+  },
+  {
+    "id": "glaive-prime",
+    "name": "Glaive Prime",
+    "category": "weapon",
+    "subcategory": "Glaive",
+    "variant": "Prime",
+    "mastery_rank": 3,
+    "release_date": "2013-11-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Glaive_Prime"
+  },
+  {
+    "id": "glomast",
+    "name": "Glomast",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2025-01-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Glomast"
+  },
+  {
+    "id": "gorgon",
+    "name": "Gorgon",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gorgon"
+  },
+  {
+    "id": "prisma-gorgon",
+    "name": "Prisma Gorgon",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prisma",
+    "mastery_rank": 7,
+    "release_date": "2015-01-09",
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Gorgon"
+  },
+  {
+    "id": "gorgon-wraith",
+    "name": "Gorgon Wraith",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Wraith",
+    "mastery_rank": 7,
+    "release_date": "2014-05-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gorgon_Wraith"
+  },
+  {
+    "id": "gram",
+    "name": "Gram",
+    "category": "weapon",
+    "subcategory": "Heavy Blade",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gram"
+  },
+  {
+    "id": "gram-prime",
+    "name": "Gram Prime",
+    "category": "weapon",
+    "subcategory": "Heavy Blade",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2018-09-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gram_Prime"
+  },
+  {
+    "id": "grakata",
+    "name": "Grakata",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2013-01-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Grakata"
+  },
+  {
+    "id": "prisma-grakata",
+    "name": "Prisma Grakata",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prisma",
+    "mastery_rank": 7,
+    "release_date": "2015-06-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Grakata"
+  },
+  {
+    "id": "twin-grakata",
+    "name": "Twin Grakata",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 9,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Grakata"
+  },
+  {
+    "id": "guandao",
+    "name": "Guandao",
+    "category": "weapon",
+    "subcategory": "Polearm",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2017-10-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Guandao"
+  },
+  {
+    "id": "guandao-prime",
+    "name": "Guandao Prime",
+    "category": "weapon",
+    "subcategory": "Polearm",
+    "variant": "Prime",
+    "mastery_rank": 12,
+    "release_date": "2022-10-05",
+    "wiki_url": "https://warframe.fandom.com/wiki/Guandao_Prime"
+  },
+  {
+    "id": "gunsen",
+    "name": "Gunsen",
+    "category": "weapon",
+    "subcategory": "Warfan",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2018-03-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gunsen"
+  },
+  {
+    "id": "gunsen-prime",
+    "name": "Gunsen Prime",
+    "category": "weapon",
+    "subcategory": "Warfan",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2023-08-09",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gunsen_Prime"
+  },
+  {
+    "id": "halikar",
+    "name": "Halikar",
+    "category": "weapon",
+    "subcategory": "Glaive",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2015-08-05",
+    "wiki_url": "https://warframe.fandom.com/wiki/Halikar"
+  },
+  {
+    "id": "halikar-wraith",
+    "name": "Halikar Wraith",
+    "category": "weapon",
+    "subcategory": "Glaive",
+    "variant": "Wraith",
+    "mastery_rank": 7,
+    "release_date": "2021-04-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Halikar_Wraith"
+  },
+  {
+    "id": "hate",
+    "name": "Hate",
+    "category": "weapon",
+    "subcategory": "Scythe",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Hate"
+  },
+  {
+    "id": "heat-dagger",
+    "name": "Heat Dagger",
+    "category": "weapon",
+    "subcategory": "Dagger",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Heat_Dagger"
+  },
+  {
+    "id": "heat-sword",
+    "name": "Heat Sword",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Heat_Sword"
+  },
+  {
+    "id": "hek",
+    "name": "Hek",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2013-05-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Hek"
+  },
+  {
+    "id": "vaykor-hek",
+    "name": "Vaykor Hek",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Vaykor",
+    "mastery_rank": 12,
+    "release_date": "2015-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Vaykor_Hek"
+  },
+  {
+    "id": "heliocor",
+    "name": "Heliocor",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2016-07-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Heliocor"
+  },
+  {
+    "id": "synoid-heliocor",
+    "name": "Synoid Heliocor",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": "Synoid",
+    "mastery_rank": 8,
+    "release_date": "2016-07-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Synoid_Heliocor"
+  },
+  {
+    "id": "hema",
+    "name": "Hema",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2016-12-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Hema"
+  },
+  {
+    "id": "hind",
+    "name": "Hind",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-05-14",
+    "wiki_url": "https://warframe.fandom.com/wiki/Hind"
+  },
+  {
+    "id": "kuva-hind",
+    "name": "Kuva Hind",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Kuva",
+    "mastery_rank": 0,
+    "release_date": "2020-10-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Hind"
+  },
+  {
+    "id": "hikou",
+    "name": "Hikou",
+    "category": "weapon",
+    "subcategory": "Thrown",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2013-03-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Hikou"
+  },
+  {
+    "id": "hikou-prime",
+    "name": "Hikou Prime",
+    "category": "weapon",
+    "subcategory": "Thrown",
+    "variant": "Prime",
+    "mastery_rank": 4,
+    "release_date": "2014-12-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Hikou_Prime"
+  },
+  {
+    "id": "hystrix",
+    "name": "Hystrix",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2018-04-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Hystrix"
+  },
+  {
+    "id": "hystrix-prime",
+    "name": "Hystrix Prime",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2022-07-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Hystrix_Prime"
+  },
+  {
+    "id": "ignis",
+    "name": "Ignis",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2013-05-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ignis"
+  },
+  {
+    "id": "ignis-wraith",
+    "name": "Ignis Wraith",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Wraith",
+    "mastery_rank": 9,
+    "release_date": "2017-03-09",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ignis_Wraith"
+  },
+  {
+    "id": "jaw-sword",
+    "name": "Jaw Sword",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Jaw_Sword"
+  },
+  {
+    "id": "javlok",
+    "name": "Javlok",
+    "category": "weapon",
+    "subcategory": "Speargun",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2016-11-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Javlok"
+  },
+  {
+    "id": "jat-kittag",
+    "name": "Jat Kittag",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2014-05-14",
+    "wiki_url": "https://warframe.fandom.com/wiki/Jat_Kittag"
+  },
+  {
+    "id": "jat-kusar",
+    "name": "Jat Kusar",
+    "category": "weapon",
+    "subcategory": "Blade and Whip",
+    "variant": null,
+    "mastery_rank": 12,
+    "release_date": "2017-10-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Jat_Kusar"
+  },
+  {
+    "id": "kama",
+    "name": "Kama",
+    "category": "weapon",
+    "subcategory": "Machete",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2015-10-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kama"
+  },
+  {
+    "id": "karak",
+    "name": "Karak",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-06-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Karak"
+  },
+  {
+    "id": "karak-wraith",
+    "name": "Karak Wraith",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Wraith",
+    "mastery_rank": 7,
+    "release_date": "2014-10-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Karak_Wraith"
+  },
+  {
+    "id": "karyst",
+    "name": "Karyst",
+    "category": "weapon",
+    "subcategory": "Dagger",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2014-01-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Karyst"
+  },
+  {
+    "id": "karyst-prime",
+    "name": "Karyst Prime",
+    "category": "weapon",
+    "subcategory": "Dagger",
+    "variant": "Prime",
+    "mastery_rank": 10,
+    "release_date": "2021-05-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Karyst_Prime"
+  },
+  {
+    "id": "keratinos",
+    "name": "Keratinos",
+    "category": "weapon",
+    "subcategory": "Claws",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-08-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Keratinos"
+  },
+  {
+    "id": "kesheg",
+    "name": "Kesheg",
+    "category": "weapon",
+    "subcategory": "Polearm",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2015-08-05",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kesheg"
+  },
+  {
+    "id": "knell",
+    "name": "Knell",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2017-06-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Knell"
+  },
+  {
+    "id": "knell-prime",
+    "name": "Knell Prime",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Prime",
+    "mastery_rank": 10,
+    "release_date": "2021-12-15",
+    "wiki_url": "https://warframe.fandom.com/wiki/Knell_Prime"
+  },
+  {
+    "id": "kogake",
+    "name": "Kogake",
+    "category": "weapon",
+    "subcategory": "Sparring",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kogake"
+  },
+  {
+    "id": "kogake-prime",
+    "name": "Kogake Prime",
+    "category": "weapon",
+    "subcategory": "Sparring",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2017-12-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kogake_Prime"
+  },
+  {
+    "id": "kohm",
+    "name": "Kohm",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2014-12-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kohm"
+  },
+  {
+    "id": "kohmak",
+    "name": "Kohmak",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2015-03-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kohmak"
+  },
+  {
+    "id": "twin-kohmak",
+    "name": "Twin Kohmak",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2016-05-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Kohmak"
+  },
+  {
+    "id": "korrudo",
+    "name": "Korrudo",
+    "category": "weapon",
+    "subcategory": "Sparring",
+    "variant": null,
+    "mastery_rank": 9,
+    "release_date": "2019-05-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Korrudo"
+  },
+  {
+    "id": "korumm",
+    "name": "Korumm",
+    "category": "weapon",
+    "subcategory": "Polearm",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2023-06-21",
+    "wiki_url": "https://warframe.fandom.com/wiki/Korumm"
+  },
+  {
+    "id": "kraken",
+    "name": "Kraken",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kraken"
+  },
+  {
+    "id": "kreska",
+    "name": "Kreska",
+    "category": "weapon",
+    "subcategory": "Machete",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2018-11-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kreska"
+  },
+  {
+    "id": "krex",
+    "name": "Krex",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2024-10-02",
+    "wiki_url": "https://warframe.fandom.com/wiki/Krex"
+  },
+  {
+    "id": "kronen",
+    "name": "Kronen",
+    "category": "weapon",
+    "subcategory": "Tonfa",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2014-05-14",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kronen"
+  },
+  {
+    "id": "kronen-prime",
+    "name": "Kronen Prime",
+    "category": "weapon",
+    "subcategory": "Tonfa",
+    "variant": "Prime",
+    "mastery_rank": 10,
+    "release_date": "2020-06-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kronen_Prime"
+  },
+  {
+    "id": "kuva-bramma",
+    "name": "Kuva Bramma",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2019-12-17",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Bramma"
+  },
+  {
+    "id": "kuva-chakkhurr",
+    "name": "Kuva Chakkhurr",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2019-10-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Chakkhurr"
+  },
+  {
+    "id": "kuva-drakgoon",
+    "name": "Kuva Drakgoon",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2019-10-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Drakgoon"
+  },
+  {
+    "id": "kuva-grattler",
+    "name": "Kuva Grattler",
+    "category": "weapon",
+    "subcategory": "Launcher",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2020-11-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Grattler"
+  },
+  {
+    "id": "kuva-hek",
+    "name": "Kuva Hek",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2021-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Hek"
+  },
+  {
+    "id": "kuva-karak",
+    "name": "Kuva Karak",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2020-10-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Karak"
+  },
+  {
+    "id": "kuva-kohm",
+    "name": "Kuva Kohm",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2019-10-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Kohm"
+  },
+  {
+    "id": "kuva-kraken",
+    "name": "Kuva Kraken",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2019-10-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Kraken"
+  },
+  {
+    "id": "kuva-nukor",
+    "name": "Kuva Nukor",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2019-12-17",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Nukor"
+  },
+  {
+    "id": "kuva-ogris",
+    "name": "Kuva Ogris",
+    "category": "weapon",
+    "subcategory": "Launcher",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2019-10-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Ogris"
+  },
+  {
+    "id": "kuva-quartakk",
+    "name": "Kuva Quartakk",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2019-10-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Quartakk"
+  },
+  {
+    "id": "kuva-seer",
+    "name": "Kuva Seer",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2019-10-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Seer"
+  },
+  {
+    "id": "kuva-shildeg",
+    "name": "Kuva Shildeg",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2019-10-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Shildeg"
+  },
+  {
+    "id": "kuva-sobek",
+    "name": "Kuva Sobek",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2024-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Sobek"
+  },
+  {
+    "id": "kuva-tonkor",
+    "name": "Kuva Tonkor",
+    "category": "weapon",
+    "subcategory": "Launcher",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2019-12-17",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Tonkor"
+  },
+  {
+    "id": "kuva-twin-stubbas",
+    "name": "Kuva Twin Stubbas",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2019-10-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Twin_Stubbas"
+  },
+  {
+    "id": "kuva-zarr",
+    "name": "Kuva Zarr",
+    "category": "weapon",
+    "subcategory": "Launcher",
+    "variant": "Kuva",
+    "mastery_rank": 15,
+    "release_date": "2021-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Zarr"
+  },
+  {
+    "id": "kunai",
+    "name": "Kunai",
+    "category": "weapon",
+    "subcategory": "Thrown",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kunai"
+  },
+  {
+    "id": "mk1-kunai",
+    "name": "MK1-Kunai",
+    "category": "weapon",
+    "subcategory": "Thrown",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-08-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Kunai"
+  },
+  {
+    "id": "lanka",
+    "name": "Lanka",
+    "category": "weapon",
+    "subcategory": "Sniper",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2013-09-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Lanka"
+  },
+  {
+    "id": "lato",
+    "name": "Lato",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Lato"
+  },
+  {
+    "id": "lato-prime",
+    "name": "Lato Prime",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Lato_Prime"
+  },
+  {
+    "id": "lato-vandal",
+    "name": "Lato Vandal",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Vandal",
+    "mastery_rank": 4,
+    "release_date": "2013-03-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Lato_Vandal"
+  },
+  {
+    "id": "mk1-lato",
+    "name": "MK1-Lato",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Lato"
+  },
+  {
+    "id": "latron",
+    "name": "Latron",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Latron"
+  },
+  {
+    "id": "latron-prime",
+    "name": "Latron Prime",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2012-12-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Latron_Prime"
+  },
+  {
+    "id": "latron-wraith",
+    "name": "Latron Wraith",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Wraith",
+    "mastery_rank": 0,
+    "release_date": "2014-01-05",
+    "wiki_url": "https://warframe.fandom.com/wiki/Latron_Wraith"
+  },
+  {
+    "id": "lecta",
+    "name": "Lecta",
+    "category": "weapon",
+    "subcategory": "Whip",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2013-09-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Lecta"
+  },
+  {
+    "id": "secura-lecta",
+    "name": "Secura Lecta",
+    "category": "weapon",
+    "subcategory": "Whip",
+    "variant": "Secura",
+    "mastery_rank": 8,
+    "release_date": "2015-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Secura_Lecta"
+  },
+  {
+    "id": "lenz",
+    "name": "Lenz",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2017-08-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Lenz"
+  },
+  {
+    "id": "lesion",
+    "name": "Lesion",
+    "category": "weapon",
+    "subcategory": "Polearm",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2016-02-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Lesion"
+  },
+  {
+    "id": "lex",
+    "name": "Lex",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Lex"
+  },
+  {
+    "id": "lex-prime",
+    "name": "Lex Prime",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Prime",
+    "mastery_rank": 6,
+    "release_date": "2013-09-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Lex_Prime"
+  },
+  {
+    "id": "machete",
+    "name": "Machete",
+    "category": "weapon",
+    "subcategory": "Machete",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Machete"
+  },
+  {
+    "id": "machete-wraith",
+    "name": "Machete Wraith",
+    "category": "weapon",
+    "subcategory": "Machete",
+    "variant": "Wraith",
+    "mastery_rank": 3,
+    "release_date": "2014-05-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Machete_Wraith"
+  },
+  {
+    "id": "magnus",
+    "name": "Magnus",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2013-11-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Magnus"
+  },
+  {
+    "id": "magnus-prime",
+    "name": "Magnus Prime",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2022-04-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Magnus_Prime"
+  },
+  {
+    "id": "magistar",
+    "name": "Magistar",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-11-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Magistar"
+  },
+  {
+    "id": "sancti-magistar",
+    "name": "Sancti Magistar",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": "Sancti",
+    "mastery_rank": 12,
+    "release_date": "2015-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sancti_Magistar"
+  },
+  {
+    "id": "marelok",
+    "name": "Marelok",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2014-01-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Marelok"
+  },
+  {
+    "id": "vaykor-marelok",
+    "name": "Vaykor Marelok",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Vaykor",
+    "mastery_rank": 10,
+    "release_date": "2015-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Vaykor_Marelok"
+  },
+  {
+    "id": "masseter",
+    "name": "Masseter",
+    "category": "weapon",
+    "subcategory": "Heavy Blade",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2022-04-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Masseter"
+  },
+  {
+    "id": "mewan",
+    "name": "Mewan",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2017-10-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Mewan"
+  },
+  {
+    "id": "mios",
+    "name": "Mios",
+    "category": "weapon",
+    "subcategory": "Blade and Whip",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2015-10-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Mios"
+  },
+  {
+    "id": "mire",
+    "name": "Mire",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Mire"
+  },
+  {
+    "id": "miter",
+    "name": "Miter",
+    "category": "weapon",
+    "subcategory": "Launcher",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2013-09-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Miter"
+  },
+  {
+    "id": "mutalist-quanta",
+    "name": "Mutalist Quanta",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Mutalist",
+    "mastery_rank": 2,
+    "release_date": "2014-11-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Mutalist_Quanta"
+  },
+  {
+    "id": "nagantaka",
+    "name": "Nagantaka",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": null,
+    "mastery_rank": 9,
+    "release_date": "2018-11-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nagantaka"
+  },
+  {
+    "id": "nagantaka-prime",
+    "name": "Nagantaka Prime",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2022-04-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nagantaka_Prime"
+  },
+  {
+    "id": "nami-skyla",
+    "name": "Nami Skyla",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2013-09-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nami_Skyla"
+  },
+  {
+    "id": "nami-skyla-prime",
+    "name": "Nami Skyla Prime",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": "Prime",
+    "mastery_rank": 11,
+    "release_date": "2017-08-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nami_Skyla_Prime"
+  },
+  {
+    "id": "nami-solo",
+    "name": "Nami Solo",
+    "category": "weapon",
+    "subcategory": "Machete",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2013-09-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nami_Solo"
+  },
+  {
+    "id": "nikana",
+    "name": "Nikana",
+    "category": "weapon",
+    "subcategory": "Nikana",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2014-04-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nikana"
+  },
+  {
+    "id": "nikana-prime",
+    "name": "Nikana Prime",
+    "category": "weapon",
+    "subcategory": "Nikana",
+    "variant": "Prime",
+    "mastery_rank": 12,
+    "release_date": "2015-07-07",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nikana_Prime"
+  },
+  {
+    "id": "dragon-nikana",
+    "name": "Dragon Nikana",
+    "category": "weapon",
+    "subcategory": "Nikana",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2014-04-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dragon_Nikana"
+  },
+  {
+    "id": "nukor",
+    "name": "Nukor",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2014-05-14",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nukor"
+  },
+  {
+    "id": "obex",
+    "name": "Obex",
+    "category": "weapon",
+    "subcategory": "Sparring",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-03-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Obex"
+  },
+  {
+    "id": "prisma-obex",
+    "name": "Prisma Obex",
+    "category": "weapon",
+    "subcategory": "Sparring",
+    "variant": "Prisma",
+    "mastery_rank": 0,
+    "release_date": "2015-10-02",
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Obex"
+  },
+  {
+    "id": "ogris",
+    "name": "Ogris",
+    "category": "weapon",
+    "subcategory": "Launcher",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ogris"
+  },
+  {
+    "id": "ohma",
+    "name": "Ohma",
+    "category": "weapon",
+    "subcategory": "Tonfa",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2016-12-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ohma"
+  },
+  {
+    "id": "okina",
+    "name": "Okina",
+    "category": "weapon",
+    "subcategory": "Dual Daggers",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2016-08-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Okina"
+  },
+  {
+    "id": "opticor",
+    "name": "Opticor",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 14,
+    "release_date": "2013-10-09",
+    "wiki_url": "https://warframe.fandom.com/wiki/Opticor"
+  },
+  {
+    "id": "opticor-vandal",
+    "name": "Opticor Vandal",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Vandal",
+    "mastery_rank": 9,
+    "release_date": "2019-03-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Opticor_Vandal"
+  },
+  {
+    "id": "orvius",
+    "name": "Orvius",
+    "category": "weapon",
+    "subcategory": "Glaive",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2016-11-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Orvius"
+  },
+  {
+    "id": "orthos",
+    "name": "Orthos",
+    "category": "weapon",
+    "subcategory": "Polearm",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Orthos"
+  },
+  {
+    "id": "orthos-prime",
+    "name": "Orthos Prime",
+    "category": "weapon",
+    "subcategory": "Polearm",
+    "variant": "Prime",
+    "mastery_rank": 2,
+    "release_date": "2012-12-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Orthos_Prime"
+  },
+  {
+    "id": "paracesis",
+    "name": "Paracesis",
+    "category": "weapon",
+    "subcategory": "Heavy Blade",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2018-11-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Paracesis"
+  },
+  {
+    "id": "paracyst",
+    "name": "Paracyst",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2015-09-02",
+    "wiki_url": "https://warframe.fandom.com/wiki/Paracyst"
+  },
+  {
+    "id": "pandero",
+    "name": "Pandero",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2017-06-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Pandero"
+  },
+  {
+    "id": "pandero-prime",
+    "name": "Pandero Prime",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2021-02-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Pandero_Prime"
+  },
+  {
+    "id": "pangolin-sword",
+    "name": "Pangolin Sword",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Pangolin_Sword"
+  },
+  {
+    "id": "pangolin-prime",
+    "name": "Pangolin Prime",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": "Prime",
+    "mastery_rank": 7,
+    "release_date": "2020-07-14",
+    "wiki_url": "https://warframe.fandom.com/wiki/Pangolin_Prime"
+  },
+  {
+    "id": "panthera",
+    "name": "Panthera",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2014-12-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Panthera"
+  },
+  {
+    "id": "panthera-prime",
+    "name": "Panthera Prime",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prime",
+    "mastery_rank": 7,
+    "release_date": "2022-10-05",
+    "wiki_url": "https://warframe.fandom.com/wiki/Panthera_Prime"
+  },
+  {
+    "id": "paris",
+    "name": "Paris",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Paris"
+  },
+  {
+    "id": "paris-prime",
+    "name": "Paris Prime",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": "Prime",
+    "mastery_rank": 4,
+    "release_date": "2012-12-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Paris_Prime"
+  },
+  {
+    "id": "mk1-paris",
+    "name": "MK1-Paris",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-08-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Paris"
+  },
+  {
+    "id": "penta",
+    "name": "Penta",
+    "category": "weapon",
+    "subcategory": "Launcher",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2013-11-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Penta"
+  },
+  {
+    "id": "secura-penta",
+    "name": "Secura Penta",
+    "category": "weapon",
+    "subcategory": "Launcher",
+    "variant": "Secura",
+    "mastery_rank": 12,
+    "release_date": "2015-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Secura_Penta"
+  },
+  {
+    "id": "pennant",
+    "name": "Pennant",
+    "category": "weapon",
+    "subcategory": "Heavy Blade",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2019-12-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Pennant"
+  },
+  {
+    "id": "phage",
+    "name": "Phage",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2013-10-09",
+    "wiki_url": "https://warframe.fandom.com/wiki/Phage"
+  },
+  {
+    "id": "phantasma",
+    "name": "Phantasma",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2018-08-24",
+    "wiki_url": "https://warframe.fandom.com/wiki/Phantasma"
+  },
+  {
+    "id": "phantasma-prime",
+    "name": "Phantasma Prime",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Prime",
+    "mastery_rank": 8,
+    "release_date": "2023-10-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Phantasma_Prime"
+  },
+  {
+    "id": "plasma-sword",
+    "name": "Plasma Sword",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Plasma_Sword"
+  },
+  {
+    "id": "plinx",
+    "name": "Plinx",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2018-11-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Plinx"
+  },
+  {
+    "id": "praedos",
+    "name": "Praedos",
+    "category": "weapon",
+    "subcategory": "Tonfa",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2022-04-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Praedos"
+  },
+  {
+    "id": "prova",
+    "name": "Prova",
+    "category": "weapon",
+    "subcategory": "Machete",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2013-02-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Prova"
+  },
+  {
+    "id": "prova-vandal",
+    "name": "Prova Vandal",
+    "category": "weapon",
+    "subcategory": "Machete",
+    "variant": "Vandal",
+    "mastery_rank": 3,
+    "release_date": "2013-09-07",
+    "wiki_url": "https://warframe.fandom.com/wiki/Prova_Vandal"
+  },
+  {
+    "id": "pyrana",
+    "name": "Pyrana",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 12,
+    "release_date": "2014-08-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Pyrana"
+  },
+  {
+    "id": "pyrana-prime",
+    "name": "Pyrana Prime",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Prime",
+    "mastery_rank": 13,
+    "release_date": "2018-09-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Pyrana_Prime"
+  },
+  {
+    "id": "quanta",
+    "name": "Quanta",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2013-12-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Quanta"
+  },
+  {
+    "id": "quanta-vandal",
+    "name": "Quanta Vandal",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Vandal",
+    "mastery_rank": 10,
+    "release_date": "2014-09-26",
+    "wiki_url": "https://warframe.fandom.com/wiki/Quanta_Vandal"
+  },
+  {
+    "id": "quassus",
+    "name": "Quassus",
+    "category": "weapon",
+    "subcategory": "Warfan",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-08-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Quassus"
+  },
+  {
+    "id": "quartakk",
+    "name": "Quartakk",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2017-12-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Quartakk"
+  },
+  {
+    "id": "rabvee",
+    "name": "Rabvee",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2017-10-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Rabvee"
+  },
+  {
+    "id": "reaper-prime",
+    "name": "Reaper Prime",
+    "category": "weapon",
+    "subcategory": "Scythe",
+    "variant": "Prime",
+    "mastery_rank": 2,
+    "release_date": "2012-12-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Reaper_Prime"
+  },
+  {
+    "id": "redeemer",
+    "name": "Redeemer",
+    "category": "weapon",
+    "subcategory": "Gunblade",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Redeemer"
+  },
+  {
+    "id": "redeemer-prime",
+    "name": "Redeemer Prime",
+    "category": "weapon",
+    "subcategory": "Gunblade",
+    "variant": "Prime",
+    "mastery_rank": 10,
+    "release_date": "2018-12-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Redeemer_Prime"
+  },
+  {
+    "id": "ripkas",
+    "name": "Ripkas",
+    "category": "weapon",
+    "subcategory": "Claws",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2014-04-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Ripkas"
+  },
+  {
+    "id": "rubico",
+    "name": "Rubico",
+    "category": "weapon",
+    "subcategory": "Sniper",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2015-07-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Rubico"
+  },
+  {
+    "id": "rubico-prime",
+    "name": "Rubico Prime",
+    "category": "weapon",
+    "subcategory": "Sniper",
+    "variant": "Prime",
+    "mastery_rank": 12,
+    "release_date": "2018-09-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Rubico_Prime"
+  },
+  {
+    "id": "sarpa",
+    "name": "Sarpa",
+    "category": "weapon",
+    "subcategory": "Gunblade",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2016-08-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sarpa"
+  },
+  {
+    "id": "scindo",
+    "name": "Scindo",
+    "category": "weapon",
+    "subcategory": "Heavy Blade",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Scindo"
+  },
+  {
+    "id": "scindo-prime",
+    "name": "Scindo Prime",
+    "category": "weapon",
+    "subcategory": "Heavy Blade",
+    "variant": "Prime",
+    "mastery_rank": 4,
+    "release_date": "2013-09-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Scindo_Prime"
+  },
+  {
+    "id": "scourge",
+    "name": "Scourge",
+    "category": "weapon",
+    "subcategory": "Speargun",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2017-03-24",
+    "wiki_url": "https://warframe.fandom.com/wiki/Scourge"
+  },
+  {
+    "id": "scourge-prime",
+    "name": "Scourge Prime",
+    "category": "weapon",
+    "subcategory": "Speargun",
+    "variant": "Prime",
+    "mastery_rank": 12,
+    "release_date": "2021-02-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Scourge_Prime"
+  },
+  {
+    "id": "seer",
+    "name": "Seer",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Seer"
+  },
+  {
+    "id": "sepfahn",
+    "name": "Sepfahn",
+    "category": "weapon",
+    "subcategory": "Nikana",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2017-10-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sepfahn"
+  },
+  {
+    "id": "serro",
+    "name": "Serro",
+    "category": "weapon",
+    "subcategory": "Polearm",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2014-02-05",
+    "wiki_url": "https://warframe.fandom.com/wiki/Serro"
+  },
+  {
+    "id": "sibear",
+    "name": "Sibear",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": null,
+    "mastery_rank": 12,
+    "release_date": "2016-02-04",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sibear"
+  },
+  {
+    "id": "sicarus",
+    "name": "Sicarus",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sicarus"
+  },
+  {
+    "id": "sicarus-prime",
+    "name": "Sicarus Prime",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2017-05-30",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sicarus_Prime"
+  },
+  {
+    "id": "silva-aegis",
+    "name": "Silva & Aegis",
+    "category": "weapon",
+    "subcategory": "Sword and Shield",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-12-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Silva_&_Aegis"
+  },
+  {
+    "id": "silva-aegis-prime",
+    "name": "Silva & Aegis Prime",
+    "category": "weapon",
+    "subcategory": "Sword and Shield",
+    "variant": "Prime",
+    "mastery_rank": 12,
+    "release_date": "2017-05-30",
+    "wiki_url": "https://warframe.fandom.com/wiki/Silva_&_Aegis_Prime"
+  },
+  {
+    "id": "simulor",
+    "name": "Simulor",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2015-10-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Simulor"
+  },
+  {
+    "id": "synoid-simulor",
+    "name": "Synoid Simulor",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Synoid",
+    "mastery_rank": 12,
+    "release_date": "2015-10-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Synoid_Simulor"
+  },
+  {
+    "id": "skana",
+    "name": "Skana",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Skana"
+  },
+  {
+    "id": "skana-prime",
+    "name": "Skana Prime",
+    "category": "weapon",
+    "subcategory": "Sword",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Skana_Prime"
+  },
+  {
+    "id": "skiajati",
+    "name": "Skiajati",
+    "category": "weapon",
+    "subcategory": "Nikana",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2018-06-15",
+    "wiki_url": "https://warframe.fandom.com/wiki/Skiajati"
+  },
+  {
+    "id": "snipetron-vandal",
+    "name": "Snipetron Vandal",
+    "category": "weapon",
+    "subcategory": "Sniper",
+    "variant": "Vandal",
+    "mastery_rank": 5,
+    "release_date": "2013-03-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Snipetron_Vandal"
+  },
+  {
+    "id": "sobek",
+    "name": "Sobek",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2013-02-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sobek"
+  },
+  {
+    "id": "sonicor",
+    "name": "Sonicor",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2015-10-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sonicor"
+  },
+  {
+    "id": "soma",
+    "name": "Soma",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2013-05-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Soma"
+  },
+  {
+    "id": "soma-prime",
+    "name": "Soma Prime",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prime",
+    "mastery_rank": 7,
+    "release_date": "2014-11-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Soma_Prime"
+  },
+  {
+    "id": "spira",
+    "name": "Spira",
+    "category": "weapon",
+    "subcategory": "Thrown",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2014-11-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Spira"
+  },
+  {
+    "id": "spira-prime",
+    "name": "Spira Prime",
+    "category": "weapon",
+    "subcategory": "Thrown",
+    "variant": "Prime",
+    "mastery_rank": 8,
+    "release_date": "2015-12-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Spira_Prime"
+  },
+  {
+    "id": "sporothrix",
+    "name": "Sporothrix",
+    "category": "weapon",
+    "subcategory": "Sniper",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2020-11-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sporothrix"
+  },
+  {
+    "id": "stradavar",
+    "name": "Stradavar",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2015-12-03",
+    "wiki_url": "https://warframe.fandom.com/wiki/Stradavar"
+  },
+  {
+    "id": "stradavar-prime",
+    "name": "Stradavar Prime",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prime",
+    "mastery_rank": 10,
+    "release_date": "2019-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Stradavar_Prime"
+  },
+  {
+    "id": "strun",
+    "name": "Strun",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 1,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Strun"
+  },
+  {
+    "id": "strun-prime",
+    "name": "Strun Prime",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Prime",
+    "mastery_rank": 12,
+    "release_date": "2024-06-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Strun_Prime"
+  },
+  {
+    "id": "strun-wraith",
+    "name": "Strun Wraith",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Wraith",
+    "mastery_rank": 10,
+    "release_date": "2013-11-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Strun_Wraith"
+  },
+  {
+    "id": "mk1-strun",
+    "name": "MK1-Strun",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-08-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Strun"
+  },
+  {
+    "id": "stubba",
+    "name": "Stubba",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2017-12-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Stubba"
+  },
+  {
+    "id": "stubbas",
+    "name": "Stubbas",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2017-12-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Stubbas"
+  },
+  {
+    "id": "supra",
+    "name": "Supra",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2013-03-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Supra"
+  },
+  {
+    "id": "supra-vandal",
+    "name": "Supra Vandal",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Vandal",
+    "mastery_rank": 14,
+    "release_date": "2015-11-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Supra_Vandal"
+  },
+  {
+    "id": "sybaris",
+    "name": "Sybaris",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2014-02-05",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sybaris"
+  },
+  {
+    "id": "dex-sybaris",
+    "name": "Dex Sybaris",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Dex",
+    "mastery_rank": 7,
+    "release_date": "2016-03-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Sybaris"
+  },
+  {
+    "id": "sybaris-prime",
+    "name": "Sybaris Prime",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prime",
+    "mastery_rank": 12,
+    "release_date": "2017-08-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sybaris_Prime"
+  },
+  {
+    "id": "sydon",
+    "name": "Sydon",
+    "category": "weapon",
+    "subcategory": "Polearm",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2015-11-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sydon"
+  },
+  {
+    "id": "vaykor-sydon",
+    "name": "Vaykor Sydon",
+    "category": "weapon",
+    "subcategory": "Polearm",
+    "variant": "Vaykor",
+    "mastery_rank": 10,
+    "release_date": "2016-01-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Vaykor_Sydon"
+  },
+  {
+    "id": "synapse",
+    "name": "Synapse",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2013-03-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Synapse"
+  },
+  {
+    "id": "talons",
+    "name": "Talons",
+    "category": "weapon",
+    "subcategory": "Thrown",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2015-03-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Talons"
+  },
+  {
+    "id": "tenet-arca-plasmor",
+    "name": "Tenet Arca Plasmor",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Tenet",
+    "mastery_rank": 14,
+    "release_date": "2021-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Arca_Plasmor"
+  },
+  {
+    "id": "tenet-cycron",
+    "name": "Tenet Cycron",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Tenet",
+    "mastery_rank": 14,
+    "release_date": "2021-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Cycron"
+  },
+  {
+    "id": "tenet-detron",
+    "name": "Tenet Detron",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Tenet",
+    "mastery_rank": 14,
+    "release_date": "2021-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Detron"
+  },
+  {
+    "id": "tenet-diplos",
+    "name": "Tenet Diplos",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": "Tenet",
+    "mastery_rank": 14,
+    "release_date": "2021-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Diplos"
+  },
+  {
+    "id": "tenet-envoy",
+    "name": "Tenet Envoy",
+    "category": "weapon",
+    "subcategory": "Launcher",
+    "variant": "Tenet",
+    "mastery_rank": 14,
+    "release_date": "2021-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Envoy"
+  },
+  {
+    "id": "tenet-exec",
+    "name": "Tenet Exec",
+    "category": "weapon",
+    "subcategory": "Heavy Blade",
+    "variant": "Tenet",
+    "mastery_rank": 14,
+    "release_date": "2021-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Exec"
+  },
+  {
+    "id": "tenet-ferrox",
+    "name": "Tenet Ferrox",
+    "category": "weapon",
+    "subcategory": "Speargun",
+    "variant": "Tenet",
+    "mastery_rank": 14,
+    "release_date": "2021-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Ferrox"
+  },
+  {
+    "id": "tenet-grigori",
+    "name": "Tenet Grigori",
+    "category": "weapon",
+    "subcategory": "Scythe",
+    "variant": "Tenet",
+    "mastery_rank": 14,
+    "release_date": "2021-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Grigori"
+  },
+  {
+    "id": "tenet-livia",
+    "name": "Tenet Livia",
+    "category": "weapon",
+    "subcategory": "Two-Handed Nikana",
+    "variant": "Tenet",
+    "mastery_rank": 14,
+    "release_date": "2021-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Livia"
+  },
+  {
+    "id": "tenet-plinx",
+    "name": "Tenet Plinx",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Tenet",
+    "mastery_rank": 14,
+    "release_date": "2022-04-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Plinx"
+  },
+  {
+    "id": "tenet-spirex",
+    "name": "Tenet Spirex",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Tenet",
+    "mastery_rank": 14,
+    "release_date": "2022-04-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Spirex"
+  },
+  {
+    "id": "tenet-tetra",
+    "name": "Tenet Tetra",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Tenet",
+    "mastery_rank": 14,
+    "release_date": "2021-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Tetra"
+  },
+  {
+    "id": "tenora",
+    "name": "Tenora",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2017-06-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenora"
+  },
+  {
+    "id": "tenora-prime",
+    "name": "Tenora Prime",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2021-09-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenora_Prime"
+  },
+  {
+    "id": "tetra",
+    "name": "Tetra",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-09-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tetra"
+  },
+  {
+    "id": "prisma-tetra",
+    "name": "Prisma Tetra",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prisma",
+    "mastery_rank": 4,
+    "release_date": "2016-01-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Tetra"
+  },
+  {
+    "id": "tiberon",
+    "name": "Tiberon",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2014-08-29",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tiberon"
+  },
+  {
+    "id": "tiberon-prime",
+    "name": "Tiberon Prime",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2018-03-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tiberon_Prime"
+  },
+  {
+    "id": "tigris",
+    "name": "Tigris",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2013-05-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tigris"
+  },
+  {
+    "id": "tigris-prime",
+    "name": "Tigris Prime",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Prime",
+    "mastery_rank": 13,
+    "release_date": "2016-11-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tigris_Prime"
+  },
+  {
+    "id": "sancti-tigris",
+    "name": "Sancti Tigris",
+    "category": "weapon",
+    "subcategory": "Shotgun",
+    "variant": "Sancti",
+    "mastery_rank": 12,
+    "release_date": "2015-08-28",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sancti_Tigris"
+  },
+  {
+    "id": "tipedo",
+    "name": "Tipedo",
+    "category": "weapon",
+    "subcategory": "Staff",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2014-04-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tipedo"
+  },
+  {
+    "id": "tipedo-prime",
+    "name": "Tipedo Prime",
+    "category": "weapon",
+    "subcategory": "Staff",
+    "variant": "Prime",
+    "mastery_rank": 10,
+    "release_date": "2020-03-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tipedo_Prime"
+  },
+  {
+    "id": "tonbo",
+    "name": "Tonbo",
+    "category": "weapon",
+    "subcategory": "Polearm",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2014-04-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tonbo"
+  },
+  {
+    "id": "tonkor",
+    "name": "Tonkor",
+    "category": "weapon",
+    "subcategory": "Launcher",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2015-03-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Tonkor"
+  },
+  {
+    "id": "torid",
+    "name": "Torid",
+    "category": "weapon",
+    "subcategory": "Launcher",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2013-07-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Torid"
+  },
+  {
+    "id": "twin-basolk",
+    "name": "Twin Basolk",
+    "category": "weapon",
+    "subcategory": "Dual Swords",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2015-12-03",
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Basolk"
+  },
+  {
+    "id": "twin-grakatas",
+    "name": "Twin Grakatas",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 9,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Grakatas"
+  },
+  {
+    "id": "twin-rogga",
+    "name": "Twin Rogga",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 9,
+    "release_date": "2016-11-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Rogga"
+  },
+  {
+    "id": "twin-vipers",
+    "name": "Twin Vipers",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Vipers"
+  },
+  {
+    "id": "twin-vipers-wraith",
+    "name": "Twin Vipers Wraith",
+    "category": "weapon",
+    "subcategory": "Dual Pistols",
+    "variant": "Wraith",
+    "mastery_rank": 0,
+    "release_date": "2014-10-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Vipers_Wraith"
+  },
+  {
+    "id": "vasto",
+    "name": "Vasto",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Vasto"
+  },
+  {
+    "id": "vasto-prime",
+    "name": "Vasto Prime",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Prime",
+    "mastery_rank": 3,
+    "release_date": "2013-05-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Vasto_Prime"
+  },
+  {
+    "id": "vecti",
+    "name": "Vecti",
+    "category": "weapon",
+    "subcategory": "Sniper",
+    "variant": null,
+    "mastery_rank": 2,
+    "release_date": "2013-11-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Vecti"
+  },
+  {
+    "id": "vectis-prime",
+    "name": "Vectis Prime",
+    "category": "weapon",
+    "subcategory": "Sniper",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2015-07-07",
+    "wiki_url": "https://warframe.fandom.com/wiki/Vectis_Prime"
+  },
+  {
+    "id": "veldt",
+    "name": "Veldt",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 8,
+    "release_date": "2018-04-20",
+    "wiki_url": "https://warframe.fandom.com/wiki/Veldt"
+  },
+  {
+    "id": "venka",
+    "name": "Venka",
+    "category": "weapon",
+    "subcategory": "Claws",
+    "variant": null,
+    "mastery_rank": 3,
+    "release_date": "2013-12-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Venka"
+  },
+  {
+    "id": "venka-prime",
+    "name": "Venka Prime",
+    "category": "weapon",
+    "subcategory": "Claws",
+    "variant": "Prime",
+    "mastery_rank": 8,
+    "release_date": "2016-11-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Venka_Prime"
+  },
+  {
+    "id": "viper",
+    "name": "Viper",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Viper"
+  },
+  {
+    "id": "viper-wraith",
+    "name": "Viper Wraith",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": "Wraith",
+    "mastery_rank": 0,
+    "release_date": "2015-03-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Viper_Wraith"
+  },
+  {
+    "id": "vitrica",
+    "name": "Vitrica",
+    "category": "weapon",
+    "subcategory": "Heavy Blade",
+    "variant": null,
+    "mastery_rank": 12,
+    "release_date": "2020-08-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Vitrica"
+  },
+  {
+    "id": "volnus",
+    "name": "Volnus",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2017-10-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Volnus"
+  },
+  {
+    "id": "volnus-prime",
+    "name": "Volnus Prime",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": "Prime",
+    "mastery_rank": 8,
+    "release_date": "2021-05-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Volnus_Prime"
+  },
+  {
+    "id": "war",
+    "name": "War",
+    "category": "weapon",
+    "subcategory": "Heavy Blade",
+    "variant": null,
+    "mastery_rank": 10,
+    "release_date": "2015-12-03",
+    "wiki_url": "https://warframe.fandom.com/wiki/War"
+  },
+  {
+    "id": "wolf-sledge",
+    "name": "Wolf Sledge",
+    "category": "weapon",
+    "subcategory": "Hammer",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2019-02-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Wolf_Sledge"
+  },
+  {
+    "id": "xoris",
+    "name": "Xoris",
+    "category": "weapon",
+    "subcategory": "Glaive",
+    "variant": null,
+    "mastery_rank": 4,
+    "release_date": "2020-06-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Xoris"
+  },
+  {
+    "id": "zarr",
+    "name": "Zarr",
+    "category": "weapon",
+    "subcategory": "Launcher",
+    "variant": null,
+    "mastery_rank": 7,
+    "release_date": "2016-11-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Zarr"
+  },
+  {
+    "id": "zarr-prime",
+    "name": "Zarr Prime",
+    "category": "weapon",
+    "subcategory": "Launcher",
+    "variant": "Prime",
+    "mastery_rank": 14,
+    "release_date": "2025-01-22",
+    "wiki_url": "https://warframe.fandom.com/wiki/Zarr_Prime"
+  },
+  {
+    "id": "zenith",
+    "name": "Zenith",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2017-03-30",
+    "wiki_url": "https://warframe.fandom.com/wiki/Zenith"
+  },
+  {
+    "id": "zhuge",
+    "name": "Zhuge",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": null,
+    "mastery_rank": 5,
+    "release_date": "2015-12-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Zhuge"
+  },
+  {
+    "id": "zhuge-prime",
+    "name": "Zhuge Prime",
+    "category": "weapon",
+    "subcategory": "Bow",
+    "variant": "Prime",
+    "mastery_rank": 10,
+    "release_date": "2020-03-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Zhuge_Prime"
+  },
+  {
+    "id": "zylok",
+    "name": "Zylok",
+    "category": "weapon",
+    "subcategory": "Pistol",
+    "variant": null,
+    "mastery_rank": 6,
+    "release_date": "2018-11-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Zylok"
+  },
+  {
+    "id": "corvas",
+    "name": "Corvas",
+    "category": "weapon",
+    "subcategory": "Arch-Gun",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Corvas"
+  },
+  {
+    "id": "corvas-prime",
+    "name": "Corvas Prime",
+    "category": "weapon",
+    "subcategory": "Arch-Gun",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2020-06-11",
+    "wiki_url": "https://warframe.fandom.com/wiki/Corvas_Prime"
+  },
+  {
+    "id": "cyngas",
+    "name": "Cyngas",
+    "category": "weapon",
+    "subcategory": "Arch-Gun",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2015-03-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Cyngas"
+  },
+  {
+    "id": "dual-decurion",
+    "name": "Dual Decurion",
+    "category": "weapon",
+    "subcategory": "Arch-Gun",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Decurion"
+  },
+  {
+    "id": "fluctus",
+    "name": "Fluctus",
+    "category": "weapon",
+    "subcategory": "Arch-Gun",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2015-03-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Fluctus"
+  },
+  {
+    "id": "grattler",
+    "name": "Grattler",
+    "category": "weapon",
+    "subcategory": "Arch-Gun",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2015-03-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Grattler"
+  },
+  {
+    "id": "imperator",
+    "name": "Imperator",
+    "category": "weapon",
+    "subcategory": "Arch-Gun",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Imperator"
+  },
+  {
+    "id": "imperator-vandal",
+    "name": "Imperator Vandal",
+    "category": "weapon",
+    "subcategory": "Arch-Gun",
+    "variant": "Vandal",
+    "mastery_rank": 0,
+    "release_date": "2015-03-27",
+    "wiki_url": "https://warframe.fandom.com/wiki/Imperator_Vandal"
+  },
+  {
+    "id": "kuva-grattler",
+    "name": "Kuva Grattler",
+    "category": "weapon",
+    "subcategory": "Arch-Gun",
+    "variant": "Kuva",
+    "mastery_rank": 0,
+    "release_date": "2020-11-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Grattler"
+  },
+  {
+    "id": "larkspur",
+    "name": "Larkspur",
+    "category": "weapon",
+    "subcategory": "Arch-Gun",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2019-03-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Larkspur"
+  },
+  {
+    "id": "morgha",
+    "name": "Morgha",
+    "category": "weapon",
+    "subcategory": "Arch-Gun",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-11-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Morgha"
+  },
+  {
+    "id": "phaedra",
+    "name": "Phaedra",
+    "category": "weapon",
+    "subcategory": "Arch-Gun",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Phaedra"
+  },
+  {
+    "id": "velocitus",
+    "name": "Velocitus",
+    "category": "weapon",
+    "subcategory": "Arch-Gun",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-10-24",
+    "wiki_url": "https://warframe.fandom.com/wiki/Velocitus"
+  },
+  {
+    "id": "agkuza",
+    "name": "Agkuza",
+    "category": "weapon",
+    "subcategory": "Arch-Melee",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Agkuza"
+  },
+  {
+    "id": "centaur",
+    "name": "Centaur",
+    "category": "weapon",
+    "subcategory": "Arch-Melee",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Centaur"
+  },
+  {
+    "id": "kaszas",
+    "name": "Kaszas",
+    "category": "weapon",
+    "subcategory": "Arch-Melee",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2015-03-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Kaszas"
+  },
+  {
+    "id": "knux",
+    "name": "Knux",
+    "category": "weapon",
+    "subcategory": "Arch-Melee",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2015-03-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Knux"
+  },
+  {
+    "id": "onorix",
+    "name": "Onorix",
+    "category": "weapon",
+    "subcategory": "Arch-Melee",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Onorix"
+  },
+  {
+    "id": "prisma-veritux",
+    "name": "Prisma Veritux",
+    "category": "weapon",
+    "subcategory": "Arch-Melee",
+    "variant": "Prisma",
+    "mastery_rank": 0,
+    "release_date": "2015-07-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Veritux"
+  },
+  {
+    "id": "veritux",
+    "name": "Veritux",
+    "category": "weapon",
+    "subcategory": "Arch-Melee",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Veritux"
+  },
+  {
+    "id": "carrier",
+    "name": "Carrier",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Carrier"
+  },
+  {
+    "id": "carrier-prime",
+    "name": "Carrier Prime",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2016-02-16",
+    "wiki_url": "https://warframe.fandom.com/wiki/Carrier_Prime"
+  },
+  {
+    "id": "dethcube",
+    "name": "Dethcube",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dethcube"
+  },
+  {
+    "id": "dethcube-prime",
+    "name": "Dethcube Prime",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2018-06-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Dethcube_Prime"
+  },
+  {
+    "id": "djinn",
+    "name": "Djinn",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-09-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Djinn"
+  },
+  {
+    "id": "diriga",
+    "name": "Diriga",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2015-07-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Diriga"
+  },
+  {
+    "id": "helios",
+    "name": "Helios",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2013-06-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Helios"
+  },
+  {
+    "id": "helios-prime",
+    "name": "Helios Prime",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2017-12-12",
+    "wiki_url": "https://warframe.fandom.com/wiki/Helios_Prime"
+  },
+  {
+    "id": "nautilus",
+    "name": "Nautilus",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-11-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Nautilus"
+  },
+  {
+    "id": "oxylus",
+    "name": "Oxylus",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2018-11-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/Oxylus"
+  },
+  {
+    "id": "shade",
+    "name": "Shade",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Shade"
+  },
+  {
+    "id": "shade-prime",
+    "name": "Shade Prime",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2018-09-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Shade_Prime"
+  },
+  {
+    "id": "taxon",
+    "name": "Taxon",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2017-03-24",
+    "wiki_url": "https://warframe.fandom.com/wiki/Taxon"
+  },
+  {
+    "id": "wyrm",
+    "name": "Wyrm",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2012-10-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Wyrm"
+  },
+  {
+    "id": "wyrm-prime",
+    "name": "Wyrm Prime",
+    "category": "companion",
+    "subcategory": "Sentinel",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2014-09-23",
+    "wiki_url": "https://warframe.fandom.com/wiki/Wyrm_Prime"
+  },
+  {
+    "id": "chesa-kubrow",
+    "name": "Chesa Kubrow",
+    "category": "companion",
+    "subcategory": "Kubrow",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Chesa_Kubrow"
+  },
+  {
+    "id": "huras-kubrow",
+    "name": "Huras Kubrow",
+    "category": "companion",
+    "subcategory": "Kubrow",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Huras_Kubrow"
+  },
+  {
+    "id": "raksa-kubrow",
+    "name": "Raksa Kubrow",
+    "category": "companion",
+    "subcategory": "Kubrow",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Raksa_Kubrow"
+  },
+  {
+    "id": "sahasa-kubrow",
+    "name": "Sahasa Kubrow",
+    "category": "companion",
+    "subcategory": "Kubrow",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sahasa_Kubrow"
+  },
+  {
+    "id": "sunika-kubrow",
+    "name": "Sunika Kubrow",
+    "category": "companion",
+    "subcategory": "Kubrow",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2014-07-18",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sunika_Kubrow"
+  },
+  {
+    "id": "helminth-charger",
+    "name": "Helminth Charger",
+    "category": "companion",
+    "subcategory": "Kubrow",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2016-08-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Helminth_Charger"
+  },
+  {
+    "id": "adarza-kavat",
+    "name": "Adarza Kavat",
+    "category": "companion",
+    "subcategory": "Kavat",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2016-08-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Adarza_Kavat"
+  },
+  {
+    "id": "smeeta-kavat",
+    "name": "Smeeta Kavat",
+    "category": "companion",
+    "subcategory": "Kavat",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2016-08-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Smeeta_Kavat"
+  },
+  {
+    "id": "vasca-kavat",
+    "name": "Vasca Kavat",
+    "category": "companion",
+    "subcategory": "Kavat",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2019-10-31",
+    "wiki_url": "https://warframe.fandom.com/wiki/Vasca_Kavat"
+  },
+  {
+    "id": "panzer-vulpaphyla",
+    "name": "Panzer Vulpaphyla",
+    "category": "companion",
+    "subcategory": "Vulpaphyla",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-08-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Panzer_Vulpaphyla"
+  },
+  {
+    "id": "sly-vulpaphyla",
+    "name": "Sly Vulpaphyla",
+    "category": "companion",
+    "subcategory": "Vulpaphyla",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-08-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Sly_Vulpaphyla"
+  },
+  {
+    "id": "crescent-vulpaphyla",
+    "name": "Crescent Vulpaphyla",
+    "category": "companion",
+    "subcategory": "Vulpaphyla",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-08-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Crescent_Vulpaphyla"
+  },
+  {
+    "id": "pharaoh-predasite",
+    "name": "Pharaoh Predasite",
+    "category": "companion",
+    "subcategory": "Predasite",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-08-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Pharaoh_Predasite"
+  },
+  {
+    "id": "medjay-predasite",
+    "name": "Medjay Predasite",
+    "category": "companion",
+    "subcategory": "Predasite",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-08-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Medjay_Predasite"
+  },
+  {
+    "id": "vizier-predasite",
+    "name": "Vizier Predasite",
+    "category": "companion",
+    "subcategory": "Predasite",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-08-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Vizier_Predasite"
+  },
+  {
+    "id": "bonewidow",
+    "name": "Bonewidow",
+    "category": "companion",
+    "subcategory": "Necramech",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-11-19",
+    "wiki_url": "https://warframe.fandom.com/wiki/Bonewidow"
+  },
+  {
+    "id": "voidrig",
+    "name": "Voidrig",
+    "category": "companion",
+    "subcategory": "Necramech",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2020-08-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Voidrig"
+  },
+  {
+    "id": "hound",
+    "name": "Hound",
+    "category": "companion",
+    "subcategory": "Hound",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2021-07-06",
+    "wiki_url": "https://warframe.fandom.com/wiki/Hound"
+  },
+  {
+    "id": "moa",
+    "name": "MOA",
+    "category": "companion",
+    "subcategory": "MOA",
+    "variant": null,
+    "mastery_rank": 0,
+    "release_date": "2018-11-08",
+    "wiki_url": "https://warframe.fandom.com/wiki/MOA"
+  }
+]

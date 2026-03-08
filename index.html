@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warframe Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1>Warframe Tracker</h1>
+    <div class="header-actions">
+      <button id="btn-stats" class="btn-icon" title="Stats">&#x1F4CA;</button>
+      <button id="btn-share" class="btn-icon" title="Share Snapshot">&#x1F4CB;</button>
+      <button id="btn-export" class="btn-secondary" title="Export">&#8681; Export</button>
+      <button id="btn-import" class="btn-secondary" title="Import">&#8679; Import</button>
+      <button id="btn-reset" class="btn-danger" title="Reset">&#x21BA; Reset</button>
+    </div>
+  </header>
+
+  <div id="dashboard" class="dashboard"></div>
+
+  <nav id="tabs" class="tabs">
+    <button class="tab active" data-tab="warframe">Warframes</button>
+    <button class="tab" data-tab="weapon">Weapons</button>
+    <button class="tab" data-tab="companion">Companions</button>
+  </nav>
+
+  <div class="filters">
+    <input type="search" id="search" placeholder="Search items..." autocomplete="off" />
+    <select id="filter-subcategory">
+      <option value="all">All Types</option>
+    </select>
+    <select id="filter-status">
+      <option value="all">All</option>
+      <option value="unowned">Unowned</option>
+      <option value="owned-not-mastered">Owned, not mastered</option>
+      <option value="mastered">Mastered</option>
+    </select>
+    <label class="prime-toggle">
+      <input type="checkbox" id="filter-prime" />
+      <span>Prime / Variant only</span>
+    </label>
+    <select id="sort-by">
+      <option value="alpha-asc">A &rarr; Z</option>
+      <option value="alpha-desc">Z &rarr; A</option>
+      <option value="release-desc">Newest first</option>
+      <option value="release-asc">Oldest first</option>
+      <option value="mr-asc">MR ascending</option>
+      <option value="mr-desc">MR descending</option>
+      <option value="status">Unowned first</option>
+    </select>
+  </div>
+
+  <div class="bulk-actions">
+    <button id="btn-bulk-toggle" class="btn-secondary">Bulk Actions &#x25BC;</button>
+    <div id="bulk-panel" class="bulk-panel" hidden>
+      <button id="btn-bulk-own" class="btn-secondary">Mark filtered as Owned</button>
+      <button id="btn-bulk-master" class="btn-secondary">Mark filtered as Mastered</button>
+      <button id="btn-bulk-uncheck" class="btn-danger">Uncheck filtered</button>
+    </div>
+  </div>
+
+  <div id="item-count" class="item-count"></div>
+  <main id="card-grid" class="card-grid"></main>
+
+  <!-- Stats Modal -->
+  <div id="stats-modal" class="modal" hidden>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Stats &amp; Share</h2>
+        <button id="btn-close-stats" class="btn-icon">&times;</button>
+      </div>
+      <div id="stats-body" class="stats-body"></div>
+    </div>
+  </div>
+
+  <!-- Share Toast -->
+  <div id="toast" class="toast" hidden>Copied to clipboard!</div>
+
+  <!-- Hidden file input -->
+  <input type="file" id="import-file" accept=".json" hidden />
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
