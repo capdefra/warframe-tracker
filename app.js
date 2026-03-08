@@ -131,6 +131,16 @@ function getFilteredItems() {
       if (filters.status === 'unowned') return !s.owned;
       if (filters.status === 'owned-not-mastered') return s.owned && !s.mastered;
       if (filters.status === 'mastered') return s.mastered;
+      if (filters.status === 'prime-available') {
+        if (i.variant || !primeAvailableFor.has(i.id)) return false;
+        const ps = state.items[i.id + '-prime'] || { owned: false };
+        return s.owned && !ps.owned;
+      }
+      if (filters.status === 'feed-helminth') {
+        if (i.variant || i.category !== 'warframe' || !primeAvailableFor.has(i.id)) return false;
+        const ps = state.items[i.id + '-prime'] || { owned: false };
+        return s.owned && s.mastered && ps.owned;
+      }
       return true;
     });
   }
