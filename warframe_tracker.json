@@ -90,6 +90,16 @@
     "wiki_url": "https://warframe.fandom.com/wiki/Caliban"
   },
   {
+    "id": "caliban-prime",
+    "name": "Caliban Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2025-10-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Caliban/Prime"
+  },
+  {
     "id": "chroma",
     "name": "Chroma",
     "category": "warframe",
@@ -1018,6 +1028,16 @@
     "mastery_rank": 0,
     "release_date": "2021-07-06",
     "wiki_url": "https://warframe.fandom.com/wiki/Yareli"
+  },
+  {
+    "id": "yareli-prime",
+    "name": "Yareli Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2024-10-02",
+    "wiki_url": "https://warframe.fandom.com/wiki/Yareli/Prime"
   },
   {
     "id": "zephyr",
