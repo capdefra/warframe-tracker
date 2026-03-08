@@ -280,6 +280,24 @@ button {
 }
 .badge-Mutalist { background: #2d3d20; color: #aed581; }
 .badge-Dex { background: #3d2d20; color: #ffcc80; }
+
+/* ── Flags ── */
+.card-flags {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 6px;
+}
+.flag {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.flag-prime-available {
+  color: #66bb6a;
+}
+.flag-helminth {
+  color: #ef5350;
+}
 .card-meta {
   display: flex;
   gap: 8px;

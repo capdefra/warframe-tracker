@@ -8,6 +8,7 @@ let catalog = [];
 let activeTab = 'warframe';
 let filters = { search: '', subcategory: 'all', status: 'all', primeOnly: false };
 let sortBy = 'alpha-asc';
+let primeAvailableFor = new Set(); // base IDs that have a Prime variant
 
 // ── DOM refs ──
 const $ = id => document.getElementById(id);
@@ -20,9 +21,20 @@ const primeEl = $('filter-prime');
 const sortEl = $('sort-by');
 const itemCountEl = $('item-count');
 
+// ── Prime index ──
+function buildPrimeIndex() {
+  primeAvailableFor.clear();
+  for (const item of catalog) {
+    if (item.variant === 'Prime' && item.id.endsWith('-prime')) {
+      primeAvailableFor.add(item.id.slice(0, -6)); // strip '-prime'
+    }
+  }
+}
+
 // ── Init ──
 async function init() {
   catalog = await loadCatalog();
+  buildPrimeIndex();
   loadUIState();
   renderDashboard();
   renderTabs();
@@ -163,6 +175,22 @@ function renderCards() {
     if (s.owned) classes.push('owned');
     if (s.mastered) classes.push('mastered');
 
+    // Flags
+    let flagsHtml = '';
+    if (!item.variant && primeAvailableFor.has(item.id)) {
+      const primeState = getItemState(item.id + '-prime');
+      const flags = [];
+      if (s.owned && !primeState.owned) {
+        flags.push('<span class="flag flag-prime-available">\u2714 Prime Available</span>');
+      }
+      if (item.category === 'warframe' && s.owned && s.mastered && primeState.owned) {
+        flags.push('<span class="flag flag-helminth">\u2714 Feed to Helminth</span>');
+      }
+      if (flags.length) {
+        flagsHtml = '<div class="card-flags">' + flags.join('') + '</div>';
+      }
+    }
+
     return `<div class="${classes.join(' ')}" data-id="${item.id}">
       <div class="card-top">
         <span class="item-name">${item.name}</span>
@@ -173,6 +201,7 @@ function renderCards() {
         <span>${item.subcategory}</span>
         ${item.mastery_rank > 0 ? `<span>MR ${item.mastery_rank}</span>` : ''}
       </div>
+      ${flagsHtml}
       <div class="card-actions">
         <button class="toggle-btn ${s.owned ? 'active-owned' : ''}" data-action="owned" data-id="${item.id}">
           ${s.owned ? '\u2714' : '\u25CB'} Owned
@@ -189,7 +218,14 @@ function updateSingleCard(itemId) {
   const el = cardGrid.querySelector(`[data-id="${itemId}"]`);
   if (!el) return;
   const s = getItemState(itemId);
-  el.className = 'item-card' + (s.mastered ? ' mastered' : s.owned ? ' owned' : '');
+  const item = catalog.find(i => i.id === itemId);
+
+  // Update classes (owned & mastered are independent)
+  const classes = ['item-card'];
+  if (s.owned) classes.push('owned');
+  if (s.mastered) classes.push('mastered');
+  el.className = classes.join(' ');
+
   const ownBtn = el.querySelector('[data-action="owned"]');
   const masBtn = el.querySelector('[data-action="mastered"]');
   if (ownBtn) {
@@ -199,6 +235,55 @@ function updateSingleCard(itemId) {
   if (masBtn) {
     masBtn.className = 'toggle-btn' + (s.mastered ? ' active-mastered' : '');
     masBtn.innerHTML = (s.mastered ? '\u2605' : '\u2606') + ' Mastered';
+  }
+
+  // Update flags on base items that have a Prime
+  if (item && !item.variant && primeAvailableFor.has(item.id)) {
+    updateCardFlags(el, item, s);
+  }
+}
+
+function updateCardFlags(el, item, s) {
+  const primeState = getItemState(item.id + '-prime');
+  let flagsDiv = el.querySelector('.card-flags');
+
+  // Determine which flags should show
+  const showPrimeAvail = s.owned && !primeState.owned;
+  const showHelminth = item.category === 'warframe' && s.owned && s.mastered && primeState.owned;
+
+  if (!showPrimeAvail && !showHelminth) {
+    // Remove flags container entirely
+    if (flagsDiv) flagsDiv.remove();
+    return;
+  }
+
+  // Create container if missing
+  if (!flagsDiv) {
+    const actions = el.querySelector('.card-actions');
+    flagsDiv = document.createElement('div');
+    flagsDiv.className = 'card-flags';
+    el.insertBefore(flagsDiv, actions);
+  }
+
+  // Rebuild flags content
+  let html = '';
+  if (showPrimeAvail) html += '<span class="flag flag-prime-available">\u2714 Prime Available</span>';
+  if (showHelminth) html += '<span class="flag flag-helminth">\u2714 Feed to Helminth</span>';
+  flagsDiv.innerHTML = html;
+}
+
+// When toggling a Prime item, also update the base card's flags
+function updateRelatedCards(itemId) {
+  if (itemId.endsWith('-prime')) {
+    const baseId = itemId.slice(0, -6);
+    const baseItem = catalog.find(i => i.id === baseId);
+    if (baseItem && primeAvailableFor.has(baseId)) {
+      const baseEl = cardGrid.querySelector(`[data-id="${baseId}"]`);
+      if (baseEl) {
+        const baseState = getItemState(baseId);
+        updateCardFlags(baseEl, baseItem, baseState);
+      }
+    }
   }
 }
 
@@ -213,6 +298,7 @@ function attachEvents() {
     if (action === 'owned') toggleOwned(id);
     else if (action === 'mastered') toggleMastered(id);
     updateSingleCard(id);
+    updateRelatedCards(id);
     renderDashboard();
   });
 
