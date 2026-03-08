@@ -25,9 +25,7 @@ const itemCountEl = $('item-count');
 function buildPrimeIndex() {
   primeAvailableFor.clear();
   for (const item of catalog) {
-    if (item.variant === 'Prime' && item.id.endsWith('-prime')) {
-      primeAvailableFor.add(item.id.slice(0, -6)); // strip '-prime'
-    }
+    if (item.has_prime) primeAvailableFor.add(item.id);
   }
 }
 
@@ -63,23 +61,28 @@ function saveUIState() {
 // ── Dashboard ──
 function renderDashboard() {
   const stats = computeStats(catalog);
-  const { byCategory: bc, overallMastered, overallTotal, masteryPercent } = stats;
+  const { byCategory: bc, dedupByCategory: dbc, overallMastered, overallTotal, masteryPercent } = stats;
   const pct = overallTotal ? (overallMastered / overallTotal * 100) : 0;
+
+  const dedupTip = (d) => {
+    const p = d.totalFamilies ? ((d.ownedFamilies / d.totalFamilies) * 100).toFixed(1) : '0.0';
+    return `${d.ownedFamilies}/${d.totalFamilies} unique items owned (${p}%)`;
+  };
 
   dashboardEl.innerHTML = `
     <span class="dash-stat">
       <strong>Warframes</strong>
-      <span class="teal">${bc.warframe.owned}/${bc.warframe.total}</span> owned &middot;
+      <span class="teal" title="${dedupTip(dbc.warframe)}">${bc.warframe.owned}/${bc.warframe.total}</span> owned &middot;
       <span class="gold">${bc.warframe.mastered}</span> mastered
     </span>
     <span class="dash-stat">
       <strong>Weapons</strong>
-      <span class="teal">${bc.weapon.owned}/${bc.weapon.total}</span> owned &middot;
+      <span class="teal" title="${dedupTip(dbc.weapon)}">${bc.weapon.owned}/${bc.weapon.total}</span> owned &middot;
       <span class="gold">${bc.weapon.mastered}</span> mastered
     </span>
     <span class="dash-stat">
       <strong>Companions</strong>
-      <span class="teal">${bc.companion.owned}/${bc.companion.total}</span> owned &middot;
+      <span class="teal" title="${dedupTip(dbc.companion)}">${bc.companion.owned}/${bc.companion.total}</span> owned &middot;
       <span class="gold">${bc.companion.mastered}</span> mastered
     </span>
     <div class="dash-bar-wrap">
@@ -128,20 +131,23 @@ function getFilteredItems() {
   if (filters.status !== 'all') {
     items = items.filter(i => {
       const s = state.items[i.id] || { owned: false, mastered: false };
-      if (filters.status === 'unowned') return !s.owned;
-      if (filters.status === 'owned-not-mastered') return s.owned && !s.mastered;
-      if (filters.status === 'mastered') return s.mastered;
-      if (filters.status === 'prime-available') {
-        if (i.variant || !primeAvailableFor.has(i.id)) return false;
-        const ps = state.items[i.id + '-prime'] || { owned: false };
-        return s.owned && !ps.owned;
+      switch (filters.status) {
+        case 'owned-mastered': return s.owned && s.mastered;
+        case 'owned-not-mastered': return s.owned && !s.mastered;
+        case 'not-owned-mastered': return !s.owned && s.mastered;
+        case 'not-owned-not-mastered': return !s.owned && !s.mastered;
+        case 'prime-available': {
+          if (i.variant || !primeAvailableFor.has(i.id)) return false;
+          const ps = state.items[i.id + '-prime'] || { owned: false };
+          return s.owned && !ps.owned;
+        }
+        case 'feed-helminth': {
+          if (i.variant || i.category !== 'warframe' || !primeAvailableFor.has(i.id)) return false;
+          const ps = state.items[i.id + '-prime'] || { owned: false };
+          return s.owned && s.mastered && ps.owned;
+        }
+        default: return true;
       }
-      if (filters.status === 'feed-helminth') {
-        if (i.variant || i.category !== 'warframe' || !primeAvailableFor.has(i.id)) return false;
-        const ps = state.items[i.id + '-prime'] || { owned: false };
-        return s.owned && s.mastered && ps.owned;
-      }
-      return true;
     });
   }
 

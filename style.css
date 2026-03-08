@@ -105,7 +105,7 @@ button {
   font-variant-numeric: tabular-nums;
 }
 .dash-stat .gold { color: var(--accent-gold); }
-.dash-stat .teal { color: var(--accent-teal); }
+.dash-stat .teal { color: var(--accent-teal); cursor: help; }
 .dash-bar-wrap {
   flex: 1;
   min-width: 150px;

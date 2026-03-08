@@ -7,7 +7,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-11-01",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ash"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ash",
+    "has_prime": true
   },
   {
     "id": "ash-prime",
@@ -17,7 +18,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2015-07-07",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ash_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ash_Prime",
+    "has_prime": false
   },
   {
     "id": "atlas",
@@ -27,7 +29,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2015-10-01",
-    "wiki_url": "https://warframe.fandom.com/wiki/Atlas"
+    "wiki_url": "https://warframe.fandom.com/wiki/Atlas",
+    "has_prime": true
   },
   {
     "id": "atlas-prime",
@@ -37,7 +40,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2019-10-01",
-    "wiki_url": "https://warframe.fandom.com/wiki/Atlas_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Atlas_Prime",
+    "has_prime": false
   },
   {
     "id": "banshee",
@@ -47,7 +51,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-02-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Banshee"
+    "wiki_url": "https://warframe.fandom.com/wiki/Banshee",
+    "has_prime": true
   },
   {
     "id": "banshee-prime",
@@ -57,7 +62,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2017-02-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Banshee_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Banshee_Prime",
+    "has_prime": false
   },
   {
     "id": "baruuk",
@@ -67,7 +73,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2018-12-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Baruuk"
+    "wiki_url": "https://warframe.fandom.com/wiki/Baruuk",
+    "has_prime": true
   },
   {
     "id": "baruuk-prime",
@@ -77,7 +84,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2022-10-05",
-    "wiki_url": "https://warframe.fandom.com/wiki/Baruuk_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Baruuk_Prime",
+    "has_prime": false
   },
   {
     "id": "caliban",
@@ -87,7 +95,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2021-12-15",
-    "wiki_url": "https://warframe.fandom.com/wiki/Caliban"
+    "wiki_url": "https://warframe.fandom.com/wiki/Caliban",
+    "has_prime": true
   },
   {
     "id": "caliban-prime",
@@ -97,7 +106,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2025-10-01",
-    "wiki_url": "https://warframe.fandom.com/wiki/Caliban/Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Caliban/Prime",
+    "has_prime": false
   },
   {
     "id": "chroma",
@@ -107,7 +117,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2015-03-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Chroma"
+    "wiki_url": "https://warframe.fandom.com/wiki/Chroma",
+    "has_prime": true
   },
   {
     "id": "chroma-prime",
@@ -117,7 +128,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2018-09-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Chroma_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Chroma_Prime",
+    "has_prime": false
   },
   {
     "id": "citrine",
@@ -127,7 +139,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2023-02-15",
-    "wiki_url": "https://warframe.fandom.com/wiki/Citrine"
+    "wiki_url": "https://warframe.fandom.com/wiki/Citrine",
+    "has_prime": false
   },
   {
     "id": "cyte-09",
@@ -137,7 +150,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2025-03-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Cyte-09"
+    "wiki_url": "https://warframe.fandom.com/wiki/Cyte-09",
+    "has_prime": false
   },
   {
     "id": "dagath",
@@ -147,7 +161,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2023-10-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dagath"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dagath",
+    "has_prime": false
   },
   {
     "id": "dante",
@@ -157,7 +172,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2024-03-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dante"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dante",
+    "has_prime": false
   },
   {
     "id": "ember",
@@ -167,7 +183,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ember"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ember",
+    "has_prime": true
   },
   {
     "id": "ember-prime",
@@ -177,7 +194,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2013-11-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ember_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ember_Prime",
+    "has_prime": false
   },
   {
     "id": "equinox",
@@ -187,7 +205,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2015-07-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Equinox"
+    "wiki_url": "https://warframe.fandom.com/wiki/Equinox",
+    "has_prime": true
   },
   {
     "id": "equinox-prime",
@@ -197,7 +216,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2019-04-02",
-    "wiki_url": "https://warframe.fandom.com/wiki/Equinox_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Equinox_Prime",
+    "has_prime": false
   },
   {
     "id": "excalibur",
@@ -207,7 +227,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Excalibur"
+    "wiki_url": "https://warframe.fandom.com/wiki/Excalibur",
+    "has_prime": true
   },
   {
     "id": "excalibur-prime",
@@ -217,7 +238,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Excalibur_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Excalibur_Prime",
+    "has_prime": false
   },
   {
     "id": "excalibur-umbra",
@@ -227,7 +249,8 @@
     "variant": "Umbra",
     "mastery_rank": 0,
     "release_date": "2018-06-15",
-    "wiki_url": "https://warframe.fandom.com/wiki/Excalibur_Umbra"
+    "wiki_url": "https://warframe.fandom.com/wiki/Excalibur_Umbra",
+    "has_prime": false
   },
   {
     "id": "frost",
@@ -237,7 +260,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Frost"
+    "wiki_url": "https://warframe.fandom.com/wiki/Frost",
+    "has_prime": true
   },
   {
     "id": "frost-prime",
@@ -247,7 +271,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2013-05-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Frost_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Frost_Prime",
+    "has_prime": false
   },
   {
     "id": "gara",
@@ -257,7 +282,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2017-10-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Gara"
+    "wiki_url": "https://warframe.fandom.com/wiki/Gara",
+    "has_prime": true
   },
   {
     "id": "gara-prime",
@@ -267,7 +293,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2021-05-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Gara_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Gara_Prime",
+    "has_prime": false
   },
   {
     "id": "garuda",
@@ -277,7 +304,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2018-11-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Garuda"
+    "wiki_url": "https://warframe.fandom.com/wiki/Garuda",
+    "has_prime": true
   },
   {
     "id": "garuda-prime",
@@ -287,7 +315,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2022-04-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Garuda_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Garuda_Prime",
+    "has_prime": false
   },
   {
     "id": "gauss",
@@ -297,7 +326,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2019-08-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Gauss"
+    "wiki_url": "https://warframe.fandom.com/wiki/Gauss",
+    "has_prime": true
   },
   {
     "id": "gauss-prime",
@@ -307,7 +337,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2024-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Gauss_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Gauss_Prime",
+    "has_prime": false
   },
   {
     "id": "grendel",
@@ -317,7 +348,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2019-10-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Grendel"
+    "wiki_url": "https://warframe.fandom.com/wiki/Grendel",
+    "has_prime": true
   },
   {
     "id": "grendel-prime",
@@ -327,7 +359,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2024-10-02",
-    "wiki_url": "https://warframe.fandom.com/wiki/Grendel_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Grendel_Prime",
+    "has_prime": false
   },
   {
     "id": "gyre",
@@ -337,7 +370,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2022-04-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Gyre"
+    "wiki_url": "https://warframe.fandom.com/wiki/Gyre",
+    "has_prime": false
   },
   {
     "id": "harrow",
@@ -347,7 +381,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2017-06-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Harrow"
+    "wiki_url": "https://warframe.fandom.com/wiki/Harrow",
+    "has_prime": true
   },
   {
     "id": "harrow-prime",
@@ -357,7 +392,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2021-12-15",
-    "wiki_url": "https://warframe.fandom.com/wiki/Harrow_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Harrow_Prime",
+    "has_prime": false
   },
   {
     "id": "hildryn",
@@ -367,7 +403,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2019-03-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Hildryn"
+    "wiki_url": "https://warframe.fandom.com/wiki/Hildryn",
+    "has_prime": true
   },
   {
     "id": "hildryn-prime",
@@ -377,7 +414,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2023-08-09",
-    "wiki_url": "https://warframe.fandom.com/wiki/Hildryn_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Hildryn_Prime",
+    "has_prime": false
   },
   {
     "id": "hydroid",
@@ -387,7 +425,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-09-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Hydroid"
+    "wiki_url": "https://warframe.fandom.com/wiki/Hydroid",
+    "has_prime": true
   },
   {
     "id": "hydroid-prime",
@@ -397,7 +436,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2017-08-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Hydroid_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Hydroid_Prime",
+    "has_prime": false
   },
   {
     "id": "inaros",
@@ -407,7 +447,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2016-05-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Inaros"
+    "wiki_url": "https://warframe.fandom.com/wiki/Inaros",
+    "has_prime": true
   },
   {
     "id": "inaros-prime",
@@ -417,7 +458,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2020-07-14",
-    "wiki_url": "https://warframe.fandom.com/wiki/Inaros_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Inaros_Prime",
+    "has_prime": false
   },
   {
     "id": "ivara",
@@ -427,7 +469,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2015-12-03",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ivara"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ivara",
+    "has_prime": true
   },
   {
     "id": "ivara-prime",
@@ -437,7 +480,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2019-12-17",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ivara_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ivara_Prime",
+    "has_prime": false
   },
   {
     "id": "jade",
@@ -447,7 +491,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2024-06-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Jade"
+    "wiki_url": "https://warframe.fandom.com/wiki/Jade",
+    "has_prime": false
   },
   {
     "id": "khora",
@@ -457,7 +502,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2018-04-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Khora"
+    "wiki_url": "https://warframe.fandom.com/wiki/Khora",
+    "has_prime": true
   },
   {
     "id": "khora-prime",
@@ -467,7 +513,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2022-07-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Khora_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Khora_Prime",
+    "has_prime": false
   },
   {
     "id": "koumei",
@@ -477,7 +524,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2024-10-02",
-    "wiki_url": "https://warframe.fandom.com/wiki/Koumei"
+    "wiki_url": "https://warframe.fandom.com/wiki/Koumei",
+    "has_prime": false
   },
   {
     "id": "kullervo",
@@ -487,7 +535,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2023-06-21",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kullervo"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kullervo",
+    "has_prime": false
   },
   {
     "id": "lavos",
@@ -497,7 +546,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-12-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Lavos"
+    "wiki_url": "https://warframe.fandom.com/wiki/Lavos",
+    "has_prime": false
   },
   {
     "id": "limbo",
@@ -507,7 +557,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-04-09",
-    "wiki_url": "https://warframe.fandom.com/wiki/Limbo"
+    "wiki_url": "https://warframe.fandom.com/wiki/Limbo",
+    "has_prime": true
   },
   {
     "id": "limbo-prime",
@@ -517,7 +568,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2018-06-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Limbo_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Limbo_Prime",
+    "has_prime": false
   },
   {
     "id": "loki",
@@ -527,7 +579,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Loki"
+    "wiki_url": "https://warframe.fandom.com/wiki/Loki",
+    "has_prime": true
   },
   {
     "id": "loki-prime",
@@ -537,7 +590,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2013-09-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Loki_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Loki_Prime",
+    "has_prime": false
   },
   {
     "id": "mag",
@@ -547,7 +601,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Mag"
+    "wiki_url": "https://warframe.fandom.com/wiki/Mag",
+    "has_prime": true
   },
   {
     "id": "mag-prime",
@@ -557,7 +612,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2013-09-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Mag_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Mag_Prime",
+    "has_prime": false
   },
   {
     "id": "mesa",
@@ -567,7 +623,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-11-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Mesa"
+    "wiki_url": "https://warframe.fandom.com/wiki/Mesa",
+    "has_prime": true
   },
   {
     "id": "mesa-prime",
@@ -577,7 +634,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2018-12-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Mesa_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Mesa_Prime",
+    "has_prime": false
   },
   {
     "id": "mirage",
@@ -587,7 +645,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Mirage"
+    "wiki_url": "https://warframe.fandom.com/wiki/Mirage",
+    "has_prime": true
   },
   {
     "id": "mirage-prime",
@@ -597,7 +656,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2017-12-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Mirage_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Mirage_Prime",
+    "has_prime": false
   },
   {
     "id": "nekros",
@@ -607,7 +667,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-09-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nekros"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nekros",
+    "has_prime": true
   },
   {
     "id": "nekros-prime",
@@ -617,7 +678,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2016-08-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nekros_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nekros_Prime",
+    "has_prime": false
   },
   {
     "id": "nezha",
@@ -627,7 +689,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2015-12-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nezha"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nezha",
+    "has_prime": true
   },
   {
     "id": "nezha-prime",
@@ -637,7 +700,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2020-10-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nezha_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nezha_Prime",
+    "has_prime": false
   },
   {
     "id": "nidus",
@@ -647,7 +711,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2016-12-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nidus"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nidus",
+    "has_prime": true
   },
   {
     "id": "nidus-prime",
@@ -657,7 +722,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2021-09-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nidus_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nidus_Prime",
+    "has_prime": false
   },
   {
     "id": "nova",
@@ -667,7 +733,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-01-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nova"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nova",
+    "has_prime": true
   },
   {
     "id": "nova-prime",
@@ -677,7 +744,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2014-12-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nova_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nova_Prime",
+    "has_prime": false
   },
   {
     "id": "nyx",
@@ -687,7 +755,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nyx"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nyx",
+    "has_prime": true
   },
   {
     "id": "nyx-prime",
@@ -697,7 +766,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2014-09-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nyx_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nyx_Prime",
+    "has_prime": false
   },
   {
     "id": "oberon",
@@ -707,7 +777,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-05-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Oberon"
+    "wiki_url": "https://warframe.fandom.com/wiki/Oberon",
+    "has_prime": true
   },
   {
     "id": "oberon-prime",
@@ -717,7 +788,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2017-05-30",
-    "wiki_url": "https://warframe.fandom.com/wiki/Oberon_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Oberon_Prime",
+    "has_prime": false
   },
   {
     "id": "octavia",
@@ -727,7 +799,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2017-03-24",
-    "wiki_url": "https://warframe.fandom.com/wiki/Octavia"
+    "wiki_url": "https://warframe.fandom.com/wiki/Octavia",
+    "has_prime": true
   },
   {
     "id": "octavia-prime",
@@ -737,7 +810,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2021-02-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Octavia_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Octavia_Prime",
+    "has_prime": false
   },
   {
     "id": "protea",
@@ -747,7 +821,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-06-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Protea"
+    "wiki_url": "https://warframe.fandom.com/wiki/Protea",
+    "has_prime": true
   },
   {
     "id": "protea-prime",
@@ -757,7 +832,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2024-06-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Protea_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Protea_Prime",
+    "has_prime": false
   },
   {
     "id": "qorvex",
@@ -767,7 +843,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2023-12-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Qorvex"
+    "wiki_url": "https://warframe.fandom.com/wiki/Qorvex",
+    "has_prime": false
   },
   {
     "id": "revenant",
@@ -777,7 +854,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2018-08-24",
-    "wiki_url": "https://warframe.fandom.com/wiki/Revenant"
+    "wiki_url": "https://warframe.fandom.com/wiki/Revenant",
+    "has_prime": true
   },
   {
     "id": "revenant-prime",
@@ -787,7 +865,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2023-10-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Revenant_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Revenant_Prime",
+    "has_prime": false
   },
   {
     "id": "rhino",
@@ -797,7 +876,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Rhino"
+    "wiki_url": "https://warframe.fandom.com/wiki/Rhino",
+    "has_prime": true
   },
   {
     "id": "rhino-prime",
@@ -807,7 +887,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2014-03-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Rhino_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Rhino_Prime",
+    "has_prime": false
   },
   {
     "id": "saryn",
@@ -817,7 +898,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-02-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Saryn"
+    "wiki_url": "https://warframe.fandom.com/wiki/Saryn",
+    "has_prime": true
   },
   {
     "id": "saryn-prime",
@@ -827,7 +909,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2016-02-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Saryn_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Saryn_Prime",
+    "has_prime": false
   },
   {
     "id": "sevagoth",
@@ -837,7 +920,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2021-04-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sevagoth"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sevagoth",
+    "has_prime": true
   },
   {
     "id": "sevagoth-prime",
@@ -847,7 +931,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2025-01-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sevagoth_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sevagoth_Prime",
+    "has_prime": false
   },
   {
     "id": "styanax",
@@ -857,7 +942,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2022-09-07",
-    "wiki_url": "https://warframe.fandom.com/wiki/Styanax"
+    "wiki_url": "https://warframe.fandom.com/wiki/Styanax",
+    "has_prime": false
   },
   {
     "id": "titania",
@@ -867,7 +953,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2016-08-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Titania"
+    "wiki_url": "https://warframe.fandom.com/wiki/Titania",
+    "has_prime": true
   },
   {
     "id": "titania-prime",
@@ -877,7 +964,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2020-03-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Titania_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Titania_Prime",
+    "has_prime": false
   },
   {
     "id": "trinity",
@@ -887,7 +975,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Trinity"
+    "wiki_url": "https://warframe.fandom.com/wiki/Trinity",
+    "has_prime": true
   },
   {
     "id": "trinity-prime",
@@ -897,7 +986,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2015-10-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Trinity_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Trinity_Prime",
+    "has_prime": false
   },
   {
     "id": "valkyr",
@@ -907,7 +997,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-11-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Valkyr"
+    "wiki_url": "https://warframe.fandom.com/wiki/Valkyr",
+    "has_prime": true
   },
   {
     "id": "valkyr-prime",
@@ -917,7 +1008,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2017-01-04",
-    "wiki_url": "https://warframe.fandom.com/wiki/Valkyr_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Valkyr_Prime",
+    "has_prime": false
   },
   {
     "id": "vauban",
@@ -927,7 +1019,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-05-17",
-    "wiki_url": "https://warframe.fandom.com/wiki/Vauban"
+    "wiki_url": "https://warframe.fandom.com/wiki/Vauban",
+    "has_prime": true
   },
   {
     "id": "vauban-prime",
@@ -937,7 +1030,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2016-11-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Vauban_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Vauban_Prime",
+    "has_prime": false
   },
   {
     "id": "volt",
@@ -947,7 +1041,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Volt"
+    "wiki_url": "https://warframe.fandom.com/wiki/Volt",
+    "has_prime": true
   },
   {
     "id": "volt-prime",
@@ -957,7 +1052,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2015-03-24",
-    "wiki_url": "https://warframe.fandom.com/wiki/Volt_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Volt_Prime",
+    "has_prime": false
   },
   {
     "id": "voruna",
@@ -967,7 +1063,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2022-11-30",
-    "wiki_url": "https://warframe.fandom.com/wiki/Voruna"
+    "wiki_url": "https://warframe.fandom.com/wiki/Voruna",
+    "has_prime": false
   },
   {
     "id": "wisp",
@@ -977,7 +1074,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2019-05-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Wisp"
+    "wiki_url": "https://warframe.fandom.com/wiki/Wisp",
+    "has_prime": true
   },
   {
     "id": "wisp-prime",
@@ -987,7 +1085,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2024-03-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Wisp_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Wisp_Prime",
+    "has_prime": false
   },
   {
     "id": "wukong",
@@ -997,7 +1096,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2015-11-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Wukong"
+    "wiki_url": "https://warframe.fandom.com/wiki/Wukong",
+    "has_prime": true
   },
   {
     "id": "wukong-prime",
@@ -1007,7 +1107,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2019-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Wukong_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Wukong_Prime",
+    "has_prime": false
   },
   {
     "id": "xaku",
@@ -1017,7 +1118,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-08-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Xaku"
+    "wiki_url": "https://warframe.fandom.com/wiki/Xaku",
+    "has_prime": false
   },
   {
     "id": "yareli",
@@ -1027,7 +1129,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2021-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Yareli"
+    "wiki_url": "https://warframe.fandom.com/wiki/Yareli",
+    "has_prime": true
   },
   {
     "id": "yareli-prime",
@@ -1037,7 +1140,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2024-10-02",
-    "wiki_url": "https://warframe.fandom.com/wiki/Yareli/Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Yareli/Prime",
+    "has_prime": false
   },
   {
     "id": "zephyr",
@@ -1047,7 +1151,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-09-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Zephyr"
+    "wiki_url": "https://warframe.fandom.com/wiki/Zephyr",
+    "has_prime": true
   },
   {
     "id": "zephyr-prime",
@@ -1057,7 +1162,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2018-03-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Zephyr_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Zephyr_Prime",
+    "has_prime": false
   },
   {
     "id": "acceltra",
@@ -1067,7 +1173,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2019-08-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Acceltra"
+    "wiki_url": "https://warframe.fandom.com/wiki/Acceltra",
+    "has_prime": true
   },
   {
     "id": "acceltra-prime",
@@ -1077,7 +1184,8 @@
     "variant": "Prime",
     "mastery_rank": 8,
     "release_date": "2024-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Acceltra_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Acceltra_Prime",
+    "has_prime": false
   },
   {
     "id": "ack-brunt",
@@ -1087,7 +1195,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2015-04-02",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ack_&_Brunt"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ack_&_Brunt",
+    "has_prime": false
   },
   {
     "id": "afuris",
@@ -1097,7 +1206,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Afuris"
+    "wiki_url": "https://warframe.fandom.com/wiki/Afuris",
+    "has_prime": false
   },
   {
     "id": "akarius",
@@ -1107,7 +1217,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2019-08-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Akarius"
+    "wiki_url": "https://warframe.fandom.com/wiki/Akarius",
+    "has_prime": true
   },
   {
     "id": "akarius-prime",
@@ -1117,7 +1228,8 @@
     "variant": "Prime",
     "mastery_rank": 8,
     "release_date": "2024-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Akarius_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Akarius_Prime",
+    "has_prime": false
   },
   {
     "id": "akzani",
@@ -1127,7 +1239,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Akzani"
+    "wiki_url": "https://warframe.fandom.com/wiki/Akzani",
+    "has_prime": false
   },
   {
     "id": "akbolto",
@@ -1137,7 +1250,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2012-12-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Akbolto"
+    "wiki_url": "https://warframe.fandom.com/wiki/Akbolto",
+    "has_prime": true
   },
   {
     "id": "akbolto-prime",
@@ -1147,7 +1261,8 @@
     "variant": "Prime",
     "mastery_rank": 6,
     "release_date": "2018-06-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Akbolto_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Akbolto_Prime",
+    "has_prime": false
   },
   {
     "id": "telos-akbolto",
@@ -1157,7 +1272,8 @@
     "variant": "Telos",
     "mastery_rank": 6,
     "release_date": "2015-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Telos_Akbolto"
+    "wiki_url": "https://warframe.fandom.com/wiki/Telos_Akbolto",
+    "has_prime": false
   },
   {
     "id": "akbronco",
@@ -1167,7 +1283,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2013-03-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Akbronco"
+    "wiki_url": "https://warframe.fandom.com/wiki/Akbronco",
+    "has_prime": true
   },
   {
     "id": "akbronco-prime",
@@ -1177,7 +1294,8 @@
     "variant": "Prime",
     "mastery_rank": 2,
     "release_date": "2014-09-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Akbronco_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Akbronco_Prime",
+    "has_prime": false
   },
   {
     "id": "akjagara",
@@ -1187,7 +1305,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2015-02-05",
-    "wiki_url": "https://warframe.fandom.com/wiki/Akjagara"
+    "wiki_url": "https://warframe.fandom.com/wiki/Akjagara",
+    "has_prime": true
   },
   {
     "id": "akjagara-prime",
@@ -1197,7 +1316,8 @@
     "variant": "Prime",
     "mastery_rank": 8,
     "release_date": "2018-12-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Akjagara_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Akjagara_Prime",
+    "has_prime": false
   },
   {
     "id": "aklato",
@@ -1207,7 +1327,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Aklato"
+    "wiki_url": "https://warframe.fandom.com/wiki/Aklato",
+    "has_prime": false
   },
   {
     "id": "aklex",
@@ -1217,7 +1338,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2013-08-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Aklex"
+    "wiki_url": "https://warframe.fandom.com/wiki/Aklex",
+    "has_prime": true
   },
   {
     "id": "aklex-prime",
@@ -1227,7 +1349,8 @@
     "variant": "Prime",
     "mastery_rank": 15,
     "release_date": "2016-11-01",
-    "wiki_url": "https://warframe.fandom.com/wiki/Aklex_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Aklex_Prime",
+    "has_prime": false
   },
   {
     "id": "akmagnus",
@@ -1237,7 +1360,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2014-01-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Akmagnus"
+    "wiki_url": "https://warframe.fandom.com/wiki/Akmagnus",
+    "has_prime": false
   },
   {
     "id": "aksomati",
@@ -1247,7 +1371,8 @@
     "variant": null,
     "mastery_rank": 9,
     "release_date": "2014-11-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Aksomati"
+    "wiki_url": "https://warframe.fandom.com/wiki/Aksomati",
+    "has_prime": true
   },
   {
     "id": "aksomati-prime",
@@ -1257,7 +1382,8 @@
     "variant": "Prime",
     "mastery_rank": 12,
     "release_date": "2021-02-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Aksomati_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Aksomati_Prime",
+    "has_prime": false
   },
   {
     "id": "akstiletto",
@@ -1267,7 +1393,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2014-08-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Akstiletto"
+    "wiki_url": "https://warframe.fandom.com/wiki/Akstiletto",
+    "has_prime": true
   },
   {
     "id": "akstiletto-prime",
@@ -1277,7 +1404,8 @@
     "variant": "Prime",
     "mastery_rank": 10,
     "release_date": "2016-08-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Akstiletto_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Akstiletto_Prime",
+    "has_prime": false
   },
   {
     "id": "akvasto",
@@ -1287,7 +1415,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2013-06-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Akvasto"
+    "wiki_url": "https://warframe.fandom.com/wiki/Akvasto",
+    "has_prime": true
   },
   {
     "id": "akvasto-prime",
@@ -1297,7 +1426,8 @@
     "variant": "Prime",
     "mastery_rank": 12,
     "release_date": "2021-12-15",
-    "wiki_url": "https://warframe.fandom.com/wiki/Akvasto_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Akvasto_Prime",
+    "has_prime": false
   },
   {
     "id": "amphis",
@@ -1307,7 +1437,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Amphis"
+    "wiki_url": "https://warframe.fandom.com/wiki/Amphis",
+    "has_prime": false
   },
   {
     "id": "amprex",
@@ -1317,7 +1448,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2014-01-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Amprex"
+    "wiki_url": "https://warframe.fandom.com/wiki/Amprex",
+    "has_prime": false
   },
   {
     "id": "angstrum",
@@ -1327,7 +1459,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2014-04-09",
-    "wiki_url": "https://warframe.fandom.com/wiki/Angstrum"
+    "wiki_url": "https://warframe.fandom.com/wiki/Angstrum",
+    "has_prime": false
   },
   {
     "id": "prisma-angstrum",
@@ -1337,7 +1470,8 @@
     "variant": "Prisma",
     "mastery_rank": 8,
     "release_date": "2015-06-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Angstrum"
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Angstrum",
+    "has_prime": false
   },
   {
     "id": "anku",
@@ -1347,7 +1481,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2015-08-05",
-    "wiki_url": "https://warframe.fandom.com/wiki/Anku"
+    "wiki_url": "https://warframe.fandom.com/wiki/Anku",
+    "has_prime": false
   },
   {
     "id": "ankyros",
@@ -1357,7 +1492,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ankyros"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ankyros",
+    "has_prime": true
   },
   {
     "id": "ankyros-prime",
@@ -1367,7 +1503,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2014-03-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ankyros_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ankyros_Prime",
+    "has_prime": false
   },
   {
     "id": "arca-plasmor",
@@ -1377,7 +1514,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2017-08-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Arca_Plasmor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Arca_Plasmor",
+    "has_prime": false
   },
   {
     "id": "arca-titron",
@@ -1387,7 +1525,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2017-08-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Arca_Titron"
+    "wiki_url": "https://warframe.fandom.com/wiki/Arca_Titron",
+    "has_prime": false
   },
   {
     "id": "argonak",
@@ -1397,7 +1536,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2017-10-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Argonak"
+    "wiki_url": "https://warframe.fandom.com/wiki/Argonak",
+    "has_prime": false
   },
   {
     "id": "astilla",
@@ -1407,7 +1547,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2017-10-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Astilla"
+    "wiki_url": "https://warframe.fandom.com/wiki/Astilla",
+    "has_prime": true
   },
   {
     "id": "astilla-prime",
@@ -1417,7 +1558,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2022-07-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Astilla_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Astilla_Prime",
+    "has_prime": false
   },
   {
     "id": "atterax",
@@ -1427,7 +1569,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2013-02-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Atterax"
+    "wiki_url": "https://warframe.fandom.com/wiki/Atterax",
+    "has_prime": false
   },
   {
     "id": "atomos",
@@ -1437,7 +1580,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2015-03-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Atomos"
+    "wiki_url": "https://warframe.fandom.com/wiki/Atomos",
+    "has_prime": false
   },
   {
     "id": "attica",
@@ -1447,7 +1591,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2013-11-01",
-    "wiki_url": "https://warframe.fandom.com/wiki/Attica"
+    "wiki_url": "https://warframe.fandom.com/wiki/Attica",
+    "has_prime": false
   },
   {
     "id": "prisma-attica",
@@ -1457,7 +1602,8 @@
     "variant": "Prisma",
     "mastery_rank": 7,
     "release_date": "2016-12-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Attica"
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Attica",
+    "has_prime": false
   },
   {
     "id": "azima",
@@ -1467,7 +1613,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2016-03-04",
-    "wiki_url": "https://warframe.fandom.com/wiki/Azima"
+    "wiki_url": "https://warframe.fandom.com/wiki/Azima",
+    "has_prime": false
   },
   {
     "id": "balla",
@@ -1477,7 +1624,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2017-10-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Balla"
+    "wiki_url": "https://warframe.fandom.com/wiki/Balla",
+    "has_prime": false
   },
   {
     "id": "battacor",
@@ -1487,7 +1635,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2018-11-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Battacor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Battacor",
+    "has_prime": false
   },
   {
     "id": "baza",
@@ -1497,7 +1646,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2017-10-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Baza"
+    "wiki_url": "https://warframe.fandom.com/wiki/Baza",
+    "has_prime": true
   },
   {
     "id": "baza-prime",
@@ -1507,7 +1657,8 @@
     "variant": "Prime",
     "mastery_rank": 10,
     "release_date": "2019-10-01",
-    "wiki_url": "https://warframe.fandom.com/wiki/Baza_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Baza_Prime",
+    "has_prime": false
   },
   {
     "id": "bo",
@@ -1517,7 +1668,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Bo"
+    "wiki_url": "https://warframe.fandom.com/wiki/Bo",
+    "has_prime": true
   },
   {
     "id": "bo-prime",
@@ -1527,7 +1679,8 @@
     "variant": "Prime",
     "mastery_rank": 4,
     "release_date": "2013-09-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Bo_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Bo_Prime",
+    "has_prime": false
   },
   {
     "id": "boltace",
@@ -1537,7 +1690,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2015-10-01",
-    "wiki_url": "https://warframe.fandom.com/wiki/Boltace"
+    "wiki_url": "https://warframe.fandom.com/wiki/Boltace",
+    "has_prime": false
   },
   {
     "id": "telos-boltace",
@@ -1547,7 +1701,8 @@
     "variant": "Telos",
     "mastery_rank": 7,
     "release_date": "2016-01-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Telos_Boltace"
+    "wiki_url": "https://warframe.fandom.com/wiki/Telos_Boltace",
+    "has_prime": false
   },
   {
     "id": "bolto",
@@ -1557,7 +1712,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2012-12-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Bolto"
+    "wiki_url": "https://warframe.fandom.com/wiki/Bolto",
+    "has_prime": false
   },
   {
     "id": "boltor",
@@ -1567,7 +1723,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Boltor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Boltor",
+    "has_prime": true
   },
   {
     "id": "boltor-prime",
@@ -1577,7 +1734,8 @@
     "variant": "Prime",
     "mastery_rank": 2,
     "release_date": "2013-11-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Boltor_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Boltor_Prime",
+    "has_prime": false
   },
   {
     "id": "telos-boltor",
@@ -1587,7 +1745,8 @@
     "variant": "Telos",
     "mastery_rank": 2,
     "release_date": "2015-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Telos_Boltor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Telos_Boltor",
+    "has_prime": false
   },
   {
     "id": "boar",
@@ -1597,7 +1756,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Boar"
+    "wiki_url": "https://warframe.fandom.com/wiki/Boar",
+    "has_prime": true
   },
   {
     "id": "boar-prime",
@@ -1607,7 +1767,8 @@
     "variant": "Prime",
     "mastery_rank": 2,
     "release_date": "2013-09-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Boar_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Boar_Prime",
+    "has_prime": false
   },
   {
     "id": "brakk",
@@ -1617,7 +1778,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2013-10-09",
-    "wiki_url": "https://warframe.fandom.com/wiki/Brakk"
+    "wiki_url": "https://warframe.fandom.com/wiki/Brakk",
+    "has_prime": false
   },
   {
     "id": "braton",
@@ -1627,7 +1789,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Braton"
+    "wiki_url": "https://warframe.fandom.com/wiki/Braton",
+    "has_prime": true
   },
   {
     "id": "braton-prime",
@@ -1637,7 +1800,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2012-12-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Braton_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Braton_Prime",
+    "has_prime": false
   },
   {
     "id": "braton-vandal",
@@ -1647,7 +1811,8 @@
     "variant": "Vandal",
     "mastery_rank": 4,
     "release_date": "2013-03-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Braton_Vandal"
+    "wiki_url": "https://warframe.fandom.com/wiki/Braton_Vandal",
+    "has_prime": false
   },
   {
     "id": "mk1-braton",
@@ -1657,7 +1822,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Braton"
+    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Braton",
+    "has_prime": false
   },
   {
     "id": "broken-scepter",
@@ -1667,7 +1833,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2016-11-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Broken_Scepter"
+    "wiki_url": "https://warframe.fandom.com/wiki/Broken_Scepter",
+    "has_prime": false
   },
   {
     "id": "broken-war",
@@ -1677,7 +1844,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2015-12-03",
-    "wiki_url": "https://warframe.fandom.com/wiki/Broken_War"
+    "wiki_url": "https://warframe.fandom.com/wiki/Broken_War",
+    "has_prime": false
   },
   {
     "id": "bronco",
@@ -1687,7 +1855,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Bronco"
+    "wiki_url": "https://warframe.fandom.com/wiki/Bronco",
+    "has_prime": true
   },
   {
     "id": "bronco-prime",
@@ -1697,7 +1866,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2013-05-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Bronco_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Bronco_Prime",
+    "has_prime": false
   },
   {
     "id": "burston",
@@ -1707,7 +1877,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Burston"
+    "wiki_url": "https://warframe.fandom.com/wiki/Burston",
+    "has_prime": true
   },
   {
     "id": "burston-prime",
@@ -1717,7 +1888,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2013-11-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Burston_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Burston_Prime",
+    "has_prime": false
   },
   {
     "id": "buzlok",
@@ -1727,7 +1899,8 @@
     "variant": null,
     "mastery_rank": 12,
     "release_date": "2014-11-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Buzlok"
+    "wiki_url": "https://warframe.fandom.com/wiki/Buzlok",
+    "has_prime": false
   },
   {
     "id": "cadus",
@@ -1737,7 +1910,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2016-07-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Cadus"
+    "wiki_url": "https://warframe.fandom.com/wiki/Cadus",
+    "has_prime": false
   },
   {
     "id": "cassowar",
@@ -1747,7 +1921,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2017-10-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Cassowar"
+    "wiki_url": "https://warframe.fandom.com/wiki/Cassowar",
+    "has_prime": false
   },
   {
     "id": "caustacyst",
@@ -1757,7 +1932,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2016-08-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Caustacyst"
+    "wiki_url": "https://warframe.fandom.com/wiki/Caustacyst",
+    "has_prime": false
   },
   {
     "id": "cedo",
@@ -1767,7 +1943,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2020-12-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Cedo"
+    "wiki_url": "https://warframe.fandom.com/wiki/Cedo",
+    "has_prime": false
   },
   {
     "id": "cernos",
@@ -1777,7 +1954,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2013-05-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Cernos"
+    "wiki_url": "https://warframe.fandom.com/wiki/Cernos",
+    "has_prime": true
   },
   {
     "id": "cernos-prime",
@@ -1787,7 +1965,8 @@
     "variant": "Prime",
     "mastery_rank": 12,
     "release_date": "2017-01-04",
-    "wiki_url": "https://warframe.fandom.com/wiki/Cernos_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Cernos_Prime",
+    "has_prime": false
   },
   {
     "id": "rakta-cernos",
@@ -1797,7 +1976,8 @@
     "variant": "Rakta",
     "mastery_rank": 12,
     "release_date": "2015-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Rakta_Cernos"
+    "wiki_url": "https://warframe.fandom.com/wiki/Rakta_Cernos",
+    "has_prime": false
   },
   {
     "id": "mutalist-cernos",
@@ -1807,7 +1987,8 @@
     "variant": "Mutalist",
     "mastery_rank": 6,
     "release_date": "2014-11-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Mutalist_Cernos"
+    "wiki_url": "https://warframe.fandom.com/wiki/Mutalist_Cernos",
+    "has_prime": false
   },
   {
     "id": "proboscis-cernos",
@@ -1817,7 +1998,8 @@
     "variant": null,
     "mastery_rank": 15,
     "release_date": "2020-11-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Proboscis_Cernos"
+    "wiki_url": "https://warframe.fandom.com/wiki/Proboscis_Cernos",
+    "has_prime": false
   },
   {
     "id": "ceramic-dagger",
@@ -1827,7 +2009,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ceramic_Dagger"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ceramic_Dagger",
+    "has_prime": false
   },
   {
     "id": "cerata",
@@ -1837,7 +2020,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2015-07-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Cerata"
+    "wiki_url": "https://warframe.fandom.com/wiki/Cerata",
+    "has_prime": false
   },
   {
     "id": "cestras",
@@ -1847,7 +2031,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-05-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Cestras"
+    "wiki_url": "https://warframe.fandom.com/wiki/Cestras",
+    "has_prime": false
   },
   {
     "id": "cestra",
@@ -1857,7 +2042,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2013-05-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Cestra"
+    "wiki_url": "https://warframe.fandom.com/wiki/Cestra",
+    "has_prime": false
   },
   {
     "id": "secura-dual-cestra",
@@ -1867,7 +2053,8 @@
     "variant": "Secura",
     "mastery_rank": 6,
     "release_date": "2015-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Secura_Dual_Cestra"
+    "wiki_url": "https://warframe.fandom.com/wiki/Secura_Dual_Cestra",
+    "has_prime": false
   },
   {
     "id": "cobra-crane",
@@ -1877,7 +2064,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2019-03-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Cobra_&_Crane"
+    "wiki_url": "https://warframe.fandom.com/wiki/Cobra_&_Crane",
+    "has_prime": false
   },
   {
     "id": "convectrix",
@@ -1887,7 +2075,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2015-07-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Convectrix"
+    "wiki_url": "https://warframe.fandom.com/wiki/Convectrix",
+    "has_prime": false
   },
   {
     "id": "corinth",
@@ -1897,7 +2086,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2017-12-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Corinth"
+    "wiki_url": "https://warframe.fandom.com/wiki/Corinth",
+    "has_prime": true
   },
   {
     "id": "corinth-prime",
@@ -1907,7 +2097,8 @@
     "variant": "Prime",
     "mastery_rank": 8,
     "release_date": "2020-06-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Corinth_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Corinth_Prime",
+    "has_prime": false
   },
   {
     "id": "cronus",
@@ -1917,7 +2108,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Cronus"
+    "wiki_url": "https://warframe.fandom.com/wiki/Cronus",
+    "has_prime": false
   },
   {
     "id": "cyath",
@@ -1927,7 +2119,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2017-10-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Cyath"
+    "wiki_url": "https://warframe.fandom.com/wiki/Cyath",
+    "has_prime": false
   },
   {
     "id": "dakra-prime",
@@ -1937,7 +2130,8 @@
     "variant": "Prime",
     "mastery_rank": 6,
     "release_date": "2013-09-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dakra_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dakra_Prime",
+    "has_prime": false
   },
   {
     "id": "dark-dagger",
@@ -1947,7 +2141,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dark_Dagger"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dark_Dagger",
+    "has_prime": false
   },
   {
     "id": "rakta-dark-dagger",
@@ -1957,7 +2152,8 @@
     "variant": "Rakta",
     "mastery_rank": 8,
     "release_date": "2015-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Rakta_Dark_Dagger"
+    "wiki_url": "https://warframe.fandom.com/wiki/Rakta_Dark_Dagger",
+    "has_prime": false
   },
   {
     "id": "dark-split-sword",
@@ -1967,7 +2163,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dark_Split-Sword"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dark_Split-Sword",
+    "has_prime": false
   },
   {
     "id": "dark-sword",
@@ -1977,7 +2174,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dark_Sword"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dark_Sword",
+    "has_prime": false
   },
   {
     "id": "daikyu",
@@ -1987,7 +2185,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2015-03-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Daikyu"
+    "wiki_url": "https://warframe.fandom.com/wiki/Daikyu",
+    "has_prime": false
   },
   {
     "id": "destreza",
@@ -1997,7 +2196,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2015-12-03",
-    "wiki_url": "https://warframe.fandom.com/wiki/Destreza"
+    "wiki_url": "https://warframe.fandom.com/wiki/Destreza",
+    "has_prime": true
   },
   {
     "id": "destreza-prime",
@@ -2007,7 +2207,8 @@
     "variant": "Prime",
     "mastery_rank": 10,
     "release_date": "2019-10-01",
-    "wiki_url": "https://warframe.fandom.com/wiki/Destreza_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Destreza_Prime",
+    "has_prime": false
   },
   {
     "id": "dera",
@@ -2017,7 +2218,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2013-02-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dera"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dera",
+    "has_prime": false
   },
   {
     "id": "dera-vandal",
@@ -2027,7 +2229,8 @@
     "variant": "Vandal",
     "mastery_rank": 7,
     "release_date": "2014-01-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dera_Vandal"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dera_Vandal",
+    "has_prime": false
   },
   {
     "id": "despair",
@@ -2037,7 +2240,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Despair"
+    "wiki_url": "https://warframe.fandom.com/wiki/Despair",
+    "has_prime": false
   },
   {
     "id": "detron",
@@ -2047,7 +2251,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2013-10-09",
-    "wiki_url": "https://warframe.fandom.com/wiki/Detron"
+    "wiki_url": "https://warframe.fandom.com/wiki/Detron",
+    "has_prime": false
   },
   {
     "id": "mara-detron",
@@ -2057,7 +2262,8 @@
     "variant": "Mara",
     "mastery_rank": 9,
     "release_date": "2014-12-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Mara_Detron"
+    "wiki_url": "https://warframe.fandom.com/wiki/Mara_Detron",
+    "has_prime": false
   },
   {
     "id": "dex-dakra",
@@ -2067,7 +2273,8 @@
     "variant": "Dex",
     "mastery_rank": 4,
     "release_date": "2015-03-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Dakra"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Dakra",
+    "has_prime": false
   },
   {
     "id": "dex-furis",
@@ -2077,7 +2284,8 @@
     "variant": "Dex",
     "mastery_rank": 4,
     "release_date": "2014-03-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Furis"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Furis",
+    "has_prime": false
   },
   {
     "id": "dex-pixia",
@@ -2087,7 +2295,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2016-08-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Pixia"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Pixia",
+    "has_prime": false
   },
   {
     "id": "dex-sybaris",
@@ -2097,7 +2306,8 @@
     "variant": "Dex",
     "mastery_rank": 5,
     "release_date": "2016-03-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Sybaris"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Sybaris",
+    "has_prime": false
   },
   {
     "id": "dread",
@@ -2107,7 +2317,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dread"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dread",
+    "has_prime": false
   },
   {
     "id": "drakgoon",
@@ -2117,7 +2328,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2014-02-05",
-    "wiki_url": "https://warframe.fandom.com/wiki/Drakgoon"
+    "wiki_url": "https://warframe.fandom.com/wiki/Drakgoon",
+    "has_prime": false
   },
   {
     "id": "prisma-drakgoon",
@@ -2127,7 +2339,8 @@
     "variant": "Prisma",
     "mastery_rank": 8,
     "release_date": "2016-12-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Drakgoon"
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Drakgoon",
+    "has_prime": false
   },
   {
     "id": "drvael",
@@ -2137,7 +2350,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2025-03-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Drvael"
+    "wiki_url": "https://warframe.fandom.com/wiki/Drvael",
+    "has_prime": false
   },
   {
     "id": "dual-cestra",
@@ -2147,7 +2361,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2013-05-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Cestra"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Cestra",
+    "has_prime": false
   },
   {
     "id": "dual-cleavers",
@@ -2157,7 +2372,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Cleavers"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Cleavers",
+    "has_prime": false
   },
   {
     "id": "prisma-dual-cleavers",
@@ -2167,7 +2383,8 @@
     "variant": "Prisma",
     "mastery_rank": 10,
     "release_date": "2015-04-10",
-    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Dual_Cleavers"
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Dual_Cleavers",
+    "has_prime": false
   },
   {
     "id": "dual-ether",
@@ -2177,7 +2394,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Ether"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Ether",
+    "has_prime": false
   },
   {
     "id": "dual-heat-swords",
@@ -2187,7 +2405,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Heat_Swords"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Heat_Swords",
+    "has_prime": false
   },
   {
     "id": "dual-ichor",
@@ -2197,7 +2416,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2013-09-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Ichor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Ichor",
+    "has_prime": false
   },
   {
     "id": "dual-kamas",
@@ -2207,7 +2427,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-06-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Kamas"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Kamas",
+    "has_prime": true
   },
   {
     "id": "dual-kamas-prime",
@@ -2217,7 +2438,8 @@
     "variant": "Prime",
     "mastery_rank": 6,
     "release_date": "2015-10-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Kamas_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Kamas_Prime",
+    "has_prime": false
   },
   {
     "id": "dual-keres",
@@ -2227,7 +2449,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2018-03-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Keres"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Keres",
+    "has_prime": true
   },
   {
     "id": "dual-keres-prime",
@@ -2237,7 +2460,8 @@
     "variant": "Prime",
     "mastery_rank": 9,
     "release_date": "2023-10-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Keres_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Keres_Prime",
+    "has_prime": false
   },
   {
     "id": "dual-raza",
@@ -2247,7 +2471,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2015-03-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Raza"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Raza",
+    "has_prime": false
   },
   {
     "id": "dual-skana",
@@ -2257,7 +2482,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Skana"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Skana",
+    "has_prime": false
   },
   {
     "id": "dual-toxocyst",
@@ -2267,7 +2493,8 @@
     "variant": null,
     "mastery_rank": 9,
     "release_date": "2016-02-04",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Toxocyst"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Toxocyst",
+    "has_prime": false
   },
   {
     "id": "dual-zoren",
@@ -2277,7 +2504,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Zoren"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Zoren",
+    "has_prime": true
   },
   {
     "id": "dual-zoren-prime",
@@ -2287,7 +2515,8 @@
     "variant": "Prime",
     "mastery_rank": 2,
     "release_date": "2025-01-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Zoren/Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Zoren/Prime",
+    "has_prime": false
   },
   {
     "id": "edun",
@@ -2297,7 +2526,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2024-10-02",
-    "wiki_url": "https://warframe.fandom.com/wiki/Edun"
+    "wiki_url": "https://warframe.fandom.com/wiki/Edun",
+    "has_prime": false
   },
   {
     "id": "embolist",
@@ -2307,7 +2537,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2014-01-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Embolist"
+    "wiki_url": "https://warframe.fandom.com/wiki/Embolist",
+    "has_prime": false
   },
   {
     "id": "endura",
@@ -2317,7 +2548,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2016-11-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Endura"
+    "wiki_url": "https://warframe.fandom.com/wiki/Endura",
+    "has_prime": false
   },
   {
     "id": "epitaph",
@@ -2327,7 +2559,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2021-04-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Epitaph"
+    "wiki_url": "https://warframe.fandom.com/wiki/Epitaph",
+    "has_prime": true
   },
   {
     "id": "epitaph-prime",
@@ -2337,7 +2570,8 @@
     "variant": "Prime",
     "mastery_rank": 8,
     "release_date": "2025-01-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Epitaph/Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Epitaph/Prime",
+    "has_prime": false
   },
   {
     "id": "ether-daggers",
@@ -2347,7 +2581,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ether_Daggers"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ether_Daggers",
+    "has_prime": false
   },
   {
     "id": "ether-reaper",
@@ -2357,7 +2592,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ether_Reaper"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ether_Reaper",
+    "has_prime": false
   },
   {
     "id": "ether-sword",
@@ -2367,7 +2603,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ether_Sword"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ether_Sword",
+    "has_prime": false
   },
   {
     "id": "euphona-prime",
@@ -2377,7 +2614,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2017-02-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Euphona_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Euphona_Prime",
+    "has_prime": false
   },
   {
     "id": "falcor",
@@ -2387,7 +2625,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2019-03-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Falcor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Falcor",
+    "has_prime": false
   },
   {
     "id": "fang",
@@ -2397,7 +2636,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Fang"
+    "wiki_url": "https://warframe.fandom.com/wiki/Fang",
+    "has_prime": true
   },
   {
     "id": "fang-prime",
@@ -2407,7 +2647,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2012-12-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Fang_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Fang_Prime",
+    "has_prime": false
   },
   {
     "id": "ferrox",
@@ -2417,7 +2658,8 @@
     "variant": null,
     "mastery_rank": 14,
     "release_date": "2017-01-04",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ferrox"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ferrox",
+    "has_prime": false
   },
   {
     "id": "flux-rifle",
@@ -2427,7 +2669,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2013-01-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Flux_Rifle"
+    "wiki_url": "https://warframe.fandom.com/wiki/Flux_Rifle",
+    "has_prime": false
   },
   {
     "id": "fragor",
@@ -2437,7 +2680,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Fragor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Fragor",
+    "has_prime": true
   },
   {
     "id": "fragor-prime",
@@ -2447,7 +2691,8 @@
     "variant": "Prime",
     "mastery_rank": 2,
     "release_date": "2016-02-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Fragor_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Fragor_Prime",
+    "has_prime": false
   },
   {
     "id": "fulmin",
@@ -2457,7 +2702,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2019-05-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Fulmin"
+    "wiki_url": "https://warframe.fandom.com/wiki/Fulmin",
+    "has_prime": true
   },
   {
     "id": "fulmin-prime",
@@ -2467,7 +2713,8 @@
     "variant": "Prime",
     "mastery_rank": 8,
     "release_date": "2024-03-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Fulmin_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Fulmin_Prime",
+    "has_prime": false
   },
   {
     "id": "furis",
@@ -2477,7 +2724,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Furis"
+    "wiki_url": "https://warframe.fandom.com/wiki/Furis",
+    "has_prime": false
   },
   {
     "id": "mk1-furis",
@@ -2487,7 +2735,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-08-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Furis"
+    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Furis",
+    "has_prime": false
   },
   {
     "id": "fusilai",
@@ -2497,7 +2746,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2017-10-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Fusilai"
+    "wiki_url": "https://warframe.fandom.com/wiki/Fusilai",
+    "has_prime": false
   },
   {
     "id": "galatine",
@@ -2507,7 +2757,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2013-03-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Galatine"
+    "wiki_url": "https://warframe.fandom.com/wiki/Galatine",
+    "has_prime": true
   },
   {
     "id": "galatine-prime",
@@ -2517,7 +2768,8 @@
     "variant": "Prime",
     "mastery_rank": 13,
     "release_date": "2016-08-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Galatine_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Galatine_Prime",
+    "has_prime": false
   },
   {
     "id": "galvacord",
@@ -2527,7 +2779,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2019-03-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Galvacord"
+    "wiki_url": "https://warframe.fandom.com/wiki/Galvacord",
+    "has_prime": false
   },
   {
     "id": "gammacor",
@@ -2537,7 +2790,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2014-09-03",
-    "wiki_url": "https://warframe.fandom.com/wiki/Gammacor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Gammacor",
+    "has_prime": false
   },
   {
     "id": "synoid-gammacor",
@@ -2547,7 +2801,8 @@
     "variant": "Synoid",
     "mastery_rank": 7,
     "release_date": "2015-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Synoid_Gammacor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Synoid_Gammacor",
+    "has_prime": false
   },
   {
     "id": "gaze",
@@ -2557,7 +2812,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2018-11-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Gaze"
+    "wiki_url": "https://warframe.fandom.com/wiki/Gaze",
+    "has_prime": false
   },
   {
     "id": "glaxion",
@@ -2567,7 +2823,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2013-12-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Glaxion"
+    "wiki_url": "https://warframe.fandom.com/wiki/Glaxion",
+    "has_prime": false
   },
   {
     "id": "glaxion-vandal",
@@ -2577,7 +2834,8 @@
     "variant": "Vandal",
     "mastery_rank": 6,
     "release_date": "2019-03-15",
-    "wiki_url": "https://warframe.fandom.com/wiki/Glaxion_Vandal"
+    "wiki_url": "https://warframe.fandom.com/wiki/Glaxion_Vandal",
+    "has_prime": false
   },
   {
     "id": "glaive",
@@ -2587,7 +2845,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Glaive"
+    "wiki_url": "https://warframe.fandom.com/wiki/Glaive",
+    "has_prime": true
   },
   {
     "id": "glaive-prime",
@@ -2597,7 +2856,8 @@
     "variant": "Prime",
     "mastery_rank": 3,
     "release_date": "2013-11-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Glaive_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Glaive_Prime",
+    "has_prime": false
   },
   {
     "id": "glomast",
@@ -2607,7 +2867,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2025-01-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Glomast"
+    "wiki_url": "https://warframe.fandom.com/wiki/Glomast",
+    "has_prime": false
   },
   {
     "id": "gorgon",
@@ -2617,7 +2878,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Gorgon"
+    "wiki_url": "https://warframe.fandom.com/wiki/Gorgon",
+    "has_prime": false
   },
   {
     "id": "prisma-gorgon",
@@ -2627,7 +2889,8 @@
     "variant": "Prisma",
     "mastery_rank": 7,
     "release_date": "2015-01-09",
-    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Gorgon"
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Gorgon",
+    "has_prime": false
   },
   {
     "id": "gorgon-wraith",
@@ -2637,7 +2900,8 @@
     "variant": "Wraith",
     "mastery_rank": 7,
     "release_date": "2014-05-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Gorgon_Wraith"
+    "wiki_url": "https://warframe.fandom.com/wiki/Gorgon_Wraith",
+    "has_prime": false
   },
   {
     "id": "gotva-prime",
@@ -2647,7 +2911,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2024-06-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Gotva_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Gotva_Prime",
+    "has_prime": false
   },
   {
     "id": "gram",
@@ -2657,7 +2922,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Gram"
+    "wiki_url": "https://warframe.fandom.com/wiki/Gram",
+    "has_prime": true
   },
   {
     "id": "gram-prime",
@@ -2667,7 +2933,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2018-09-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Gram_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Gram_Prime",
+    "has_prime": false
   },
   {
     "id": "grakata",
@@ -2677,7 +2944,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2013-01-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Grakata"
+    "wiki_url": "https://warframe.fandom.com/wiki/Grakata",
+    "has_prime": false
   },
   {
     "id": "prisma-grakata",
@@ -2687,7 +2955,8 @@
     "variant": "Prisma",
     "mastery_rank": 7,
     "release_date": "2015-06-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Grakata"
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Grakata",
+    "has_prime": false
   },
   {
     "id": "twin-grakata",
@@ -2697,7 +2966,8 @@
     "variant": null,
     "mastery_rank": 9,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Grakata"
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Grakata",
+    "has_prime": false
   },
   {
     "id": "grimoire",
@@ -2707,7 +2977,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2024-10-02",
-    "wiki_url": "https://warframe.fandom.com/wiki/Grimoire"
+    "wiki_url": "https://warframe.fandom.com/wiki/Grimoire",
+    "has_prime": false
   },
   {
     "id": "guandao",
@@ -2717,7 +2988,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2017-10-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Guandao"
+    "wiki_url": "https://warframe.fandom.com/wiki/Guandao",
+    "has_prime": true
   },
   {
     "id": "guandao-prime",
@@ -2727,7 +2999,8 @@
     "variant": "Prime",
     "mastery_rank": 12,
     "release_date": "2022-10-05",
-    "wiki_url": "https://warframe.fandom.com/wiki/Guandao_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Guandao_Prime",
+    "has_prime": false
   },
   {
     "id": "gunsen",
@@ -2737,7 +3010,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2018-03-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Gunsen"
+    "wiki_url": "https://warframe.fandom.com/wiki/Gunsen",
+    "has_prime": true
   },
   {
     "id": "gunsen-prime",
@@ -2747,7 +3021,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2023-08-09",
-    "wiki_url": "https://warframe.fandom.com/wiki/Gunsen_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Gunsen_Prime",
+    "has_prime": false
   },
   {
     "id": "halikar",
@@ -2757,7 +3032,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2015-08-05",
-    "wiki_url": "https://warframe.fandom.com/wiki/Halikar"
+    "wiki_url": "https://warframe.fandom.com/wiki/Halikar",
+    "has_prime": false
   },
   {
     "id": "halikar-wraith",
@@ -2767,7 +3043,8 @@
     "variant": "Wraith",
     "mastery_rank": 7,
     "release_date": "2021-04-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Halikar_Wraith"
+    "wiki_url": "https://warframe.fandom.com/wiki/Halikar_Wraith",
+    "has_prime": false
   },
   {
     "id": "hate",
@@ -2777,7 +3054,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Hate"
+    "wiki_url": "https://warframe.fandom.com/wiki/Hate",
+    "has_prime": false
   },
   {
     "id": "heat-dagger",
@@ -2787,7 +3065,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Heat_Dagger"
+    "wiki_url": "https://warframe.fandom.com/wiki/Heat_Dagger",
+    "has_prime": false
   },
   {
     "id": "heat-sword",
@@ -2797,7 +3076,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Heat_Sword"
+    "wiki_url": "https://warframe.fandom.com/wiki/Heat_Sword",
+    "has_prime": false
   },
   {
     "id": "hek",
@@ -2807,7 +3087,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2013-05-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Hek"
+    "wiki_url": "https://warframe.fandom.com/wiki/Hek",
+    "has_prime": false
   },
   {
     "id": "vaykor-hek",
@@ -2817,7 +3098,8 @@
     "variant": "Vaykor",
     "mastery_rank": 12,
     "release_date": "2015-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Vaykor_Hek"
+    "wiki_url": "https://warframe.fandom.com/wiki/Vaykor_Hek",
+    "has_prime": false
   },
   {
     "id": "heliocor",
@@ -2827,7 +3109,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2016-07-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Heliocor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Heliocor",
+    "has_prime": false
   },
   {
     "id": "synoid-heliocor",
@@ -2837,7 +3120,8 @@
     "variant": "Synoid",
     "mastery_rank": 8,
     "release_date": "2016-07-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Synoid_Heliocor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Synoid_Heliocor",
+    "has_prime": false
   },
   {
     "id": "hema",
@@ -2847,7 +3131,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2016-12-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Hema"
+    "wiki_url": "https://warframe.fandom.com/wiki/Hema",
+    "has_prime": false
   },
   {
     "id": "hind",
@@ -2857,7 +3142,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-05-14",
-    "wiki_url": "https://warframe.fandom.com/wiki/Hind"
+    "wiki_url": "https://warframe.fandom.com/wiki/Hind",
+    "has_prime": false
   },
   {
     "id": "kuva-hind",
@@ -2867,7 +3153,8 @@
     "variant": "Kuva",
     "mastery_rank": 0,
     "release_date": "2020-10-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Hind"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Hind",
+    "has_prime": false
   },
   {
     "id": "hikou",
@@ -2877,7 +3164,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2013-03-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Hikou"
+    "wiki_url": "https://warframe.fandom.com/wiki/Hikou",
+    "has_prime": true
   },
   {
     "id": "hikou-prime",
@@ -2887,7 +3175,8 @@
     "variant": "Prime",
     "mastery_rank": 4,
     "release_date": "2014-12-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Hikou_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Hikou_Prime",
+    "has_prime": false
   },
   {
     "id": "hystrix",
@@ -2897,7 +3186,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2018-04-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Hystrix"
+    "wiki_url": "https://warframe.fandom.com/wiki/Hystrix",
+    "has_prime": true
   },
   {
     "id": "hystrix-prime",
@@ -2907,7 +3197,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2022-07-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Hystrix_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Hystrix_Prime",
+    "has_prime": false
   },
   {
     "id": "ignis",
@@ -2917,7 +3208,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2013-05-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ignis"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ignis",
+    "has_prime": false
   },
   {
     "id": "ignis-wraith",
@@ -2927,7 +3219,8 @@
     "variant": "Wraith",
     "mastery_rank": 9,
     "release_date": "2017-03-09",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ignis_Wraith"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ignis_Wraith",
+    "has_prime": false
   },
   {
     "id": "jaw-sword",
@@ -2937,7 +3230,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Jaw_Sword"
+    "wiki_url": "https://warframe.fandom.com/wiki/Jaw_Sword",
+    "has_prime": false
   },
   {
     "id": "javlok",
@@ -2947,7 +3241,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2016-11-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Javlok"
+    "wiki_url": "https://warframe.fandom.com/wiki/Javlok",
+    "has_prime": false
   },
   {
     "id": "jat-kittag",
@@ -2957,7 +3252,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2014-05-14",
-    "wiki_url": "https://warframe.fandom.com/wiki/Jat_Kittag"
+    "wiki_url": "https://warframe.fandom.com/wiki/Jat_Kittag",
+    "has_prime": false
   },
   {
     "id": "jat-kusar",
@@ -2967,7 +3263,8 @@
     "variant": null,
     "mastery_rank": 12,
     "release_date": "2017-10-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Jat_Kusar"
+    "wiki_url": "https://warframe.fandom.com/wiki/Jat_Kusar",
+    "has_prime": false
   },
   {
     "id": "kama",
@@ -2977,7 +3274,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2015-10-01",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kama"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kama",
+    "has_prime": false
   },
   {
     "id": "karak",
@@ -2987,7 +3285,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-06-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Karak"
+    "wiki_url": "https://warframe.fandom.com/wiki/Karak",
+    "has_prime": false
   },
   {
     "id": "karak-wraith",
@@ -2997,7 +3296,8 @@
     "variant": "Wraith",
     "mastery_rank": 7,
     "release_date": "2014-10-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Karak_Wraith"
+    "wiki_url": "https://warframe.fandom.com/wiki/Karak_Wraith",
+    "has_prime": false
   },
   {
     "id": "karyst",
@@ -3007,7 +3307,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2014-01-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Karyst"
+    "wiki_url": "https://warframe.fandom.com/wiki/Karyst",
+    "has_prime": true
   },
   {
     "id": "karyst-prime",
@@ -3017,7 +3318,8 @@
     "variant": "Prime",
     "mastery_rank": 10,
     "release_date": "2021-05-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Karyst_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Karyst_Prime",
+    "has_prime": false
   },
   {
     "id": "keratinos",
@@ -3027,7 +3329,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-08-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Keratinos"
+    "wiki_url": "https://warframe.fandom.com/wiki/Keratinos",
+    "has_prime": false
   },
   {
     "id": "kesheg",
@@ -3037,7 +3340,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2015-08-05",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kesheg"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kesheg",
+    "has_prime": false
   },
   {
     "id": "knell",
@@ -3047,7 +3351,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2017-06-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Knell"
+    "wiki_url": "https://warframe.fandom.com/wiki/Knell",
+    "has_prime": true
   },
   {
     "id": "knell-prime",
@@ -3057,7 +3362,8 @@
     "variant": "Prime",
     "mastery_rank": 10,
     "release_date": "2021-12-15",
-    "wiki_url": "https://warframe.fandom.com/wiki/Knell_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Knell_Prime",
+    "has_prime": false
   },
   {
     "id": "kogake",
@@ -3067,7 +3373,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kogake"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kogake",
+    "has_prime": true
   },
   {
     "id": "kogake-prime",
@@ -3077,7 +3384,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2017-12-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kogake_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kogake_Prime",
+    "has_prime": false
   },
   {
     "id": "kohm",
@@ -3087,7 +3395,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2014-12-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kohm"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kohm",
+    "has_prime": false
   },
   {
     "id": "kohmak",
@@ -3097,7 +3406,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2015-03-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kohmak"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kohmak",
+    "has_prime": false
   },
   {
     "id": "twin-gremlins",
@@ -3107,7 +3417,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-10-09",
-    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Gremlins"
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Gremlins",
+    "has_prime": false
   },
   {
     "id": "twin-kohmak",
@@ -3117,7 +3428,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2016-05-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Kohmak"
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Kohmak",
+    "has_prime": false
   },
   {
     "id": "korrudo",
@@ -3127,7 +3439,8 @@
     "variant": null,
     "mastery_rank": 9,
     "release_date": "2019-05-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Korrudo"
+    "wiki_url": "https://warframe.fandom.com/wiki/Korrudo",
+    "has_prime": false
   },
   {
     "id": "korumm",
@@ -3137,7 +3450,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2023-06-21",
-    "wiki_url": "https://warframe.fandom.com/wiki/Korumm"
+    "wiki_url": "https://warframe.fandom.com/wiki/Korumm",
+    "has_prime": false
   },
   {
     "id": "kraken",
@@ -3147,7 +3461,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kraken"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kraken",
+    "has_prime": false
   },
   {
     "id": "kreska",
@@ -3157,7 +3472,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2018-11-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kreska"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kreska",
+    "has_prime": false
   },
   {
     "id": "krex",
@@ -3167,7 +3483,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2024-10-02",
-    "wiki_url": "https://warframe.fandom.com/wiki/Krex"
+    "wiki_url": "https://warframe.fandom.com/wiki/Krex",
+    "has_prime": false
   },
   {
     "id": "kronen",
@@ -3177,7 +3494,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2014-05-14",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kronen"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kronen",
+    "has_prime": true
   },
   {
     "id": "kronen-prime",
@@ -3187,7 +3505,8 @@
     "variant": "Prime",
     "mastery_rank": 10,
     "release_date": "2020-06-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kronen_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kronen_Prime",
+    "has_prime": false
   },
   {
     "id": "kuva-bramma",
@@ -3197,7 +3516,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2019-12-17",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Bramma"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Bramma",
+    "has_prime": false
   },
   {
     "id": "kuva-chakkhurr",
@@ -3207,7 +3527,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2019-10-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Chakkhurr"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Chakkhurr",
+    "has_prime": false
   },
   {
     "id": "kuva-drakgoon",
@@ -3217,7 +3538,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2019-10-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Drakgoon"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Drakgoon",
+    "has_prime": false
   },
   {
     "id": "kuva-grattler",
@@ -3227,7 +3549,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2020-11-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Grattler"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Grattler",
+    "has_prime": false
   },
   {
     "id": "kuva-hek",
@@ -3237,7 +3560,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2021-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Hek"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Hek",
+    "has_prime": false
   },
   {
     "id": "kuva-karak",
@@ -3247,7 +3571,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2020-10-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Karak"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Karak",
+    "has_prime": false
   },
   {
     "id": "kuva-kohm",
@@ -3257,7 +3582,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2019-10-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Kohm"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Kohm",
+    "has_prime": false
   },
   {
     "id": "kuva-kraken",
@@ -3267,7 +3593,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2019-10-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Kraken"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Kraken",
+    "has_prime": false
   },
   {
     "id": "kuva-nukor",
@@ -3277,7 +3604,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2019-12-17",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Nukor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Nukor",
+    "has_prime": false
   },
   {
     "id": "kuva-ogris",
@@ -3287,7 +3615,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2019-10-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Ogris"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Ogris",
+    "has_prime": false
   },
   {
     "id": "kuva-quartakk",
@@ -3297,7 +3626,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2019-10-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Quartakk"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Quartakk",
+    "has_prime": false
   },
   {
     "id": "kuva-seer",
@@ -3307,7 +3637,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2019-10-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Seer"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Seer",
+    "has_prime": false
   },
   {
     "id": "kuva-shildeg",
@@ -3317,7 +3648,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2019-10-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Shildeg"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Shildeg",
+    "has_prime": false
   },
   {
     "id": "kuva-sobek",
@@ -3327,7 +3659,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2024-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Sobek"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Sobek",
+    "has_prime": false
   },
   {
     "id": "kuva-tonkor",
@@ -3337,7 +3670,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2019-12-17",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Tonkor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Tonkor",
+    "has_prime": false
   },
   {
     "id": "kuva-twin-stubbas",
@@ -3347,7 +3681,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2019-10-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Twin_Stubbas"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Twin_Stubbas",
+    "has_prime": false
   },
   {
     "id": "kuva-zarr",
@@ -3357,7 +3692,8 @@
     "variant": "Kuva",
     "mastery_rank": 15,
     "release_date": "2021-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Zarr"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Zarr",
+    "has_prime": false
   },
   {
     "id": "kunai",
@@ -3367,7 +3703,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kunai"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kunai",
+    "has_prime": false
   },
   {
     "id": "mk1-kunai",
@@ -3377,7 +3714,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-08-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Kunai"
+    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Kunai",
+    "has_prime": false
   },
   {
     "id": "lacera",
@@ -3387,7 +3725,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2015-12-03",
-    "wiki_url": "https://warframe.fandom.com/wiki/Lacera"
+    "wiki_url": "https://warframe.fandom.com/wiki/Lacera",
+    "has_prime": false
   },
   {
     "id": "lanka",
@@ -3397,7 +3736,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2013-09-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Lanka"
+    "wiki_url": "https://warframe.fandom.com/wiki/Lanka",
+    "has_prime": false
   },
   {
     "id": "lato",
@@ -3407,7 +3747,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Lato"
+    "wiki_url": "https://warframe.fandom.com/wiki/Lato",
+    "has_prime": true
   },
   {
     "id": "lato-prime",
@@ -3417,7 +3758,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Lato_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Lato_Prime",
+    "has_prime": false
   },
   {
     "id": "lato-vandal",
@@ -3427,7 +3769,8 @@
     "variant": "Vandal",
     "mastery_rank": 4,
     "release_date": "2013-03-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Lato_Vandal"
+    "wiki_url": "https://warframe.fandom.com/wiki/Lato_Vandal",
+    "has_prime": false
   },
   {
     "id": "mk1-lato",
@@ -3437,7 +3780,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Lato"
+    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Lato",
+    "has_prime": false
   },
   {
     "id": "latron",
@@ -3447,7 +3791,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Latron"
+    "wiki_url": "https://warframe.fandom.com/wiki/Latron",
+    "has_prime": true
   },
   {
     "id": "latron-prime",
@@ -3457,7 +3802,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2012-12-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Latron_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Latron_Prime",
+    "has_prime": false
   },
   {
     "id": "latron-wraith",
@@ -3467,7 +3813,8 @@
     "variant": "Wraith",
     "mastery_rank": 0,
     "release_date": "2014-01-05",
-    "wiki_url": "https://warframe.fandom.com/wiki/Latron_Wraith"
+    "wiki_url": "https://warframe.fandom.com/wiki/Latron_Wraith",
+    "has_prime": false
   },
   {
     "id": "lecta",
@@ -3477,7 +3824,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2013-09-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Lecta"
+    "wiki_url": "https://warframe.fandom.com/wiki/Lecta",
+    "has_prime": false
   },
   {
     "id": "secura-lecta",
@@ -3487,7 +3835,8 @@
     "variant": "Secura",
     "mastery_rank": 8,
     "release_date": "2015-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Secura_Lecta"
+    "wiki_url": "https://warframe.fandom.com/wiki/Secura_Lecta",
+    "has_prime": false
   },
   {
     "id": "lenz",
@@ -3497,7 +3846,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2017-08-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Lenz"
+    "wiki_url": "https://warframe.fandom.com/wiki/Lenz",
+    "has_prime": false
   },
   {
     "id": "lesion",
@@ -3507,7 +3857,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2016-02-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Lesion"
+    "wiki_url": "https://warframe.fandom.com/wiki/Lesion",
+    "has_prime": false
   },
   {
     "id": "lex",
@@ -3517,7 +3868,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Lex"
+    "wiki_url": "https://warframe.fandom.com/wiki/Lex",
+    "has_prime": true
   },
   {
     "id": "lex-prime",
@@ -3527,7 +3879,8 @@
     "variant": "Prime",
     "mastery_rank": 6,
     "release_date": "2013-09-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Lex_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Lex_Prime",
+    "has_prime": false
   },
   {
     "id": "machete",
@@ -3537,7 +3890,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Machete"
+    "wiki_url": "https://warframe.fandom.com/wiki/Machete",
+    "has_prime": false
   },
   {
     "id": "machete-wraith",
@@ -3547,7 +3901,8 @@
     "variant": "Wraith",
     "mastery_rank": 3,
     "release_date": "2014-05-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Machete_Wraith"
+    "wiki_url": "https://warframe.fandom.com/wiki/Machete_Wraith",
+    "has_prime": false
   },
   {
     "id": "magnus",
@@ -3557,7 +3912,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2013-11-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Magnus"
+    "wiki_url": "https://warframe.fandom.com/wiki/Magnus",
+    "has_prime": true
   },
   {
     "id": "magnus-prime",
@@ -3567,7 +3923,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2022-04-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Magnus_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Magnus_Prime",
+    "has_prime": false
   },
   {
     "id": "magistar",
@@ -3577,7 +3934,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-11-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Magistar"
+    "wiki_url": "https://warframe.fandom.com/wiki/Magistar",
+    "has_prime": false
   },
   {
     "id": "sancti-magistar",
@@ -3587,7 +3945,8 @@
     "variant": "Sancti",
     "mastery_rank": 12,
     "release_date": "2015-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sancti_Magistar"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sancti_Magistar",
+    "has_prime": false
   },
   {
     "id": "marelok",
@@ -3597,7 +3956,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2014-01-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Marelok"
+    "wiki_url": "https://warframe.fandom.com/wiki/Marelok",
+    "has_prime": false
   },
   {
     "id": "vaykor-marelok",
@@ -3607,7 +3967,8 @@
     "variant": "Vaykor",
     "mastery_rank": 10,
     "release_date": "2015-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Vaykor_Marelok"
+    "wiki_url": "https://warframe.fandom.com/wiki/Vaykor_Marelok",
+    "has_prime": false
   },
   {
     "id": "masseter",
@@ -3617,7 +3978,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2022-04-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Masseter"
+    "wiki_url": "https://warframe.fandom.com/wiki/Masseter",
+    "has_prime": false
   },
   {
     "id": "mewan",
@@ -3627,7 +3989,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2017-10-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Mewan"
+    "wiki_url": "https://warframe.fandom.com/wiki/Mewan",
+    "has_prime": false
   },
   {
     "id": "mios",
@@ -3637,7 +4000,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2015-10-01",
-    "wiki_url": "https://warframe.fandom.com/wiki/Mios"
+    "wiki_url": "https://warframe.fandom.com/wiki/Mios",
+    "has_prime": false
   },
   {
     "id": "mire",
@@ -3647,7 +4011,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Mire"
+    "wiki_url": "https://warframe.fandom.com/wiki/Mire",
+    "has_prime": false
   },
   {
     "id": "miter",
@@ -3657,7 +4022,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2013-09-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Miter"
+    "wiki_url": "https://warframe.fandom.com/wiki/Miter",
+    "has_prime": false
   },
   {
     "id": "mutalist-quanta",
@@ -3667,7 +4033,8 @@
     "variant": "Mutalist",
     "mastery_rank": 2,
     "release_date": "2014-11-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Mutalist_Quanta"
+    "wiki_url": "https://warframe.fandom.com/wiki/Mutalist_Quanta",
+    "has_prime": false
   },
   {
     "id": "nagantaka",
@@ -3677,7 +4044,8 @@
     "variant": null,
     "mastery_rank": 9,
     "release_date": "2018-11-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nagantaka"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nagantaka",
+    "has_prime": true
   },
   {
     "id": "nagantaka-prime",
@@ -3687,7 +4055,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2022-04-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nagantaka_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nagantaka_Prime",
+    "has_prime": false
   },
   {
     "id": "nami-skyla",
@@ -3697,7 +4066,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2013-09-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nami_Skyla"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nami_Skyla",
+    "has_prime": true
   },
   {
     "id": "nami-skyla-prime",
@@ -3707,7 +4077,8 @@
     "variant": "Prime",
     "mastery_rank": 11,
     "release_date": "2017-08-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nami_Skyla_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nami_Skyla_Prime",
+    "has_prime": false
   },
   {
     "id": "nami-solo",
@@ -3717,7 +4088,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2013-09-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nami_Solo"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nami_Solo",
+    "has_prime": false
   },
   {
     "id": "nataruk",
@@ -3727,7 +4099,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2021-12-15",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nataruk"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nataruk",
+    "has_prime": false
   },
   {
     "id": "nikana",
@@ -3737,7 +4110,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2014-04-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nikana"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nikana",
+    "has_prime": true
   },
   {
     "id": "nikana-prime",
@@ -3747,7 +4121,8 @@
     "variant": "Prime",
     "mastery_rank": 12,
     "release_date": "2015-07-07",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nikana_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nikana_Prime",
+    "has_prime": false
   },
   {
     "id": "dragon-nikana",
@@ -3757,7 +4132,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2014-04-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dragon_Nikana"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dragon_Nikana",
+    "has_prime": false
   },
   {
     "id": "nukor",
@@ -3767,7 +4143,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2014-05-14",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nukor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nukor",
+    "has_prime": false
   },
   {
     "id": "obex",
@@ -3777,7 +4154,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-03-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Obex"
+    "wiki_url": "https://warframe.fandom.com/wiki/Obex",
+    "has_prime": false
   },
   {
     "id": "prisma-obex",
@@ -3787,7 +4165,8 @@
     "variant": "Prisma",
     "mastery_rank": 0,
     "release_date": "2015-10-02",
-    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Obex"
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Obex",
+    "has_prime": false
   },
   {
     "id": "ogris",
@@ -3797,7 +4176,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ogris"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ogris",
+    "has_prime": false
   },
   {
     "id": "ohma",
@@ -3807,7 +4187,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2016-12-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ohma"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ohma",
+    "has_prime": false
   },
   {
     "id": "okina",
@@ -3817,7 +4198,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2016-08-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Okina"
+    "wiki_url": "https://warframe.fandom.com/wiki/Okina",
+    "has_prime": false
   },
   {
     "id": "opticor",
@@ -3827,7 +4209,8 @@
     "variant": null,
     "mastery_rank": 14,
     "release_date": "2013-10-09",
-    "wiki_url": "https://warframe.fandom.com/wiki/Opticor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Opticor",
+    "has_prime": false
   },
   {
     "id": "opticor-vandal",
@@ -3837,7 +4220,8 @@
     "variant": "Vandal",
     "mastery_rank": 9,
     "release_date": "2019-03-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Opticor_Vandal"
+    "wiki_url": "https://warframe.fandom.com/wiki/Opticor_Vandal",
+    "has_prime": false
   },
   {
     "id": "orvius",
@@ -3847,7 +4231,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2016-11-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Orvius"
+    "wiki_url": "https://warframe.fandom.com/wiki/Orvius",
+    "has_prime": false
   },
   {
     "id": "orthos",
@@ -3857,7 +4242,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Orthos"
+    "wiki_url": "https://warframe.fandom.com/wiki/Orthos",
+    "has_prime": true
   },
   {
     "id": "orthos-prime",
@@ -3867,7 +4253,8 @@
     "variant": "Prime",
     "mastery_rank": 2,
     "release_date": "2012-12-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Orthos_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Orthos_Prime",
+    "has_prime": false
   },
   {
     "id": "paracesis",
@@ -3877,7 +4264,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2018-11-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Paracesis"
+    "wiki_url": "https://warframe.fandom.com/wiki/Paracesis",
+    "has_prime": false
   },
   {
     "id": "paracyst",
@@ -3887,7 +4275,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2015-09-02",
-    "wiki_url": "https://warframe.fandom.com/wiki/Paracyst"
+    "wiki_url": "https://warframe.fandom.com/wiki/Paracyst",
+    "has_prime": false
   },
   {
     "id": "pandero",
@@ -3897,7 +4286,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2017-06-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Pandero"
+    "wiki_url": "https://warframe.fandom.com/wiki/Pandero",
+    "has_prime": true
   },
   {
     "id": "pandero-prime",
@@ -3907,7 +4297,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2021-02-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Pandero_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Pandero_Prime",
+    "has_prime": false
   },
   {
     "id": "pangolin-sword",
@@ -3917,7 +4308,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Pangolin_Sword"
+    "wiki_url": "https://warframe.fandom.com/wiki/Pangolin_Sword",
+    "has_prime": false
   },
   {
     "id": "pangolin-prime",
@@ -3927,7 +4319,8 @@
     "variant": "Prime",
     "mastery_rank": 7,
     "release_date": "2020-07-14",
-    "wiki_url": "https://warframe.fandom.com/wiki/Pangolin_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Pangolin_Prime",
+    "has_prime": false
   },
   {
     "id": "panthera",
@@ -3937,7 +4330,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2014-12-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Panthera"
+    "wiki_url": "https://warframe.fandom.com/wiki/Panthera",
+    "has_prime": true
   },
   {
     "id": "panthera-prime",
@@ -3947,7 +4341,8 @@
     "variant": "Prime",
     "mastery_rank": 7,
     "release_date": "2022-10-05",
-    "wiki_url": "https://warframe.fandom.com/wiki/Panthera_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Panthera_Prime",
+    "has_prime": false
   },
   {
     "id": "paris",
@@ -3957,7 +4352,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Paris"
+    "wiki_url": "https://warframe.fandom.com/wiki/Paris",
+    "has_prime": true
   },
   {
     "id": "paris-prime",
@@ -3967,7 +4363,8 @@
     "variant": "Prime",
     "mastery_rank": 4,
     "release_date": "2012-12-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Paris_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Paris_Prime",
+    "has_prime": false
   },
   {
     "id": "mk1-paris",
@@ -3977,7 +4374,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-08-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Paris"
+    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Paris",
+    "has_prime": false
   },
   {
     "id": "penta",
@@ -3987,7 +4385,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2013-11-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Penta"
+    "wiki_url": "https://warframe.fandom.com/wiki/Penta",
+    "has_prime": false
   },
   {
     "id": "secura-penta",
@@ -3997,7 +4396,8 @@
     "variant": "Secura",
     "mastery_rank": 12,
     "release_date": "2015-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Secura_Penta"
+    "wiki_url": "https://warframe.fandom.com/wiki/Secura_Penta",
+    "has_prime": false
   },
   {
     "id": "pennant",
@@ -4007,7 +4407,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2019-12-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Pennant"
+    "wiki_url": "https://warframe.fandom.com/wiki/Pennant",
+    "has_prime": false
   },
   {
     "id": "phage",
@@ -4017,7 +4418,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2013-10-09",
-    "wiki_url": "https://warframe.fandom.com/wiki/Phage"
+    "wiki_url": "https://warframe.fandom.com/wiki/Phage",
+    "has_prime": false
   },
   {
     "id": "phantasma",
@@ -4027,7 +4429,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2018-08-24",
-    "wiki_url": "https://warframe.fandom.com/wiki/Phantasma"
+    "wiki_url": "https://warframe.fandom.com/wiki/Phantasma",
+    "has_prime": true
   },
   {
     "id": "phantasma-prime",
@@ -4037,7 +4440,8 @@
     "variant": "Prime",
     "mastery_rank": 8,
     "release_date": "2023-10-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Phantasma_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Phantasma_Prime",
+    "has_prime": false
   },
   {
     "id": "plasma-sword",
@@ -4047,7 +4451,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Plasma_Sword"
+    "wiki_url": "https://warframe.fandom.com/wiki/Plasma_Sword",
+    "has_prime": false
   },
   {
     "id": "plinx",
@@ -4057,7 +4462,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2018-11-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Plinx"
+    "wiki_url": "https://warframe.fandom.com/wiki/Plinx",
+    "has_prime": false
   },
   {
     "id": "praedos",
@@ -4067,7 +4473,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2022-04-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Praedos"
+    "wiki_url": "https://warframe.fandom.com/wiki/Praedos",
+    "has_prime": false
   },
   {
     "id": "prova",
@@ -4077,7 +4484,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2013-02-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Prova"
+    "wiki_url": "https://warframe.fandom.com/wiki/Prova",
+    "has_prime": false
   },
   {
     "id": "prova-vandal",
@@ -4087,7 +4495,8 @@
     "variant": "Vandal",
     "mastery_rank": 3,
     "release_date": "2013-09-07",
-    "wiki_url": "https://warframe.fandom.com/wiki/Prova_Vandal"
+    "wiki_url": "https://warframe.fandom.com/wiki/Prova_Vandal",
+    "has_prime": false
   },
   {
     "id": "pyrana",
@@ -4097,7 +4506,8 @@
     "variant": null,
     "mastery_rank": 12,
     "release_date": "2014-08-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Pyrana"
+    "wiki_url": "https://warframe.fandom.com/wiki/Pyrana",
+    "has_prime": true
   },
   {
     "id": "pyrana-prime",
@@ -4107,7 +4517,8 @@
     "variant": "Prime",
     "mastery_rank": 13,
     "release_date": "2018-09-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Pyrana_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Pyrana_Prime",
+    "has_prime": false
   },
   {
     "id": "quanta",
@@ -4117,7 +4528,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2013-12-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Quanta"
+    "wiki_url": "https://warframe.fandom.com/wiki/Quanta",
+    "has_prime": false
   },
   {
     "id": "quanta-vandal",
@@ -4127,7 +4539,8 @@
     "variant": "Vandal",
     "mastery_rank": 10,
     "release_date": "2014-09-26",
-    "wiki_url": "https://warframe.fandom.com/wiki/Quanta_Vandal"
+    "wiki_url": "https://warframe.fandom.com/wiki/Quanta_Vandal",
+    "has_prime": false
   },
   {
     "id": "quassus",
@@ -4137,7 +4550,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-08-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Quassus"
+    "wiki_url": "https://warframe.fandom.com/wiki/Quassus",
+    "has_prime": false
   },
   {
     "id": "quartakk",
@@ -4147,7 +4561,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2017-12-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Quartakk"
+    "wiki_url": "https://warframe.fandom.com/wiki/Quartakk",
+    "has_prime": false
   },
   {
     "id": "rabvee",
@@ -4157,7 +4572,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2017-10-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Rabvee"
+    "wiki_url": "https://warframe.fandom.com/wiki/Rabvee",
+    "has_prime": false
   },
   {
     "id": "reaper-prime",
@@ -4167,7 +4583,8 @@
     "variant": "Prime",
     "mastery_rank": 2,
     "release_date": "2012-12-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Reaper_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Reaper_Prime",
+    "has_prime": false
   },
   {
     "id": "redeemer",
@@ -4177,7 +4594,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Redeemer"
+    "wiki_url": "https://warframe.fandom.com/wiki/Redeemer",
+    "has_prime": true
   },
   {
     "id": "redeemer-prime",
@@ -4187,7 +4605,8 @@
     "variant": "Prime",
     "mastery_rank": 10,
     "release_date": "2018-12-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Redeemer_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Redeemer_Prime",
+    "has_prime": false
   },
   {
     "id": "ripkas",
@@ -4197,7 +4616,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2014-04-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Ripkas"
+    "wiki_url": "https://warframe.fandom.com/wiki/Ripkas",
+    "has_prime": false
   },
   {
     "id": "rubico",
@@ -4207,7 +4627,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2015-07-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Rubico"
+    "wiki_url": "https://warframe.fandom.com/wiki/Rubico",
+    "has_prime": true
   },
   {
     "id": "rubico-prime",
@@ -4217,7 +4638,8 @@
     "variant": "Prime",
     "mastery_rank": 12,
     "release_date": "2018-09-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Rubico_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Rubico_Prime",
+    "has_prime": false
   },
   {
     "id": "rumblejack",
@@ -4227,7 +4649,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2019-12-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Rumblejack"
+    "wiki_url": "https://warframe.fandom.com/wiki/Rumblejack",
+    "has_prime": false
   },
   {
     "id": "sarpa",
@@ -4237,7 +4660,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2016-08-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sarpa"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sarpa",
+    "has_prime": false
   },
   {
     "id": "scindo",
@@ -4247,7 +4671,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Scindo"
+    "wiki_url": "https://warframe.fandom.com/wiki/Scindo",
+    "has_prime": true
   },
   {
     "id": "scindo-prime",
@@ -4257,7 +4682,8 @@
     "variant": "Prime",
     "mastery_rank": 4,
     "release_date": "2013-09-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Scindo_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Scindo_Prime",
+    "has_prime": false
   },
   {
     "id": "scourge",
@@ -4267,7 +4693,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2017-03-24",
-    "wiki_url": "https://warframe.fandom.com/wiki/Scourge"
+    "wiki_url": "https://warframe.fandom.com/wiki/Scourge",
+    "has_prime": true
   },
   {
     "id": "scourge-prime",
@@ -4277,7 +4704,8 @@
     "variant": "Prime",
     "mastery_rank": 12,
     "release_date": "2021-02-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Scourge_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Scourge_Prime",
+    "has_prime": false
   },
   {
     "id": "seer",
@@ -4287,7 +4715,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Seer"
+    "wiki_url": "https://warframe.fandom.com/wiki/Seer",
+    "has_prime": false
   },
   {
     "id": "sepfahn",
@@ -4297,7 +4726,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2017-10-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sepfahn"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sepfahn",
+    "has_prime": false
   },
   {
     "id": "serro",
@@ -4307,7 +4737,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2014-02-05",
-    "wiki_url": "https://warframe.fandom.com/wiki/Serro"
+    "wiki_url": "https://warframe.fandom.com/wiki/Serro",
+    "has_prime": false
   },
   {
     "id": "sibear",
@@ -4317,7 +4748,8 @@
     "variant": null,
     "mastery_rank": 12,
     "release_date": "2016-02-04",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sibear"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sibear",
+    "has_prime": false
   },
   {
     "id": "sicarus",
@@ -4327,7 +4759,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sicarus"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sicarus",
+    "has_prime": true
   },
   {
     "id": "sicarus-prime",
@@ -4337,7 +4770,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2017-05-30",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sicarus_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sicarus_Prime",
+    "has_prime": false
   },
   {
     "id": "silva-aegis",
@@ -4347,7 +4781,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-12-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Silva_&_Aegis"
+    "wiki_url": "https://warframe.fandom.com/wiki/Silva_&_Aegis",
+    "has_prime": true
   },
   {
     "id": "silva-aegis-prime",
@@ -4357,7 +4792,8 @@
     "variant": "Prime",
     "mastery_rank": 12,
     "release_date": "2017-05-30",
-    "wiki_url": "https://warframe.fandom.com/wiki/Silva_&_Aegis_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Silva_&_Aegis_Prime",
+    "has_prime": false
   },
   {
     "id": "simulor",
@@ -4367,7 +4803,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2015-10-01",
-    "wiki_url": "https://warframe.fandom.com/wiki/Simulor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Simulor",
+    "has_prime": false
   },
   {
     "id": "synoid-simulor",
@@ -4377,7 +4814,8 @@
     "variant": "Synoid",
     "mastery_rank": 12,
     "release_date": "2015-10-01",
-    "wiki_url": "https://warframe.fandom.com/wiki/Synoid_Simulor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Synoid_Simulor",
+    "has_prime": false
   },
   {
     "id": "skana",
@@ -4387,7 +4825,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Skana"
+    "wiki_url": "https://warframe.fandom.com/wiki/Skana",
+    "has_prime": true
   },
   {
     "id": "skana-prime",
@@ -4397,7 +4836,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Skana_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Skana_Prime",
+    "has_prime": false
   },
   {
     "id": "prisma-skana",
@@ -4407,7 +4847,8 @@
     "variant": "Prisma",
     "mastery_rank": 3,
     "release_date": "2015-11-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Skana"
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Skana",
+    "has_prime": false
   },
   {
     "id": "skiajati",
@@ -4417,7 +4858,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2018-06-15",
-    "wiki_url": "https://warframe.fandom.com/wiki/Skiajati"
+    "wiki_url": "https://warframe.fandom.com/wiki/Skiajati",
+    "has_prime": false
   },
   {
     "id": "snipetron-vandal",
@@ -4427,7 +4869,8 @@
     "variant": "Vandal",
     "mastery_rank": 5,
     "release_date": "2013-03-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Snipetron_Vandal"
+    "wiki_url": "https://warframe.fandom.com/wiki/Snipetron_Vandal",
+    "has_prime": false
   },
   {
     "id": "sobek",
@@ -4437,7 +4880,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2013-02-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sobek"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sobek",
+    "has_prime": false
   },
   {
     "id": "sonicor",
@@ -4447,7 +4891,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2015-10-01",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sonicor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sonicor",
+    "has_prime": false
   },
   {
     "id": "soma",
@@ -4457,7 +4902,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2013-05-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Soma"
+    "wiki_url": "https://warframe.fandom.com/wiki/Soma",
+    "has_prime": true
   },
   {
     "id": "soma-prime",
@@ -4467,7 +4913,8 @@
     "variant": "Prime",
     "mastery_rank": 7,
     "release_date": "2014-11-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Soma_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Soma_Prime",
+    "has_prime": false
   },
   {
     "id": "spira",
@@ -4477,7 +4924,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2014-11-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Spira"
+    "wiki_url": "https://warframe.fandom.com/wiki/Spira",
+    "has_prime": true
   },
   {
     "id": "spira-prime",
@@ -4487,7 +4935,8 @@
     "variant": "Prime",
     "mastery_rank": 8,
     "release_date": "2015-12-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Spira_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Spira_Prime",
+    "has_prime": false
   },
   {
     "id": "sporothrix",
@@ -4497,7 +4946,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2020-11-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sporothrix"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sporothrix",
+    "has_prime": false
   },
   {
     "id": "stradavar",
@@ -4507,7 +4957,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2015-12-03",
-    "wiki_url": "https://warframe.fandom.com/wiki/Stradavar"
+    "wiki_url": "https://warframe.fandom.com/wiki/Stradavar",
+    "has_prime": true
   },
   {
     "id": "stradavar-prime",
@@ -4517,7 +4968,8 @@
     "variant": "Prime",
     "mastery_rank": 10,
     "release_date": "2019-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Stradavar_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Stradavar_Prime",
+    "has_prime": false
   },
   {
     "id": "strun",
@@ -4527,7 +4979,8 @@
     "variant": null,
     "mastery_rank": 1,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Strun"
+    "wiki_url": "https://warframe.fandom.com/wiki/Strun",
+    "has_prime": true
   },
   {
     "id": "strun-prime",
@@ -4537,7 +4990,8 @@
     "variant": "Prime",
     "mastery_rank": 12,
     "release_date": "2024-06-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Strun_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Strun_Prime",
+    "has_prime": false
   },
   {
     "id": "strun-wraith",
@@ -4547,7 +5001,8 @@
     "variant": "Wraith",
     "mastery_rank": 10,
     "release_date": "2013-11-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Strun_Wraith"
+    "wiki_url": "https://warframe.fandom.com/wiki/Strun_Wraith",
+    "has_prime": false
   },
   {
     "id": "mk1-strun",
@@ -4557,7 +5012,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-08-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Strun"
+    "wiki_url": "https://warframe.fandom.com/wiki/MK1-Strun",
+    "has_prime": false
   },
   {
     "id": "stubba",
@@ -4567,7 +5023,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2017-12-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Stubba"
+    "wiki_url": "https://warframe.fandom.com/wiki/Stubba",
+    "has_prime": false
   },
   {
     "id": "stubbas",
@@ -4577,7 +5034,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2017-12-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Stubbas"
+    "wiki_url": "https://warframe.fandom.com/wiki/Stubbas",
+    "has_prime": false
   },
   {
     "id": "supra",
@@ -4587,7 +5045,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2013-03-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Supra"
+    "wiki_url": "https://warframe.fandom.com/wiki/Supra",
+    "has_prime": false
   },
   {
     "id": "supra-vandal",
@@ -4597,7 +5056,8 @@
     "variant": "Vandal",
     "mastery_rank": 14,
     "release_date": "2015-11-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Supra_Vandal"
+    "wiki_url": "https://warframe.fandom.com/wiki/Supra_Vandal",
+    "has_prime": false
   },
   {
     "id": "sybaris",
@@ -4607,7 +5067,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2014-02-05",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sybaris"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sybaris",
+    "has_prime": true
   },
   {
     "id": "dex-sybaris",
@@ -4617,7 +5078,8 @@
     "variant": "Dex",
     "mastery_rank": 7,
     "release_date": "2016-03-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Sybaris"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Sybaris",
+    "has_prime": false
   },
   {
     "id": "sybaris-prime",
@@ -4627,7 +5089,8 @@
     "variant": "Prime",
     "mastery_rank": 12,
     "release_date": "2017-08-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sybaris_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sybaris_Prime",
+    "has_prime": false
   },
   {
     "id": "sydon",
@@ -4637,7 +5100,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2015-11-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sydon"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sydon",
+    "has_prime": false
   },
   {
     "id": "vaykor-sydon",
@@ -4647,7 +5111,8 @@
     "variant": "Vaykor",
     "mastery_rank": 10,
     "release_date": "2016-01-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Vaykor_Sydon"
+    "wiki_url": "https://warframe.fandom.com/wiki/Vaykor_Sydon",
+    "has_prime": false
   },
   {
     "id": "synapse",
@@ -4657,7 +5122,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2013-03-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Synapse"
+    "wiki_url": "https://warframe.fandom.com/wiki/Synapse",
+    "has_prime": false
   },
   {
     "id": "tak-lug",
@@ -4667,7 +5133,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2023-12-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tak_%26_Lug"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tak_%26_Lug",
+    "has_prime": false
   },
   {
     "id": "talons",
@@ -4677,7 +5144,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2015-03-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Talons"
+    "wiki_url": "https://warframe.fandom.com/wiki/Talons",
+    "has_prime": false
   },
   {
     "id": "tenet-arca-plasmor",
@@ -4687,7 +5155,8 @@
     "variant": "Tenet",
     "mastery_rank": 14,
     "release_date": "2021-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Arca_Plasmor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Arca_Plasmor",
+    "has_prime": false
   },
   {
     "id": "tenet-cycron",
@@ -4697,7 +5166,8 @@
     "variant": "Tenet",
     "mastery_rank": 14,
     "release_date": "2021-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Cycron"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Cycron",
+    "has_prime": false
   },
   {
     "id": "tenet-detron",
@@ -4707,7 +5177,8 @@
     "variant": "Tenet",
     "mastery_rank": 14,
     "release_date": "2021-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Detron"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Detron",
+    "has_prime": false
   },
   {
     "id": "tenet-diplos",
@@ -4717,7 +5188,8 @@
     "variant": "Tenet",
     "mastery_rank": 14,
     "release_date": "2021-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Diplos"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Diplos",
+    "has_prime": false
   },
   {
     "id": "tenet-envoy",
@@ -4727,7 +5199,8 @@
     "variant": "Tenet",
     "mastery_rank": 14,
     "release_date": "2021-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Envoy"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Envoy",
+    "has_prime": false
   },
   {
     "id": "tenet-exec",
@@ -4737,7 +5210,8 @@
     "variant": "Tenet",
     "mastery_rank": 14,
     "release_date": "2021-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Exec"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Exec",
+    "has_prime": false
   },
   {
     "id": "tenet-ferrox",
@@ -4747,7 +5221,8 @@
     "variant": "Tenet",
     "mastery_rank": 14,
     "release_date": "2021-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Ferrox"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Ferrox",
+    "has_prime": false
   },
   {
     "id": "tenet-grigori",
@@ -4757,7 +5232,8 @@
     "variant": "Tenet",
     "mastery_rank": 14,
     "release_date": "2021-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Grigori"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Grigori",
+    "has_prime": false
   },
   {
     "id": "tenet-livia",
@@ -4767,7 +5243,8 @@
     "variant": "Tenet",
     "mastery_rank": 14,
     "release_date": "2021-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Livia"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Livia",
+    "has_prime": false
   },
   {
     "id": "tenet-plinx",
@@ -4777,7 +5254,8 @@
     "variant": "Tenet",
     "mastery_rank": 14,
     "release_date": "2022-04-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Plinx"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Plinx",
+    "has_prime": false
   },
   {
     "id": "tenet-spirex",
@@ -4787,7 +5265,8 @@
     "variant": "Tenet",
     "mastery_rank": 14,
     "release_date": "2022-04-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Spirex"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Spirex",
+    "has_prime": false
   },
   {
     "id": "tenet-tetra",
@@ -4797,7 +5276,8 @@
     "variant": "Tenet",
     "mastery_rank": 14,
     "release_date": "2021-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Tetra"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenet_Tetra",
+    "has_prime": false
   },
   {
     "id": "tekko",
@@ -4807,7 +5287,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2015-11-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tekko"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tekko",
+    "has_prime": true
   },
   {
     "id": "tekko-prime",
@@ -4817,7 +5298,8 @@
     "variant": "Prime",
     "mastery_rank": 12,
     "release_date": "2020-07-14",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tekko/Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tekko/Prime",
+    "has_prime": false
   },
   {
     "id": "tenora",
@@ -4827,7 +5309,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2017-06-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tenora"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenora",
+    "has_prime": true
   },
   {
     "id": "tenora-prime",
@@ -4837,7 +5320,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2021-09-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tenora_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tenora_Prime",
+    "has_prime": false
   },
   {
     "id": "tetra",
@@ -4847,7 +5331,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-09-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tetra"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tetra",
+    "has_prime": false
   },
   {
     "id": "prisma-tetra",
@@ -4857,7 +5342,8 @@
     "variant": "Prisma",
     "mastery_rank": 4,
     "release_date": "2016-01-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Tetra"
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Tetra",
+    "has_prime": false
   },
   {
     "id": "thornback",
@@ -4867,7 +5353,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2024-03-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Thornback"
+    "wiki_url": "https://warframe.fandom.com/wiki/Thornback",
+    "has_prime": false
   },
   {
     "id": "tiberon",
@@ -4877,7 +5364,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2014-08-29",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tiberon"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tiberon",
+    "has_prime": true
   },
   {
     "id": "tiberon-prime",
@@ -4887,7 +5375,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2018-03-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tiberon_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tiberon_Prime",
+    "has_prime": false
   },
   {
     "id": "tigris",
@@ -4897,7 +5386,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2013-05-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tigris"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tigris",
+    "has_prime": true
   },
   {
     "id": "tigris-prime",
@@ -4907,7 +5397,8 @@
     "variant": "Prime",
     "mastery_rank": 13,
     "release_date": "2016-11-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tigris_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tigris_Prime",
+    "has_prime": false
   },
   {
     "id": "sancti-tigris",
@@ -4917,7 +5408,8 @@
     "variant": "Sancti",
     "mastery_rank": 12,
     "release_date": "2015-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sancti_Tigris"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sancti_Tigris",
+    "has_prime": false
   },
   {
     "id": "tipedo",
@@ -4927,7 +5419,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2014-04-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tipedo"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tipedo",
+    "has_prime": true
   },
   {
     "id": "tipedo-prime",
@@ -4937,7 +5430,8 @@
     "variant": "Prime",
     "mastery_rank": 10,
     "release_date": "2020-03-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tipedo_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tipedo_Prime",
+    "has_prime": false
   },
   {
     "id": "tonbo",
@@ -4947,7 +5441,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2014-04-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tonbo"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tonbo",
+    "has_prime": false
   },
   {
     "id": "tonkor",
@@ -4957,7 +5452,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2015-03-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tonkor"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tonkor",
+    "has_prime": false
   },
   {
     "id": "tonkkatt",
@@ -4967,7 +5463,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2025-03-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Tonkkatt"
+    "wiki_url": "https://warframe.fandom.com/wiki/Tonkkatt",
+    "has_prime": false
   },
   {
     "id": "torid",
@@ -4977,7 +5474,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2013-07-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Torid"
+    "wiki_url": "https://warframe.fandom.com/wiki/Torid",
+    "has_prime": false
   },
   {
     "id": "twin-basolk",
@@ -4987,7 +5485,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2015-12-03",
-    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Basolk"
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Basolk",
+    "has_prime": false
   },
   {
     "id": "twin-grakatas",
@@ -4997,7 +5496,8 @@
     "variant": null,
     "mastery_rank": 9,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Grakatas"
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Grakatas",
+    "has_prime": false
   },
   {
     "id": "twin-rogga",
@@ -5007,7 +5507,8 @@
     "variant": null,
     "mastery_rank": 9,
     "release_date": "2016-11-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Rogga"
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Rogga",
+    "has_prime": false
   },
   {
     "id": "twin-vipers",
@@ -5017,7 +5518,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Vipers"
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Vipers",
+    "has_prime": false
   },
   {
     "id": "twin-vipers-wraith",
@@ -5027,7 +5529,8 @@
     "variant": "Wraith",
     "mastery_rank": 0,
     "release_date": "2014-10-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Vipers_Wraith"
+    "wiki_url": "https://warframe.fandom.com/wiki/Twin_Vipers_Wraith",
+    "has_prime": false
   },
   {
     "id": "vasto",
@@ -5037,7 +5540,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Vasto"
+    "wiki_url": "https://warframe.fandom.com/wiki/Vasto",
+    "has_prime": true
   },
   {
     "id": "vasto-prime",
@@ -5047,7 +5551,8 @@
     "variant": "Prime",
     "mastery_rank": 3,
     "release_date": "2013-05-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Vasto_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Vasto_Prime",
+    "has_prime": false
   },
   {
     "id": "vecti",
@@ -5057,7 +5562,8 @@
     "variant": null,
     "mastery_rank": 2,
     "release_date": "2013-11-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Vecti"
+    "wiki_url": "https://warframe.fandom.com/wiki/Vecti",
+    "has_prime": false
   },
   {
     "id": "vectis-prime",
@@ -5067,7 +5573,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2015-07-07",
-    "wiki_url": "https://warframe.fandom.com/wiki/Vectis_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Vectis_Prime",
+    "has_prime": false
   },
   {
     "id": "veldt",
@@ -5077,7 +5584,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2018-04-20",
-    "wiki_url": "https://warframe.fandom.com/wiki/Veldt"
+    "wiki_url": "https://warframe.fandom.com/wiki/Veldt",
+    "has_prime": false
   },
   {
     "id": "venato-prime",
@@ -5087,7 +5595,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2024-08-28",
-    "wiki_url": "https://warframe.fandom.com/wiki/Venato_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Venato_Prime",
+    "has_prime": false
   },
   {
     "id": "velox",
@@ -5097,7 +5606,8 @@
     "variant": null,
     "mastery_rank": 8,
     "release_date": "2020-06-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Velox"
+    "wiki_url": "https://warframe.fandom.com/wiki/Velox",
+    "has_prime": true
   },
   {
     "id": "velox-prime",
@@ -5107,7 +5617,8 @@
     "variant": "Prime",
     "mastery_rank": 8,
     "release_date": "2024-06-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Velox/Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Velox/Prime",
+    "has_prime": false
   },
   {
     "id": "venka",
@@ -5117,7 +5628,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2013-12-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Venka"
+    "wiki_url": "https://warframe.fandom.com/wiki/Venka",
+    "has_prime": true
   },
   {
     "id": "venka-prime",
@@ -5127,7 +5639,8 @@
     "variant": "Prime",
     "mastery_rank": 8,
     "release_date": "2016-11-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Venka_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Venka_Prime",
+    "has_prime": false
   },
   {
     "id": "viper",
@@ -5137,7 +5650,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Viper"
+    "wiki_url": "https://warframe.fandom.com/wiki/Viper",
+    "has_prime": false
   },
   {
     "id": "viper-wraith",
@@ -5147,7 +5661,8 @@
     "variant": "Wraith",
     "mastery_rank": 0,
     "release_date": "2015-03-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Viper_Wraith"
+    "wiki_url": "https://warframe.fandom.com/wiki/Viper_Wraith",
+    "has_prime": false
   },
   {
     "id": "vitrica",
@@ -5157,7 +5672,8 @@
     "variant": null,
     "mastery_rank": 12,
     "release_date": "2020-08-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Vitrica"
+    "wiki_url": "https://warframe.fandom.com/wiki/Vitrica",
+    "has_prime": false
   },
   {
     "id": "volnus",
@@ -5167,7 +5683,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2017-10-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Volnus"
+    "wiki_url": "https://warframe.fandom.com/wiki/Volnus",
+    "has_prime": true
   },
   {
     "id": "volnus-prime",
@@ -5177,7 +5694,8 @@
     "variant": "Prime",
     "mastery_rank": 8,
     "release_date": "2021-05-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Volnus_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Volnus_Prime",
+    "has_prime": false
   },
   {
     "id": "vulkar",
@@ -5187,7 +5705,8 @@
     "variant": null,
     "mastery_rank": 3,
     "release_date": "2013-03-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Vulkar"
+    "wiki_url": "https://warframe.fandom.com/wiki/Vulkar",
+    "has_prime": false
   },
   {
     "id": "vulkar-wraith",
@@ -5197,7 +5716,8 @@
     "variant": "Wraith",
     "mastery_rank": 7,
     "release_date": "2016-03-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Vulkar_Wraith"
+    "wiki_url": "https://warframe.fandom.com/wiki/Vulkar_Wraith",
+    "has_prime": false
   },
   {
     "id": "war",
@@ -5207,7 +5727,8 @@
     "variant": null,
     "mastery_rank": 10,
     "release_date": "2015-12-03",
-    "wiki_url": "https://warframe.fandom.com/wiki/War"
+    "wiki_url": "https://warframe.fandom.com/wiki/War",
+    "has_prime": false
   },
   {
     "id": "wolf-sledge",
@@ -5217,7 +5738,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2019-02-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Wolf_Sledge"
+    "wiki_url": "https://warframe.fandom.com/wiki/Wolf_Sledge",
+    "has_prime": false
   },
   {
     "id": "xoris",
@@ -5227,7 +5749,8 @@
     "variant": null,
     "mastery_rank": 4,
     "release_date": "2020-06-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Xoris"
+    "wiki_url": "https://warframe.fandom.com/wiki/Xoris",
+    "has_prime": false
   },
   {
     "id": "zarr",
@@ -5237,7 +5760,8 @@
     "variant": null,
     "mastery_rank": 7,
     "release_date": "2016-11-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Zarr"
+    "wiki_url": "https://warframe.fandom.com/wiki/Zarr",
+    "has_prime": true
   },
   {
     "id": "zarr-prime",
@@ -5247,7 +5771,8 @@
     "variant": "Prime",
     "mastery_rank": 14,
     "release_date": "2025-01-22",
-    "wiki_url": "https://warframe.fandom.com/wiki/Zarr_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Zarr_Prime",
+    "has_prime": false
   },
   {
     "id": "zenith",
@@ -5257,7 +5782,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2017-03-30",
-    "wiki_url": "https://warframe.fandom.com/wiki/Zenith"
+    "wiki_url": "https://warframe.fandom.com/wiki/Zenith",
+    "has_prime": false
   },
   {
     "id": "zhuge",
@@ -5267,7 +5793,8 @@
     "variant": null,
     "mastery_rank": 5,
     "release_date": "2015-12-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Zhuge"
+    "wiki_url": "https://warframe.fandom.com/wiki/Zhuge",
+    "has_prime": true
   },
   {
     "id": "zhuge-prime",
@@ -5277,7 +5804,8 @@
     "variant": "Prime",
     "mastery_rank": 10,
     "release_date": "2020-03-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Zhuge_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Zhuge_Prime",
+    "has_prime": false
   },
   {
     "id": "zylok",
@@ -5287,7 +5815,8 @@
     "variant": null,
     "mastery_rank": 6,
     "release_date": "2018-11-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Zylok"
+    "wiki_url": "https://warframe.fandom.com/wiki/Zylok",
+    "has_prime": false
   },
   {
     "id": "corvas",
@@ -5297,7 +5826,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Corvas"
+    "wiki_url": "https://warframe.fandom.com/wiki/Corvas",
+    "has_prime": true
   },
   {
     "id": "corvas-prime",
@@ -5307,7 +5837,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2020-06-11",
-    "wiki_url": "https://warframe.fandom.com/wiki/Corvas_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Corvas_Prime",
+    "has_prime": false
   },
   {
     "id": "cyngas",
@@ -5317,7 +5848,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2015-03-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Cyngas"
+    "wiki_url": "https://warframe.fandom.com/wiki/Cyngas",
+    "has_prime": false
   },
   {
     "id": "dual-decurion",
@@ -5327,7 +5859,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Decurion"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dual_Decurion",
+    "has_prime": false
   },
   {
     "id": "fluctus",
@@ -5337,7 +5870,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2015-03-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Fluctus"
+    "wiki_url": "https://warframe.fandom.com/wiki/Fluctus",
+    "has_prime": false
   },
   {
     "id": "grattler",
@@ -5347,7 +5881,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2015-03-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Grattler"
+    "wiki_url": "https://warframe.fandom.com/wiki/Grattler",
+    "has_prime": false
   },
   {
     "id": "imperator",
@@ -5357,7 +5892,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Imperator"
+    "wiki_url": "https://warframe.fandom.com/wiki/Imperator",
+    "has_prime": false
   },
   {
     "id": "imperator-vandal",
@@ -5367,7 +5903,8 @@
     "variant": "Vandal",
     "mastery_rank": 0,
     "release_date": "2015-03-27",
-    "wiki_url": "https://warframe.fandom.com/wiki/Imperator_Vandal"
+    "wiki_url": "https://warframe.fandom.com/wiki/Imperator_Vandal",
+    "has_prime": false
   },
   {
     "id": "kuva-grattler",
@@ -5377,7 +5914,8 @@
     "variant": "Kuva",
     "mastery_rank": 0,
     "release_date": "2020-11-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Grattler"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kuva_Grattler",
+    "has_prime": false
   },
   {
     "id": "larkspur",
@@ -5387,7 +5925,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2019-03-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Larkspur"
+    "wiki_url": "https://warframe.fandom.com/wiki/Larkspur",
+    "has_prime": false
   },
   {
     "id": "morgha",
@@ -5397,7 +5936,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-11-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Morgha"
+    "wiki_url": "https://warframe.fandom.com/wiki/Morgha",
+    "has_prime": false
   },
   {
     "id": "phaedra",
@@ -5407,7 +5947,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Phaedra"
+    "wiki_url": "https://warframe.fandom.com/wiki/Phaedra",
+    "has_prime": false
   },
   {
     "id": "velocitus",
@@ -5417,7 +5958,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-10-24",
-    "wiki_url": "https://warframe.fandom.com/wiki/Velocitus"
+    "wiki_url": "https://warframe.fandom.com/wiki/Velocitus",
+    "has_prime": false
   },
   {
     "id": "agkuza",
@@ -5427,7 +5969,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Agkuza"
+    "wiki_url": "https://warframe.fandom.com/wiki/Agkuza",
+    "has_prime": false
   },
   {
     "id": "centaur",
@@ -5437,7 +5980,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Centaur"
+    "wiki_url": "https://warframe.fandom.com/wiki/Centaur",
+    "has_prime": false
   },
   {
     "id": "kaszas",
@@ -5447,7 +5991,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2015-03-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Kaszas"
+    "wiki_url": "https://warframe.fandom.com/wiki/Kaszas",
+    "has_prime": false
   },
   {
     "id": "knux",
@@ -5457,7 +6002,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2015-03-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Knux"
+    "wiki_url": "https://warframe.fandom.com/wiki/Knux",
+    "has_prime": false
   },
   {
     "id": "onorix",
@@ -5467,7 +6013,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Onorix"
+    "wiki_url": "https://warframe.fandom.com/wiki/Onorix",
+    "has_prime": false
   },
   {
     "id": "prisma-veritux",
@@ -5477,7 +6024,8 @@
     "variant": "Prisma",
     "mastery_rank": 0,
     "release_date": "2015-07-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Veritux"
+    "wiki_url": "https://warframe.fandom.com/wiki/Prisma_Veritux",
+    "has_prime": false
   },
   {
     "id": "veritux",
@@ -5487,7 +6035,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Veritux"
+    "wiki_url": "https://warframe.fandom.com/wiki/Veritux",
+    "has_prime": false
   },
   {
     "id": "carrier",
@@ -5497,7 +6046,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Carrier"
+    "wiki_url": "https://warframe.fandom.com/wiki/Carrier",
+    "has_prime": true
   },
   {
     "id": "carrier-prime",
@@ -5507,7 +6057,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2016-02-16",
-    "wiki_url": "https://warframe.fandom.com/wiki/Carrier_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Carrier_Prime",
+    "has_prime": false
   },
   {
     "id": "dethcube",
@@ -5517,7 +6068,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dethcube"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dethcube",
+    "has_prime": true
   },
   {
     "id": "dethcube-prime",
@@ -5527,7 +6079,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2018-06-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dethcube_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Dethcube_Prime",
+    "has_prime": false
   },
   {
     "id": "djinn",
@@ -5537,7 +6090,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-09-13",
-    "wiki_url": "https://warframe.fandom.com/wiki/Djinn"
+    "wiki_url": "https://warframe.fandom.com/wiki/Djinn",
+    "has_prime": false
   },
   {
     "id": "diriga",
@@ -5547,7 +6101,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2015-07-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Diriga"
+    "wiki_url": "https://warframe.fandom.com/wiki/Diriga",
+    "has_prime": false
   },
   {
     "id": "helios",
@@ -5557,7 +6112,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2013-06-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Helios"
+    "wiki_url": "https://warframe.fandom.com/wiki/Helios",
+    "has_prime": true
   },
   {
     "id": "helios-prime",
@@ -5567,7 +6123,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2017-12-12",
-    "wiki_url": "https://warframe.fandom.com/wiki/Helios_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Helios_Prime",
+    "has_prime": false
   },
   {
     "id": "nautilus",
@@ -5577,7 +6134,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-11-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Nautilus"
+    "wiki_url": "https://warframe.fandom.com/wiki/Nautilus",
+    "has_prime": false
   },
   {
     "id": "oxylus",
@@ -5587,7 +6145,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2018-11-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/Oxylus"
+    "wiki_url": "https://warframe.fandom.com/wiki/Oxylus",
+    "has_prime": false
   },
   {
     "id": "shade",
@@ -5597,7 +6156,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Shade"
+    "wiki_url": "https://warframe.fandom.com/wiki/Shade",
+    "has_prime": true
   },
   {
     "id": "shade-prime",
@@ -5607,7 +6167,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2018-09-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Shade_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Shade_Prime",
+    "has_prime": false
   },
   {
     "id": "taxon",
@@ -5617,7 +6178,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2017-03-24",
-    "wiki_url": "https://warframe.fandom.com/wiki/Taxon"
+    "wiki_url": "https://warframe.fandom.com/wiki/Taxon",
+    "has_prime": false
   },
   {
     "id": "wyrm",
@@ -5627,7 +6189,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2012-10-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Wyrm"
+    "wiki_url": "https://warframe.fandom.com/wiki/Wyrm",
+    "has_prime": true
   },
   {
     "id": "wyrm-prime",
@@ -5637,7 +6200,8 @@
     "variant": "Prime",
     "mastery_rank": 0,
     "release_date": "2014-09-23",
-    "wiki_url": "https://warframe.fandom.com/wiki/Wyrm_Prime"
+    "wiki_url": "https://warframe.fandom.com/wiki/Wyrm_Prime",
+    "has_prime": false
   },
   {
     "id": "chesa-kubrow",
@@ -5647,7 +6211,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Chesa_Kubrow"
+    "wiki_url": "https://warframe.fandom.com/wiki/Chesa_Kubrow",
+    "has_prime": false
   },
   {
     "id": "huras-kubrow",
@@ -5657,7 +6222,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Huras_Kubrow"
+    "wiki_url": "https://warframe.fandom.com/wiki/Huras_Kubrow",
+    "has_prime": false
   },
   {
     "id": "raksa-kubrow",
@@ -5667,7 +6233,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Raksa_Kubrow"
+    "wiki_url": "https://warframe.fandom.com/wiki/Raksa_Kubrow",
+    "has_prime": false
   },
   {
     "id": "sahasa-kubrow",
@@ -5677,7 +6244,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sahasa_Kubrow"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sahasa_Kubrow",
+    "has_prime": false
   },
   {
     "id": "sunika-kubrow",
@@ -5687,7 +6255,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2014-07-18",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sunika_Kubrow"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sunika_Kubrow",
+    "has_prime": false
   },
   {
     "id": "helminth-charger",
@@ -5697,7 +6266,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2016-08-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Helminth_Charger"
+    "wiki_url": "https://warframe.fandom.com/wiki/Helminth_Charger",
+    "has_prime": false
   },
   {
     "id": "adarza-kavat",
@@ -5707,7 +6277,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2016-08-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Adarza_Kavat"
+    "wiki_url": "https://warframe.fandom.com/wiki/Adarza_Kavat",
+    "has_prime": false
   },
   {
     "id": "smeeta-kavat",
@@ -5717,7 +6288,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2016-08-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Smeeta_Kavat"
+    "wiki_url": "https://warframe.fandom.com/wiki/Smeeta_Kavat",
+    "has_prime": false
   },
   {
     "id": "vasca-kavat",
@@ -5727,7 +6299,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2019-10-31",
-    "wiki_url": "https://warframe.fandom.com/wiki/Vasca_Kavat"
+    "wiki_url": "https://warframe.fandom.com/wiki/Vasca_Kavat",
+    "has_prime": false
   },
   {
     "id": "panzer-vulpaphyla",
@@ -5737,7 +6310,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-08-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Panzer_Vulpaphyla"
+    "wiki_url": "https://warframe.fandom.com/wiki/Panzer_Vulpaphyla",
+    "has_prime": false
   },
   {
     "id": "sly-vulpaphyla",
@@ -5747,7 +6321,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-08-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Sly_Vulpaphyla"
+    "wiki_url": "https://warframe.fandom.com/wiki/Sly_Vulpaphyla",
+    "has_prime": false
   },
   {
     "id": "crescent-vulpaphyla",
@@ -5757,7 +6332,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-08-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Crescent_Vulpaphyla"
+    "wiki_url": "https://warframe.fandom.com/wiki/Crescent_Vulpaphyla",
+    "has_prime": false
   },
   {
     "id": "pharaoh-predasite",
@@ -5767,7 +6343,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-08-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Pharaoh_Predasite"
+    "wiki_url": "https://warframe.fandom.com/wiki/Pharaoh_Predasite",
+    "has_prime": false
   },
   {
     "id": "medjay-predasite",
@@ -5777,7 +6354,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-08-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Medjay_Predasite"
+    "wiki_url": "https://warframe.fandom.com/wiki/Medjay_Predasite",
+    "has_prime": false
   },
   {
     "id": "vizier-predasite",
@@ -5787,7 +6365,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-08-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Vizier_Predasite"
+    "wiki_url": "https://warframe.fandom.com/wiki/Vizier_Predasite",
+    "has_prime": false
   },
   {
     "id": "bonewidow",
@@ -5797,7 +6376,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-11-19",
-    "wiki_url": "https://warframe.fandom.com/wiki/Bonewidow"
+    "wiki_url": "https://warframe.fandom.com/wiki/Bonewidow",
+    "has_prime": false
   },
   {
     "id": "voidrig",
@@ -5807,7 +6387,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2020-08-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Voidrig"
+    "wiki_url": "https://warframe.fandom.com/wiki/Voidrig",
+    "has_prime": false
   },
   {
     "id": "hound",
@@ -5817,7 +6398,8 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2021-07-06",
-    "wiki_url": "https://warframe.fandom.com/wiki/Hound"
+    "wiki_url": "https://warframe.fandom.com/wiki/Hound",
+    "has_prime": false
   },
   {
     "id": "moa",
@@ -5827,6 +6409,7 @@
     "variant": null,
     "mastery_rank": 0,
     "release_date": "2018-11-08",
-    "wiki_url": "https://warframe.fandom.com/wiki/MOA"
+    "wiki_url": "https://warframe.fandom.com/wiki/MOA",
+    "has_prime": false
   }
 ]

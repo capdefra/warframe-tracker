@@ -119,9 +119,39 @@ export function computeStats(catalog) {
     byCategory[cat] = { total: items.length, owned, mastered };
   }
 
+  // Deduplicated family stats (base + Prime = 1 family)
+  const allIds = new Set(catalog.map(i => i.id));
+  const dedupByCategory = {};
+  for (const cat of ['warframe', 'weapon', 'companion']) {
+    const items = catalog.filter(i => i.category === cat);
+    const families = new Map();
+    for (const item of items) {
+      if (item.variant === 'Prime' && item.id.endsWith('-prime')) {
+        const baseId = item.id.slice(0, -6);
+        if (allIds.has(baseId)) {
+          if (!families.has(baseId)) families.set(baseId, [baseId]);
+          families.get(baseId).push(item.id);
+        } else {
+          families.set(item.id, [item.id]);
+        }
+      } else if (!item.variant) {
+        if (!families.has(item.id)) families.set(item.id, [item.id]);
+      } else {
+        families.set(item.id, [item.id]);
+      }
+    }
+    let ownedFamilies = 0;
+    for (const [, ids] of families) {
+      if (ids.some(id => { const s = state.items[id]; return s && s.owned; })) ownedFamilies++;
+    }
+    dedupByCategory[cat] = { totalFamilies: families.size, ownedFamilies };
+  }
+
   const overallTotal = catalog.length;
   const overallOwned = Object.values(byCategory).reduce((s, c) => s + c.owned, 0);
   const overallMastered = Object.values(byCategory).reduce((s, c) => s + c.mastered, 0);
+  const overallFamilies = Object.values(dedupByCategory).reduce((s, c) => s + c.totalFamilies, 0);
+  const overallFamiliesOwned = Object.values(dedupByCategory).reduce((s, c) => s + c.ownedFamilies, 0);
 
   // Mastered this week/month
   const now = new Date();
@@ -170,9 +200,12 @@ export function computeStats(catalog) {
 
   return {
     byCategory,
+    dedupByCategory,
     overallTotal,
     overallOwned,
     overallMastered,
+    overallFamilies,
+    overallFamiliesOwned,
     masteryPercent: overallTotal ? ((overallMastered / overallTotal) * 100).toFixed(1) : '0.0',
     masteredThisWeek,
     masteredThisMonth,

@@ -33,11 +33,16 @@
     </select>
     <select id="filter-status">
       <option value="all">All</option>
-      <option value="unowned">Unowned</option>
-      <option value="owned-not-mastered">Owned, not mastered</option>
-      <option value="mastered">Mastered</option>
-      <option value="prime-available">Prime Available</option>
-      <option value="feed-helminth">Feed to Helminth</option>
+      <optgroup label="Ownership & Mastery">
+        <option value="owned-mastered">Owned & Mastered</option>
+        <option value="owned-not-mastered">Owned & Not Mastered</option>
+        <option value="not-owned-mastered">Not Owned & Mastered</option>
+        <option value="not-owned-not-mastered">Not Owned & Not Mastered</option>
+      </optgroup>
+      <optgroup label="Special">
+        <option value="prime-available">Prime Available</option>
+        <option value="feed-helminth">Feed to Helminth</option>
+      </optgroup>
     </select>
     <label class="prime-toggle">
       <input type="checkbox" id="filter-prime" />
