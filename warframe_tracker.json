@@ -371,6 +371,17 @@
     "mastery_rank": 0,
     "release_date": "2022-04-27",
     "wiki_url": "https://warframe.fandom.com/wiki/Gyre",
+    "has_prime": true
+  },
+  {
+    "id": "gyre-prime",
+    "name": "Gyre Prime",
+    "category": "warframe",
+    "subcategory": "Warframe",
+    "variant": "Prime",
+    "mastery_rank": 0,
+    "release_date": "2025-10-01",
+    "wiki_url": "https://warframe.fandom.com/wiki/Gyre/Prime",
     "has_prime": false
   },
   {
