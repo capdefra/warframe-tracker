@@ -298,6 +298,108 @@ button {
 .flag-helminth {
   color: #ef5350;
 }
+.flag-subsumed {
+  color: #ce93d8;
+}
+/* ── Card Menu Button ── */
+.card-menu-btn {
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  padding: 0 4px;
+  line-height: 1;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.card-menu-btn:hover { color: var(--text-primary); background: rgba(255,255,255,0.1); }
+
+/* ── Card Context Menu ── */
+.card-menu {
+  position: fixed;
+  z-index: 250;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  min-width: 200px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  padding: 6px 0;
+}
+.card-menu-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  background: transparent;
+  color: var(--text-primary);
+  border-radius: 0;
+}
+.card-menu-item:hover { background: rgba(255,255,255,0.08); }
+.card-menu-item-subsumed {
+  color: #ce93d8;
+  opacity: 0.7;
+  cursor: default;
+}
+.card-menu-item-subsumed:hover { background: transparent; }
+.card-menu-forma {
+  padding: 8px 14px;
+  border-top: 1px solid var(--border);
+}
+.card-menu-forma label {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  display: block;
+  margin-bottom: 6px;
+}
+.forma-controls {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.forma-btn {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  width: 28px;
+  height: 28px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 0;
+}
+.forma-btn:hover { background: var(--bg-card-hover); }
+.forma-input {
+  width: 48px;
+  text-align: center;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 0.85rem;
+  font-family: var(--font);
+  -moz-appearance: textfield;
+}
+.forma-input::-webkit-inner-spin-button,
+.forma-input::-webkit-outer-spin-button { -webkit-appearance: none; }
+.forma-set-btn {
+  background: var(--accent-teal);
+  color: #000;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.forma-set-btn:hover { opacity: 0.9; }
+
+/* ── Forma count in card ── */
+.forma-count {
+  color: #4fc3f7;
+  font-weight: 600;
+}
+
 .card-meta {
   display: flex;
   gap: 8px;

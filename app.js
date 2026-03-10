@@ -1,6 +1,6 @@
 import {
   loadCatalog, getUserState, getItemState,
-  toggleOwned, toggleMastered, bulkUpdate,
+  toggleOwned, toggleMastered, subsume, setForma, bulkUpdate,
   exportData, importData, resetAllData, computeStats
 } from './data.js';
 
@@ -20,6 +20,9 @@ const statusEl = $('filter-status');
 const primeEl = $('filter-prime');
 const sortEl = $('sort-by');
 const itemCountEl = $('item-count');
+const cardMenu = $('card-menu');
+const cardMenuItems = $('card-menu-items');
+let currentMenuItemId = null;
 
 // ── Prime index ──
 function buildPrimeIndex() {
@@ -192,30 +195,32 @@ function renderCards() {
     if (s.mastered) classes.push('mastered');
 
     // Flags
-    let flagsHtml = '';
+    const flags = [];
+    if (item.category === 'warframe' && s.subsumed) {
+      flags.push('<span class="flag flag-subsumed">\u2714 Subsumed</span>');
+    }
     if (!item.variant && primeAvailableFor.has(item.id)) {
       const primeState = getItemState(item.id + '-prime');
-      const flags = [];
       if (s.owned && !primeState.owned) {
         flags.push('<span class="flag flag-prime-available">\u2714 Prime Available</span>');
       }
       if (item.category === 'warframe' && s.owned && s.mastered && primeState.owned) {
         flags.push('<span class="flag flag-helminth">\u2714 Feed to Helminth</span>');
       }
-      if (flags.length) {
-        flagsHtml = '<div class="card-flags">' + flags.join('') + '</div>';
-      }
     }
+    const flagsHtml = flags.length ? '<div class="card-flags">' + flags.join('') + '</div>' : '';
 
     return `<div class="${classes.join(' ')}" data-id="${item.id}">
       <div class="card-top">
         <span class="item-name">${item.name}</span>
         ${item.variant ? `<span class="badge badge-${item.variant}">${item.variant}</span>` : ''}
         <a href="${item.wiki_url}" target="_blank" rel="noopener" class="wiki-link" title="Wiki">&#x2197;</a>
+        <button class="card-menu-btn" data-menu="${item.id}" title="Actions">&#x22EE;</button>
       </div>
       <div class="card-meta">
         <span>${item.subcategory}</span>
         ${item.mastery_rank > 0 ? `<span>MR ${item.mastery_rank}</span>` : ''}
+        ${s.forma > 0 ? `<span class="forma-count">\u2B21 ${s.forma}</span>` : ''}
       </div>
       ${flagsHtml}
       <div class="card-actions">
@@ -253,22 +258,43 @@ function updateSingleCard(itemId) {
     masBtn.innerHTML = (s.mastered ? '\u2605' : '\u2606') + ' Mastered';
   }
 
-  // Update flags on base items that have a Prime
-  if (item && !item.variant && primeAvailableFor.has(item.id)) {
+  // Update forma display
+  const metaEl = el.querySelector('.card-meta');
+  if (metaEl) {
+    let formaSpan = metaEl.querySelector('.forma-count');
+    if (s.forma > 0) {
+      if (!formaSpan) {
+        formaSpan = document.createElement('span');
+        formaSpan.className = 'forma-count';
+        metaEl.appendChild(formaSpan);
+      }
+      formaSpan.textContent = '\u2B21 ' + s.forma;
+    } else if (formaSpan) {
+      formaSpan.remove();
+    }
+  }
+
+  // Update flags
+  if (item) {
     updateCardFlags(el, item, s);
   }
 }
 
 function updateCardFlags(el, item, s) {
-  const primeState = getItemState(item.id + '-prime');
   let flagsDiv = el.querySelector('.card-flags');
 
   // Determine which flags should show
-  const showPrimeAvail = s.owned && !primeState.owned;
-  const showHelminth = item.category === 'warframe' && s.owned && s.mastered && primeState.owned;
+  const showSubsumed = item.category === 'warframe' && s.subsumed;
+  let showPrimeAvail = false;
+  let showHelminth = false;
 
-  if (!showPrimeAvail && !showHelminth) {
-    // Remove flags container entirely
+  if (!item.variant && primeAvailableFor.has(item.id)) {
+    const primeState = getItemState(item.id + '-prime');
+    showPrimeAvail = s.owned && !primeState.owned;
+    showHelminth = item.category === 'warframe' && s.owned && s.mastered && primeState.owned;
+  }
+
+  if (!showSubsumed && !showPrimeAvail && !showHelminth) {
     if (flagsDiv) flagsDiv.remove();
     return;
   }
@@ -283,6 +309,7 @@ function updateCardFlags(el, item, s) {
 
   // Rebuild flags content
   let html = '';
+  if (showSubsumed) html += '<span class="flag flag-subsumed">\u2714 Subsumed</span>';
   if (showPrimeAvail) html += '<span class="flag flag-prime-available">\u2714 Prime Available</span>';
   if (showHelminth) html += '<span class="flag flag-helminth">\u2714 Feed to Helminth</span>';
   flagsDiv.innerHTML = html;
@@ -307,6 +334,13 @@ function updateRelatedCards(itemId) {
 function attachEvents() {
   // Card clicks (event delegation)
   cardGrid.addEventListener('click', e => {
+    // Menu button click
+    const menuBtn = e.target.closest('[data-menu]');
+    if (menuBtn) {
+      e.stopPropagation();
+      openCardMenu(menuBtn.dataset.menu, menuBtn);
+      return;
+    }
     const btn = e.target.closest('[data-action]');
     if (!btn) return;
     const id = btn.dataset.id;
@@ -316,6 +350,54 @@ function attachEvents() {
     updateSingleCard(id);
     updateRelatedCards(id);
     renderDashboard();
+  });
+
+  // Card menu actions
+  cardMenuItems.addEventListener('click', e => {
+    const action = e.target.closest('[data-menu-action]');
+    if (!action) return;
+    const act = action.dataset.menuAction;
+    const itemId = currentMenuItemId;
+    if (!itemId) return;
+
+    if (act === 'subsume') {
+      subsume(itemId);
+      updateSingleCard(itemId);
+      renderDashboard();
+      closeCardMenu();
+    } else if (act === 'forma-set') {
+      const input = cardMenuItems.querySelector('.forma-input');
+      if (input) {
+        setForma(itemId, parseInt(input.value, 10) || 0);
+        updateSingleCard(itemId);
+      }
+      closeCardMenu();
+    } else if (act === 'forma-inc') {
+      const input = cardMenuItems.querySelector('.forma-input');
+      if (input) input.value = Math.min(99, (parseInt(input.value, 10) || 0) + 1);
+    } else if (act === 'forma-dec') {
+      const input = cardMenuItems.querySelector('.forma-input');
+      if (input) input.value = Math.max(0, (parseInt(input.value, 10) || 0) - 1);
+    }
+  });
+
+  // Forma input Enter key
+  cardMenuItems.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && e.target.classList.contains('forma-input')) {
+      const val = parseInt(e.target.value, 10);
+      if (!isNaN(val) && currentMenuItemId) {
+        setForma(currentMenuItemId, val);
+        updateSingleCard(currentMenuItemId);
+      }
+      closeCardMenu();
+    }
+  });
+
+  // Close menu on outside click
+  document.addEventListener('click', e => {
+    if (!cardMenu.hidden && !cardMenu.contains(e.target) && !e.target.closest('[data-menu]')) {
+      closeCardMenu();
+    }
   });
 
   // Tabs
@@ -491,6 +573,59 @@ function generateShareText() {
     `Companions ${pad(bc.companion.owned,2)}/${bc.companion.total}  \u2714   ${pad(bc.companion.mastered,2)}\u2605`,
     `Overall: ${masteryPercent}% mastered (${overallMastered}/${overallTotal})`,
   ].join('\n');
+}
+
+// ── Card Menu ──
+function openCardMenu(itemId, anchorEl) {
+  const item = catalog.find(i => i.id === itemId);
+  if (!item) return;
+  const s = getItemState(itemId);
+  currentMenuItemId = itemId;
+
+  let html = '';
+
+  // Feed to Helminth (warframes only, when owned and not already subsumed)
+  if (item.category === 'warframe' && s.owned && !s.subsumed) {
+    html += '<button class="card-menu-item" data-menu-action="subsume">\uD83D\uDD2C Feed to Helminth</button>';
+  }
+  // Already subsumed indicator
+  if (item.category === 'warframe' && s.subsumed) {
+    html += '<div class="card-menu-item card-menu-item-subsumed">\u2714 Subsumed</div>';
+  }
+
+  // Set Forma (always available)
+  html += `<div class="card-menu-forma">
+    <label>\u2B21 Forma</label>
+    <div class="forma-controls">
+      <button class="forma-btn" data-menu-action="forma-dec">\u2212</button>
+      <input type="number" class="forma-input" value="${s.forma}" min="0" max="99" />
+      <button class="forma-btn" data-menu-action="forma-inc">+</button>
+      <button class="forma-set-btn" data-menu-action="forma-set">Set</button>
+    </div>
+  </div>`;
+
+  cardMenuItems.innerHTML = html;
+
+  // Position near anchor
+  const rect = anchorEl.getBoundingClientRect();
+  cardMenu.hidden = false;
+  const menuRect = cardMenu.getBoundingClientRect();
+  let top = rect.bottom + 4;
+  let left = rect.right - menuRect.width;
+
+  // Keep in viewport
+  if (left < 8) left = 8;
+  if (top + menuRect.height > window.innerHeight - 8) {
+    top = rect.top - menuRect.height - 4;
+  }
+
+  cardMenu.style.top = top + 'px';
+  cardMenu.style.left = left + 'px';
+}
+
+function closeCardMenu() {
+  cardMenu.hidden = true;
+  currentMenuItemId = null;
 }
 
 // ── Toast ──
