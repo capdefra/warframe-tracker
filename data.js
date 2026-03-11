@@ -23,7 +23,7 @@ function save(state) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
 }
 
-const DEFAULT_ITEM = { owned: false, mastered: false, mastered_at: null, subsumed: false, forma: 0 };
+const DEFAULT_ITEM = { owned: false, mastered: false, mastered_at: null, subsumed: false, forma: 0, reactor: false };
 
 export function getItemState(itemId) {
   const state = getUserState();
@@ -58,6 +58,8 @@ export function subsume(itemId) {
   const cur = { ...DEFAULT_ITEM, ...state.items[itemId] };
   cur.owned = false;
   cur.subsumed = true;
+  cur.forma = 0;
+  cur.reactor = false;
   state.items[itemId] = cur;
   save(state);
   return cur;
@@ -67,6 +69,15 @@ export function setForma(itemId, count) {
   const state = getUserState();
   const cur = { ...DEFAULT_ITEM, ...state.items[itemId] };
   cur.forma = Math.max(0, Math.floor(count));
+  state.items[itemId] = cur;
+  save(state);
+  return cur;
+}
+
+export function toggleReactor(itemId) {
+  const state = getUserState();
+  const cur = { ...DEFAULT_ITEM, ...state.items[itemId] };
+  cur.reactor = !cur.reactor;
   state.items[itemId] = cur;
   save(state);
   return cur;
@@ -116,6 +127,7 @@ export function importData(jsonString) {
         mastered_at: val.mastered_at || null,
         subsumed: !!val.subsumed,
         forma: val.forma || 0,
+        reactor: !!val.reactor,
       };
     }
   }

@@ -1,6 +1,6 @@
 import {
   loadCatalog, getUserState, getItemState,
-  toggleOwned, toggleMastered, subsume, setForma, bulkUpdate,
+  toggleOwned, toggleMastered, subsume, setForma, toggleReactor, bulkUpdate,
   exportData, importData, resetAllData, computeStats
 } from './data.js';
 
@@ -220,6 +220,7 @@ function renderCards() {
       <div class="card-meta">
         <span>${item.subcategory}</span>
         ${item.mastery_rank > 0 ? `<span>MR ${item.mastery_rank}</span>` : ''}
+        ${s.reactor ? `<span class="reactor-badge">${item.category === 'weapon' ? '\u2B23 Catalyst' : '\u2B23 Reactor'}</span>` : ''}
         ${s.forma > 0 ? `<span class="forma-count">\u2B21 ${s.forma}</span>` : ''}
       </div>
       ${flagsHtml}
@@ -258,9 +259,22 @@ function updateSingleCard(itemId) {
     masBtn.innerHTML = (s.mastered ? '\u2605' : '\u2606') + ' Mastered';
   }
 
-  // Update forma display
+  // Update reactor/catalyst display
   const metaEl = el.querySelector('.card-meta');
   if (metaEl) {
+    let reactorSpan = metaEl.querySelector('.reactor-badge');
+    if (s.reactor) {
+      if (!reactorSpan) {
+        reactorSpan = document.createElement('span');
+        reactorSpan.className = 'reactor-badge';
+        metaEl.appendChild(reactorSpan);
+      }
+      reactorSpan.textContent = item.category === 'weapon' ? '\u2B23 Catalyst' : '\u2B23 Reactor';
+    } else if (reactorSpan) {
+      reactorSpan.remove();
+    }
+
+    // Update forma display
     let formaSpan = metaEl.querySelector('.forma-count');
     if (s.forma > 0) {
       if (!formaSpan) {
@@ -364,6 +378,10 @@ function attachEvents() {
       subsume(itemId);
       updateSingleCard(itemId);
       renderDashboard();
+      closeCardMenu();
+    } else if (act === 'reactor') {
+      toggleReactor(itemId);
+      updateSingleCard(itemId);
       closeCardMenu();
     } else if (act === 'forma-set') {
       const input = cardMenuItems.querySelector('.forma-input');
@@ -592,6 +610,12 @@ function openCardMenu(itemId, anchorEl) {
   if (item.category === 'warframe' && s.subsumed) {
     html += '<div class="card-menu-item card-menu-item-subsumed">\u2714 Subsumed</div>';
   }
+
+  // Orokin Reactor/Catalyst toggle
+  const orokinLabel = item.category === 'weapon' ? 'Orokin Catalyst' : 'Orokin Reactor';
+  html += `<button class="card-menu-item ${s.reactor ? 'card-menu-item-active' : ''}" data-menu-action="reactor">
+    ${s.reactor ? '\u2B23' : '\u2B22'} ${s.reactor ? orokinLabel + ' \u2714' : 'Install ' + orokinLabel}
+  </button>`;
 
   // Set Forma (always available)
   html += `<div class="card-menu-forma">

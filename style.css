@@ -394,6 +394,17 @@ button {
 }
 .forma-set-btn:hover { opacity: 0.9; }
 
+/* ── Active menu item ── */
+.card-menu-item-active {
+  color: var(--accent-gold);
+}
+
+/* ── Orokin Reactor/Catalyst badge ── */
+.reactor-badge {
+  color: var(--accent-gold);
+  font-weight: 600;
+}
+
 /* ── Forma count in card ── */
 .forma-count {
   color: #4fc3f7;
