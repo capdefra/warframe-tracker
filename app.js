@@ -1,6 +1,6 @@
 import {
   loadCatalog, getUserState, getItemState,
-  toggleOwned, toggleMastered, subsume, setForma, toggleReactor, bulkUpdate,
+  toggleOwned, toggleMastered, subsume, setForma, toggleExilus, toggleReactor, bulkUpdate,
   exportData, importData, resetAllData, computeStats
 } from './data.js';
 
@@ -221,6 +221,7 @@ function renderCards() {
         <span>${item.subcategory}</span>
         ${item.mastery_rank > 0 ? `<span>MR ${item.mastery_rank}</span>` : ''}
         ${s.reactor ? `<span class="reactor-badge">${item.category === 'weapon' ? '\u2B23 Catalyst' : '\u2B23 Reactor'}</span>` : ''}
+        ${s.exilus && (item.category === 'warframe' || item.category === 'weapon') ? '<span class="exilus-badge">\u2726 Exilus</span>' : ''}
         ${s.forma > 0 ? `<span class="forma-count">\u2B21 ${s.forma}</span>` : ''}
       </div>
       ${flagsHtml}
@@ -272,6 +273,19 @@ function updateSingleCard(itemId) {
       reactorSpan.textContent = item.category === 'weapon' ? '\u2B23 Catalyst' : '\u2B23 Reactor';
     } else if (reactorSpan) {
       reactorSpan.remove();
+    }
+
+    // Update exilus display
+    let exilusSpan = metaEl.querySelector('.exilus-badge');
+    if (s.exilus && (item.category === 'warframe' || item.category === 'weapon')) {
+      if (!exilusSpan) {
+        exilusSpan = document.createElement('span');
+        exilusSpan.className = 'exilus-badge';
+        metaEl.appendChild(exilusSpan);
+      }
+      exilusSpan.textContent = '\u2726 Exilus';
+    } else if (exilusSpan) {
+      exilusSpan.remove();
     }
 
     // Update forma display
@@ -381,6 +395,10 @@ function attachEvents() {
       closeCardMenu();
     } else if (act === 'reactor') {
       toggleReactor(itemId);
+      updateSingleCard(itemId);
+      closeCardMenu();
+    } else if (act === 'exilus') {
+      toggleExilus(itemId);
       updateSingleCard(itemId);
       closeCardMenu();
     } else if (act === 'forma-set') {
@@ -616,6 +634,13 @@ function openCardMenu(itemId, anchorEl) {
   html += `<button class="card-menu-item ${s.reactor ? 'card-menu-item-active' : ''}" data-menu-action="reactor">
     ${s.reactor ? '\u2B23' : '\u2B22'} ${s.reactor ? orokinLabel + ' \u2714' : 'Install ' + orokinLabel}
   </button>`;
+
+  // Exilus Adapter toggle (warframes and weapons only)
+  if (item.category === 'warframe' || item.category === 'weapon') {
+    html += `<button class="card-menu-item ${s.exilus ? 'card-menu-item-active' : ''}" data-menu-action="exilus">
+      ${s.exilus ? '\u2726' : '\u2727'} ${s.exilus ? 'Exilus Adapter \u2714' : 'Install Exilus Adapter'}
+    </button>`;
+  }
 
   // Set Forma (always available)
   html += `<div class="card-menu-forma">

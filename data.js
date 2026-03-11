@@ -23,7 +23,7 @@ function save(state) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
 }
 
-const DEFAULT_ITEM = { owned: false, mastered: false, mastered_at: null, subsumed: false, forma: 0, reactor: false };
+const DEFAULT_ITEM = { owned: false, mastered: false, mastered_at: null, subsumed: false, forma: 0, reactor: false, exilus: false };
 
 export function getItemState(itemId) {
   const state = getUserState();
@@ -60,6 +60,7 @@ export function subsume(itemId) {
   cur.subsumed = true;
   cur.forma = 0;
   cur.reactor = false;
+  cur.exilus = false;
   state.items[itemId] = cur;
   save(state);
   return cur;
@@ -69,6 +70,15 @@ export function setForma(itemId, count) {
   const state = getUserState();
   const cur = { ...DEFAULT_ITEM, ...state.items[itemId] };
   cur.forma = Math.max(0, Math.floor(count));
+  state.items[itemId] = cur;
+  save(state);
+  return cur;
+}
+
+export function toggleExilus(itemId) {
+  const state = getUserState();
+  const cur = { ...DEFAULT_ITEM, ...state.items[itemId] };
+  cur.exilus = !cur.exilus;
   state.items[itemId] = cur;
   save(state);
   return cur;
@@ -128,6 +138,7 @@ export function importData(jsonString) {
         subsumed: !!val.subsumed,
         forma: val.forma || 0,
         reactor: !!val.reactor,
+        exilus: !!val.exilus,
       };
     }
   }

@@ -405,6 +405,12 @@ button {
   font-weight: 600;
 }
 
+/* ── Exilus badge ── */
+.exilus-badge {
+  color: #b388ff;
+  font-weight: 600;
+}
+
 /* ── Forma count in card ── */
 .forma-count {
   color: #4fc3f7;
