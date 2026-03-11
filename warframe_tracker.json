@@ -2310,17 +2310,6 @@
     "has_prime": false
   },
   {
-    "id": "dex-sybaris",
-    "name": "Dex Sybaris",
-    "category": "weapon",
-    "subcategory": "Rifle",
-    "variant": "Dex",
-    "mastery_rank": 5,
-    "release_date": "2016-03-25",
-    "wiki_url": "https://warframe.fandom.com/wiki/Dex_Sybaris",
-    "has_prime": false
-  },
-  {
     "id": "dread",
     "name": "Dread",
     "category": "weapon",
