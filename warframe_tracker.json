@@ -5533,6 +5533,28 @@
     "has_prime": false
   },
   {
+    "id": "trumna",
+    "name": "Trumna",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": null,
+    "mastery_rank": 13,
+    "release_date": "2020-08-25",
+    "wiki_url": "https://warframe.fandom.com/wiki/Trumna",
+    "has_prime": true
+  },
+  {
+    "id": "trumna-prime",
+    "name": "Trumna Prime",
+    "category": "weapon",
+    "subcategory": "Rifle",
+    "variant": "Prime",
+    "mastery_rank": 15,
+    "release_date": "2024-11-13",
+    "wiki_url": "https://warframe.fandom.com/wiki/Trumna_Prime",
+    "has_prime": false
+  },
+  {
     "id": "vasto",
     "name": "Vasto",
     "category": "weapon",
