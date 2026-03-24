@@ -10,6 +10,7 @@
   <header class="app-header">
     <h1>Warframe Tracker</h1>
     <div class="header-actions">
+      <button id="sync-indicator" class="sync-indicator sync-offline" title="Gist Sync">&#x25CB; Local only</button>
       <button id="btn-stats" class="btn-icon" title="Stats">&#x1F4CA;</button>
       <button id="btn-share" class="btn-icon" title="Share Snapshot">&#x1F4CB;</button>
       <button id="btn-export" class="btn-secondary" title="Export">&#8681; Export</button>
@@ -79,6 +80,17 @@
         <button id="btn-close-stats" class="btn-icon">&times;</button>
       </div>
       <div id="stats-body" class="stats-body"></div>
+    </div>
+  </div>
+
+  <!-- Sync Modal -->
+  <div id="sync-modal" class="modal" hidden>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Gist Sync</h2>
+        <button id="btn-close-sync" class="btn-icon">&times;</button>
+      </div>
+      <div id="sync-body" class="stats-body"></div>
     </div>
   </div>
 

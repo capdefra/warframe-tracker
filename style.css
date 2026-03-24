@@ -533,6 +533,66 @@ button {
   100% { opacity: 0; }
 }
 
+/* ── Sync Indicator ── */
+.sync-indicator {
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.sync-indicator:hover { background: rgba(255,255,255,0.05); }
+.sync-offline { color: var(--text-secondary); }
+.sync-syncing { color: #4fc3f7; border-color: #4fc3f7; }
+.sync-synced { color: #66bb6a; border-color: #66bb6a; }
+.sync-error { color: var(--accent-danger); border-color: var(--accent-danger); }
+.sync-idle { color: var(--text-secondary); }
+
+/* ── Sync Modal ── */
+.sync-description {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+.sync-description a { color: var(--accent-teal); }
+.sync-connect-form {
+  display: flex;
+  gap: 8px;
+}
+.sync-input {
+  flex: 1;
+  font-family: var(--font);
+  font-size: 0.85rem;
+  padding: 8px 10px;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  outline: none;
+}
+.sync-input:focus { border-color: var(--accent-teal); }
+.sync-error {
+  color: var(--accent-danger);
+  font-size: 0.8rem;
+  margin-top: 8px;
+}
+.sync-connected { display: flex; flex-direction: column; gap: 12px; }
+.sync-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.sync-hint {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+.sync-status-label { text-transform: capitalize; }
+
 /* ── Responsive ── */
 @media (max-width: 768px) {
   .app-header { padding: 10px 12px; }

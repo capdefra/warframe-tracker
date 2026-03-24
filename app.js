@@ -1,8 +1,10 @@
 import {
   loadCatalog, getUserState, getItemState,
   toggleOwned, toggleMastered, subsume, setForma, toggleExilus, toggleReactor, bulkUpdate,
-  exportData, importData, resetAllData, computeStats
+  exportData, importData, resetAllData, computeStats,
+  initSync, forceSync, forcePush, onSyncStatus, getSyncStatus
 } from './data.js';
+import { getToken, setToken, clearSync, validateToken, getGistId } from './gist.js';
 
 let catalog = [];
 let activeTab = 'warframe';
@@ -36,6 +38,10 @@ function buildPrimeIndex() {
 async function init() {
   catalog = await loadCatalog();
   buildPrimeIndex();
+
+  // Pull from Gist before rendering (Gist is authoritative)
+  await initSync();
+
   loadUIState();
   renderDashboard();
   renderTabs();
@@ -43,6 +49,7 @@ async function init() {
   applyFiltersToUI();
   renderCards();
   attachEvents();
+  initSyncUI();
 }
 
 function loadUIState() {
@@ -686,6 +693,117 @@ function showToast(msg) {
   toast.offsetHeight; // reflow
   toast.style.animation = '';
   setTimeout(() => { toast.hidden = true; }, 2200);
+}
+
+// ── Sync UI ──
+function initSyncUI() {
+  const syncIndicator = $('sync-indicator');
+  const syncModal = $('sync-modal');
+
+  // Update indicator on status changes
+  updateSyncIndicator(getSyncStatus());
+  onSyncStatus(status => updateSyncIndicator(status));
+
+  // Open sync settings
+  syncIndicator.addEventListener('click', () => {
+    renderSyncModal();
+    syncModal.hidden = false;
+  });
+
+  // Close sync modal
+  $('btn-close-sync').addEventListener('click', () => { syncModal.hidden = true; });
+  syncModal.addEventListener('click', e => {
+    if (e.target === syncModal) syncModal.hidden = true;
+  });
+}
+
+function updateSyncIndicator(status) {
+  const el = $('sync-indicator');
+  el.className = 'sync-indicator sync-' + status;
+  const labels = {
+    idle: '\u25CB Local only',
+    offline: '\u25CB Local only',
+    syncing: '\u21BB Syncing...',
+    synced: '\u2714 Synced',
+    error: '\u26A0 Sync error',
+  };
+  el.textContent = labels[status] || status;
+}
+
+function renderSyncModal() {
+  const token = getToken();
+  const gistId = getGistId();
+  const body = $('sync-body');
+
+  if (token) {
+    body.innerHTML = `
+      <div class="sync-connected">
+        <div class="stat-row"><span class="stat-label">Status</span><span class="stat-value sync-status-label">${getSyncStatus()}</span></div>
+        ${gistId ? `<div class="stat-row"><span class="stat-label">Gist ID</span><span class="stat-value" style="font-size:0.75rem">${gistId}</span></div>` : ''}
+        <div class="sync-actions">
+          <button id="btn-force-sync" class="btn-secondary">Pull from Gist</button>
+          <button id="btn-force-push" class="btn-secondary">Push to Gist</button>
+          <button id="btn-disconnect-sync" class="btn-danger">Disconnect</button>
+        </div>
+        <p class="sync-hint">Pull replaces local data with Gist. Push overwrites Gist with local data.</p>
+      </div>
+    `;
+    $('btn-force-sync').addEventListener('click', async () => {
+      await forceSync();
+      renderCards();
+      renderDashboard();
+      renderSyncModal();
+      showToast('Pulled from Gist');
+    });
+    $('btn-force-push').addEventListener('click', async () => {
+      await forcePush();
+      renderSyncModal();
+      showToast('Pushed to Gist');
+    });
+    $('btn-disconnect-sync').addEventListener('click', () => {
+      if (!confirm('Disconnect Gist sync? Local data will be kept.')) return;
+      clearSync();
+      updateSyncIndicator('offline');
+      renderSyncModal();
+      showToast('Gist sync disconnected');
+    });
+  } else {
+    body.innerHTML = `
+      <p class="sync-description">Sync your progress across devices using a GitHub Gist. Create a <a href="https://github.com/settings/tokens/new?scopes=gist&description=Warframe+Tracker" target="_blank" rel="noopener">Personal Access Token</a> with the <strong>gist</strong> scope.</p>
+      <div class="sync-connect-form">
+        <input type="password" id="sync-token-input" class="sync-input" placeholder="ghp_..." autocomplete="off" />
+        <button id="btn-connect-sync" class="btn-secondary">Connect</button>
+      </div>
+      <p id="sync-connect-error" class="sync-error" hidden></p>
+    `;
+    $('btn-connect-sync').addEventListener('click', async () => {
+      const input = $('sync-token-input');
+      const errorEl = $('sync-connect-error');
+      const tokenVal = input.value.trim();
+      if (!tokenVal) return;
+
+      errorEl.hidden = true;
+      $('btn-connect-sync').textContent = 'Validating...';
+      $('btn-connect-sync').disabled = true;
+
+      const login = await validateToken(tokenVal);
+      if (login) {
+        setToken(tokenVal);
+        // Push current local data to Gist on first connect
+        await forcePush();
+        await initSync();
+        renderCards();
+        renderDashboard();
+        renderSyncModal();
+        showToast('Connected as ' + login);
+      } else {
+        errorEl.textContent = 'Invalid token. Make sure it has the gist scope.';
+        errorEl.hidden = false;
+        $('btn-connect-sync').textContent = 'Connect';
+        $('btn-connect-sync').disabled = false;
+      }
+    });
+  }
 }
 
 // ── Boot ──

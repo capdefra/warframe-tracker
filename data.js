@@ -1,11 +1,82 @@
+import { getToken, loadFromGist, saveToGist } from './gist.js';
+
 const STORAGE_KEY = 'wf_tracker_v1';
 let _catalog = null;
+
+// ── Gist sync state ──
+let _syncStatus = 'idle'; // 'idle' | 'syncing' | 'synced' | 'error' | 'offline'
+let _syncTimeout = null;
+let _syncListeners = [];
+const DEBOUNCE_MS = 1500;
+
+export function onSyncStatus(fn) {
+  _syncListeners.push(fn);
+  return () => { _syncListeners = _syncListeners.filter(f => f !== fn); };
+}
+
+export function getSyncStatus() {
+  return _syncStatus;
+}
+
+function setSyncStatus(status) {
+  _syncStatus = status;
+  for (const fn of _syncListeners) fn(status);
+}
 
 export async function loadCatalog() {
   if (_catalog) return _catalog;
   const res = await fetch('warframe_tracker.json');
   _catalog = await res.json();
   return _catalog;
+}
+
+// ── Pull from Gist on startup (Gist wins) ──
+export async function initSync() {
+  const token = getToken();
+  if (!token) {
+    setSyncStatus('offline');
+    return;
+  }
+
+  setSyncStatus('syncing');
+  try {
+    const remote = await loadFromGist(token);
+    // Gist is authoritative — replace local with remote
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(remote));
+    setSyncStatus('synced');
+  } catch {
+    setSyncStatus('error');
+  }
+}
+
+// ── Force sync: pull from Gist then push merged result ──
+export async function forceSync() {
+  const token = getToken();
+  if (!token) return;
+
+  setSyncStatus('syncing');
+  try {
+    const remote = await loadFromGist(token);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(remote));
+    setSyncStatus('synced');
+  } catch {
+    setSyncStatus('error');
+  }
+}
+
+// ── Force push: overwrite Gist with current local state ──
+export async function forcePush() {
+  const token = getToken();
+  if (!token) return;
+
+  setSyncStatus('syncing');
+  try {
+    const state = getUserState();
+    await saveToGist(token, state);
+    setSyncStatus('synced');
+  } catch {
+    setSyncStatus('error');
+  }
 }
 
 export function getUserState() {
@@ -21,6 +92,24 @@ export function getUserState() {
 
 function save(state) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  debouncedGistSave(state);
+}
+
+// ── Debounced Gist push ──
+function debouncedGistSave(state) {
+  const token = getToken();
+  if (!token) return;
+
+  if (_syncTimeout) clearTimeout(_syncTimeout);
+  _syncTimeout = setTimeout(async () => {
+    setSyncStatus('syncing');
+    try {
+      await saveToGist(token, state);
+      setSyncStatus('synced');
+    } catch {
+      setSyncStatus('error');
+    }
+  }, DEBOUNCE_MS);
 }
 
 const DEFAULT_ITEM = { owned: false, mastered: false, mastered_at: null, subsumed: false, forma: 0, reactor: false, exilus: false };
