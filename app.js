@@ -2,7 +2,7 @@ import {
   loadCatalog, getUserState, getItemState,
   toggleOwned, toggleMastered, subsume, setForma, toggleExilus, toggleReactor, bulkUpdate,
   exportData, importData, resetAllData, computeStats,
-  initSync, forceSync, forcePush, onSyncStatus, getSyncStatus
+  initSync, firstConnect, forceSync, forcePush, onSyncStatus, getSyncStatus
 } from './data.js';
 import { getToken, setToken, clearSync, validateToken, getGistId } from './gist.js';
 
@@ -789,9 +789,8 @@ function renderSyncModal() {
       const login = await validateToken(tokenVal);
       if (login) {
         setToken(tokenVal);
-        // Push current local data to Gist on first connect
-        await forcePush();
-        await initSync();
+        // Pull from Gist first; only push if Gist is empty
+        await firstConnect();
         renderCards();
         renderDashboard();
         renderSyncModal();

@@ -49,6 +49,30 @@ export async function initSync() {
   }
 }
 
+// ── First connect: pull from Gist if it has data, otherwise push local ──
+export async function firstConnect() {
+  const token = getToken();
+  if (!token) return;
+
+  setSyncStatus('syncing');
+  try {
+    const remote = await loadFromGist(token);
+    const remoteHasData = remote && remote.items && Object.keys(remote.items).length > 0;
+
+    if (remoteHasData) {
+      // Gist already has progress — use it (don't overwrite with empty local)
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(remote));
+    } else {
+      // Gist is empty/new — push current local data to it
+      const local = getUserState();
+      await saveToGist(token, local);
+    }
+    setSyncStatus('synced');
+  } catch {
+    setSyncStatus('error');
+  }
+}
+
 // ── Force sync: pull from Gist then push merged result ──
 export async function forceSync() {
   const token = getToken();
