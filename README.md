@@ -23,13 +23,14 @@ A collection tracker for Warframe — track ownership, mastery, and upgrades for
 - **Stats modal** with detailed breakdown including mastery streak, weekly/monthly mastered counts, and highest MR item owned
 - **Share snapshot** — copy a formatted text summary of your progress to the clipboard
 - **Export / Import** — save your progress as a JSON file and restore it later
+- **GitHub Gist sync** — sync progress across devices via a private GitHub Gist. Gist is always authoritative on load to prevent stale local data from overwriting newer remote changes. Debounced push (1.5s) on every local change.
 - **Persistent state** — all data is saved to `localStorage`, including filter and sort preferences
 
 ## Tech Stack
 
 - **Vanilla JavaScript** with ES modules (`<script type="module">`)
 - **No build step, no dependencies** — pure HTML, CSS, and JS
-- **localStorage** for persistence (no backend or database)
+- **localStorage** for persistence, with optional **GitHub Gist** sync via the GitHub API
 - **GitHub Pages** for hosting via GitHub Actions
 
 ## Project Structure
@@ -38,7 +39,8 @@ A collection tracker for Warframe — track ownership, mastery, and upgrades for
 warframe-tracker/
 ├── index.html              # Single-page HTML shell
 ├── app.js                  # Main application logic (rendering, events, menus)
-├── data.js                 # Data layer (localStorage CRUD, stats computation)
+├── data.js                 # Data layer (localStorage CRUD, stats, Gist sync orchestration)
+├── gist.js                 # GitHub Gist API layer (token, load, save, validate)
 ├── style.css               # Full dark-theme styling
 ├── warframe_tracker.json   # Item catalog (580+ items with metadata)
 └── .github/
@@ -52,9 +54,11 @@ warframe-tracker/
   - `id`, `name`, `category` (warframe/weapon/companion), `subcategory`, `variant` (Prime, Wraith, etc.)
   - `mastery_rank`, `release_date`, `wiki_url`, `has_prime`
 
-- **`data.js`** — all state management. Exports functions like `toggleOwned`, `toggleMastered`, `subsume`, `setForma`, `toggleReactor`, `toggleExilus`, `bulkUpdate`, `computeStats`, and import/export utilities. State is stored in `localStorage` under the key `wf_tracker_v1`.
+- **`data.js`** — all state management and Gist sync orchestration. Exports functions like `toggleOwned`, `toggleMastered`, `subsume`, `setForma`, `toggleReactor`, `toggleExilus`, `bulkUpdate`, `computeStats`, sync functions (`initSync`, `firstConnect`, `forceSync`, `forcePush`), and import/export utilities. State is stored in `localStorage` under the key `wf_tracker_v1`, with debounced push to Gist on every change.
 
-- **`app.js`** — handles rendering, filtering, sorting, event delegation, the context menu, the stats modal, and share/export/import flows. UI state (active tab, filters, sort order) is persisted separately under `wf_tracker_ui`.
+- **`gist.js`** — GitHub Gist API layer. Handles token storage, Gist discovery/creation, reading/writing data, and token validation. Uses a private Gist with the file `warframe-tracker-data.json`.
+
+- **`app.js`** — handles rendering, filtering, sorting, event delegation, the context menu, the stats modal, share/export/import flows, and the Gist sync UI (connect/disconnect, pull/push buttons, status indicator). UI state (active tab, filters, sort order) is persisted separately under `wf_tracker_ui`.
 
 ## Running Locally
 

@@ -7,11 +7,12 @@
 | Language | Vanilla JavaScript (ES2020+) |
 | Modules | Native ES modules (`<script type="module">`) |
 | Styling | Plain CSS with custom properties |
-| Storage | `localStorage` (no backend) |
+| Storage | `localStorage` + optional GitHub Gist sync |
+| Sync | GitHub Gist API (private gist, PAT with `gist` scope) |
 | Hosting | GitHub Pages via GitHub Actions |
 | Dependencies | **None** — zero npm packages, no build step |
 
-The app runs entirely in the browser. There is no bundler, transpiler, or framework. The HTML file loads `app.js` as a module, which imports from `data.js`.
+The app runs entirely in the browser. There is no bundler, transpiler, or framework. The HTML file loads `app.js` as a module, which imports from `data.js` and `gist.js`.
 
 ---
 
@@ -20,9 +21,10 @@ The app runs entirely in the browser. There is no bundler, transpiler, or framew
 ```
 warframe-tracker/
 ├── index.html                  # Single HTML shell — all sections, modals, and the shared card menu
-├── app.js                      # Rendering, event handling, filtering, sorting, menus (≈690 lines)
-├── data.js                     # State management, localStorage CRUD, stats computation (≈260 lines)
-├── style.css                   # Dark theme, responsive grid, all component styles (≈560 lines)
+├── app.js                      # Rendering, event handling, filtering, sorting, menus, sync UI (≈800 lines)
+├── data.js                     # State management, localStorage CRUD, Gist sync orchestration, stats (≈375 lines)
+├── gist.js                     # GitHub Gist API layer — token, load, save, validate (≈115 lines)
+├── style.css                   # Dark theme, responsive grid, all component styles (≈600 lines)
 ├── warframe_tracker.json       # Static item catalog (580+ entries)
 ├── README.md                   # Project overview
 ├── ARCHITECTURE.md             # This file
@@ -41,7 +43,7 @@ The app is a single-page application with three category tabs:
 
 ```
 ┌──────────────────────────────────────────────────┐
-│  Header (title, stats, share, export, import, reset) │
+│  Header (sync indicator, stats, share, export, import, reset) │
 ├──────────────────────────────────────────────────┤
 │  Dashboard (sticky — live owned/mastered counts + progress bar) │
 ├──────────────────────────────────────────────────┤
@@ -68,11 +70,13 @@ The app is a single-page application with three category tabs:
 DOMContentLoaded
   → loadCatalog()          Fetches warframe_tracker.json, caches in memory
   → buildPrimeIndex()      Builds a Set of base item IDs that have a Prime variant
+  → initSync()             If Gist token exists: pull from Gist → replace localStorage (Gist is authoritative)
   → loadUIState()          Restores activeTab, filters, sortBy from localStorage
   → renderDashboard()      Computes stats and renders the sticky dashboard
   → renderTabs() / updateSubcategoryOptions() / applyFiltersToUI()
   → renderCards()           Filters, sorts, and renders the card grid
   → attachEvents()          Sets up all event delegation
+  → initSyncUI()           Wires up sync indicator and modal
 ```
 
 ### User Interaction Flow
@@ -81,6 +85,7 @@ DOMContentLoaded
 User clicks "Owned" button on a card
   → Event delegation catches [data-action="owned"] click
   → toggleOwned(itemId)    Reads state from localStorage, flips owned, saves back
+  →   save() writes to localStorage AND triggers debouncedGistSave() (1.5s debounce)
   → updateSingleCard()     Surgically updates that one card's DOM (no full re-render)
   → updateRelatedCards()   If a Prime was toggled, updates the base card's flags
   → renderDashboard()      Refreshes the sticky stats bar
@@ -88,17 +93,46 @@ User clicks "Owned" button on a card
 
 ### Storage
 
-Two `localStorage` keys are used:
+Four `localStorage` keys are used:
 
 | Key | Purpose | Shape |
 |-----|---------|-------|
 | `wf_tracker_v1` | Item progress data | `{ items: { [itemId]: { owned, mastered, mastered_at, subsumed, forma, reactor, exilus } }, version: 1 }` |
 | `wf_tracker_ui` | UI preferences | `{ activeTab, filters: { search, subcategory, status, primeOnly }, sortBy }` |
+| `wf_tracker_gh_token` | GitHub PAT for Gist sync | Plain string (`ghp_...`) |
+| `wf_tracker_gist_id` | Cached Gist ID | Plain string (hex) |
 
 ### Export / Import
 
 - **Export** serializes the full `wf_tracker_v1` state to a JSON file (`wf_progress_YYYY-MM-DD.json`) downloaded via a Blob URL.
 - **Import** reads a JSON file, validates it has an `items` object, and merges entries into the existing state (additive, does not clear unmentioned items).
+
+### Gist Sync
+
+The Gist sync layer provides cross-device progress sharing via a private GitHub Gist.
+
+**Design principle: Gist is always authoritative.** On every app load, if a token is configured, the app pulls from the Gist and replaces local state. This prevents stale local caches on other devices from overwriting newer remote data.
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  App Load (token exists)                                │
+│    → Pull from Gist → Replace localStorage              │
+│    → Gist wins. Local cache is just a write-through.    │
+├─────────────────────────────────────────────────────────┤
+│  User makes a change                                    │
+│    → save() writes to localStorage immediately          │
+│    → debouncedGistSave() pushes to Gist after 1.5s     │
+├─────────────────────────────────────────────────────────┤
+│  First connect (new device)                             │
+│    → Pull from Gist first                               │
+│    → If Gist has data → use it (don't overwrite)        │
+│    → If Gist is empty → push local data to it           │
+└─────────────────────────────────────────────────────────┘
+```
+
+**Gist structure:** A single private Gist containing one file (`warframe-tracker-data.json`) with the same shape as `wf_tracker_v1`. The Gist is auto-discovered by filename or created on first connect.
+
+**Status indicator:** The header shows a sync status button (`idle`, `syncing`, `synced`, `error`) that opens a modal with Pull/Push/Disconnect controls.
 
 ---
 
@@ -106,13 +140,14 @@ Two `localStorage` keys are used:
 
 ### `index.html`
 The static HTML shell. Contains:
-- Header with action buttons
+- Header with sync indicator and action buttons
 - Dashboard container (populated by JS)
 - Tab navigation
 - Filter bar with search, dropdowns, and checkbox
 - Bulk actions panel (hidden by default)
 - Card grid container
 - Stats modal
+- Sync modal (connect token / pull / push / disconnect)
 - Shared card context menu (`#card-menu`) — a single `<div>` repositioned on each ⋮ click
 - Toast notification
 - Hidden file input for import
@@ -121,7 +156,7 @@ The static HTML shell. Contains:
 
 | Function | Responsibility |
 |----------|---------------|
-| `init()` | Boot sequence — load data, restore UI, render, attach events |
+| `init()` | Boot sequence — load data, sync from Gist, restore UI, render, attach events |
 | `renderDashboard()` | Computes stats and updates the sticky dashboard bar |
 | `renderCards()` | Full re-render of the card grid (used on tab/filter changes) |
 | `updateSingleCard(id)` | Surgical DOM update for one card (used after toggle clicks) |
@@ -133,8 +168,23 @@ The static HTML shell. Contains:
 | `renderStatsModal()` | Fills the stats modal with detailed mastery breakdown |
 | `generateShareText()` | Produces a formatted text snapshot for clipboard sharing |
 | `showToast(msg)` | Displays a temporary notification at the bottom of the screen |
+| `initSyncUI()` | Wires up the sync indicator button and modal open/close |
+| `updateSyncIndicator(status)` | Updates the header sync badge text and color class |
+| `renderSyncModal()` | Renders the sync modal — connect form (no token) or status/actions (token exists) |
 
-### `data.js` — State Management
+### `gist.js` — GitHub Gist API Layer
+
+| Function | Responsibility |
+|----------|---------------|
+| `getToken()` / `setToken(token)` | Read/write the GitHub PAT from localStorage |
+| `clearSync()` | Removes both the token and cached Gist ID from localStorage |
+| `getGistId()` | Returns the cached Gist ID |
+| `ensureGist(token)` | Finds an existing Gist by cached ID or filename search, or creates a new private Gist |
+| `loadFromGist(token)` | Fetches the Gist and parses the JSON content |
+| `saveToGist(token, data)` | Patches the Gist with updated JSON content |
+| `validateToken(token)` | Validates a PAT by calling `/user` and returns the login name or null |
+
+### `data.js` — State Management & Sync Orchestration
 
 | Function | Responsibility |
 |----------|---------------|
@@ -152,6 +202,12 @@ The static HTML shell. Contains:
 | `exportData()` | Serializes state to JSON string |
 | `importData(json)` | Parses and merges imported JSON into existing state |
 | `resetAllData()` | Removes the localStorage key entirely |
+| `initSync()` | On startup: if token exists, pull from Gist and replace localStorage |
+| `firstConnect()` | On first token entry: pull Gist first; only push local if Gist is empty |
+| `forceSync()` | Manual pull: replace localStorage with Gist data |
+| `forcePush()` | Manual push: overwrite Gist with current localStorage |
+| `onSyncStatus(fn)` | Register a listener for sync status changes |
+| `getSyncStatus()` | Returns current sync status (`idle`, `syncing`, `synced`, `error`, `offline`) |
 
 ### `style.css` — Theming & Layout
 
@@ -160,6 +216,8 @@ The static HTML shell. Contains:
 - Card states (`.owned`, `.mastered`) change border color and background
 - Variant badges (`.badge-Prime`, `.badge-Kuva`, etc.) use distinct color palettes
 - Context menu (`.card-menu`) uses `position: fixed` and is repositioned via JS
+- Sync indicator (`.sync-indicator`) with color-coded states: `.sync-synced` (green), `.sync-syncing` (blue), `.sync-error` (red), `.sync-offline` (grey)
+- Sync modal reuses `.modal` / `.stats-body` patterns from the stats modal
 - Responsive breakpoints at 768px (single column, smaller padding) and 480px (icon-only header buttons)
 
 ---
@@ -212,8 +270,15 @@ A flat JSON array of 580+ item objects. Each entry has this shape:
 
 ### Storage
 
-- `getUserState()` / `save(state)` — read/write the full state object from/to `localStorage`. Every mutation function calls `getUserState()`, modifies the result, then calls `save()`.
+- `getUserState()` / `save(state)` — read/write the full state object from/to `localStorage`. Every mutation function calls `getUserState()`, modifies the result, then calls `save()`. `save()` also triggers a debounced Gist push if a token is configured.
 - `getItemState(id)` — spreads `DEFAULT_ITEM` with the stored item to fill in missing fields. This makes the schema forward-compatible: new fields added to `DEFAULT_ITEM` automatically apply to old saved data.
+- `debouncedGistSave(state)` — called by `save()`. Waits 1.5s after the last change before pushing to Gist, so rapid toggles don't flood the API.
+
+### Gist Sync
+
+- `ensureGist(token)` — finds the Gist by cached ID, then by filename scan across user's gists, then creates a new private one. Caches the Gist ID in localStorage.
+- `loadFromGist(token)` / `saveToGist(token, data)` — thin wrappers around the GitHub Gist API. Load parses the JSON file content; save patches it.
+- `validateToken(token)` — calls `GET /user` to verify the PAT is valid and has the `gist` scope.
 
 ### Stats
 
@@ -290,3 +355,9 @@ All colors are defined as CSS variables on `:root`, making the theme easy to mod
 
 ### State Shape Stability
 The localStorage schema uses a `version` field and `importData()` validates incoming data before merging. New fields are always optional with defaults, so old exports remain importable.
+
+### Gist-Authoritative Sync
+The sync layer follows a "pull-first, push-on-change" pattern. On load, the Gist always replaces local state — localStorage is treated as a write-through cache. On first connect from a new device, the app pulls from Gist first and only pushes if the Gist is empty, preventing an empty local cache from overwriting existing remote progress. Every `save()` call triggers a debounced push (1.5s) so changes propagate without flooding the API.
+
+### Observable Sync Status
+Sync status is managed via a simple listener pattern (`onSyncStatus(fn)`). The UI registers a listener at init that updates the header indicator whenever status changes between `idle`, `syncing`, `synced`, `error`, and `offline`.
